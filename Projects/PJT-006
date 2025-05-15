@@ -1,0 +1,214 @@
+
+Proyecto: Logistics System for Transport Routes
+Guidelines: ['Route optimization', 'Real-time tracking', 'Fuel efficiency', 'Scalability', 'ETA accuracy']
+Dimensiones asociadas (7): ['System-related Benefits', 'Business Context', 'Customer Benefits', 'Operational Benefits', 'Costs', 'Risks', 'Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  174: Impact on Maintenance
+  105: Impact on essential non-functional requirements
+  172: Time to market
+  177: Impact on long-term Evolution
+  183: Integration to external systems
+  2: Linkage to overall system goals
+  52: Contribution to user task
+  56: Cost reduction of IT operation
+  47: Efficiency gains for customer
+  53: Support for main usage scenario
+  100: Cost for fixing defects
+  155: Part time team member use
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a dispatcher, I want optimized route suggestions.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 47: Efficiency gains for customer (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 100: Cost for fixing defects (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.000
+
+2. As a driver, I want live GPS tracking.
+    - 47: Efficiency gains for customer (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 100: Cost for fixing defects (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.000
+
+3. As a manager, I want cost analysis reports.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 47: Efficiency gains for customer (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.000
+
+4. As a dispatcher, I want dynamic rerouting.
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 100: Cost for fixing defects (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+  → PriorityScore: 0.000
+
+5. As a driver, I want fuel consumption stats.
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 100: Cost for fixing defects (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 172: Time to market (sim=0.000)
+  → PriorityScore: 0.000
+
+6. As a manager, I want delivery time forecasts.
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 100: Cost for fixing defects (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.000
+
+7. As a dispatcher, I want to assign vehicles to routes.
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 100: Cost for fixing defects (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As a manager, I want fleet utilization metrics.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a driver, I want offline route access.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a dispatcher, I want alerts for delays.
+    - 155: Part time team member use (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 100: Cost for fixing defects (sim=0.461)
+  → PriorityScore: 0.461
+
+11. As a manager, I want maintenance scheduling.
+    - 155: Part time team member use (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.587)
+    - 2: Linkage to overall system goals (sim=0.000)
+  → PriorityScore: 0.587
+
+12. As a driver, I want traffic condition updates.
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 47: Efficiency gains for customer (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.000
+
+13. As a dispatcher, I want to manage driver shifts.
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 172: Time to market (sim=0.568)
+    - 183: Integration to external systems (sim=0.456)
+    - 52: Contribution to user task (sim=0.449)
+    - 2: Linkage to overall system goals (sim=0.399)
+  → PriorityScore: 1.872
+
+14. As a manager, I want historical delivery performance.
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 47: Efficiency gains for customer (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+  → PriorityScore: 0.000
+
+15. As a dispatcher, I want to prioritize deliveries.
+    - 184: System value of a feature (sim=0.000)
+    - 172: Time to market (sim=0.362)
+    - 183: Integration to external systems (sim=0.291)
+    - 52: Contribution to user task (sim=0.287)
+    - 2: Linkage to overall system goals (sim=0.254)
+    - 47: Efficiency gains for customer (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+  → PriorityScore: 1.194
+
+16. As a driver, I want incident reporting.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 47: Efficiency gains for customer (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 100: Cost for fixing defects (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.000
+
+17. As a manager, I want to compare route efficiency over time.
+    - 47: Efficiency gains for customer (sim=0.329)
+    - 183: Integration to external systems (sim=0.253)
+    - 52: Contribution to user task (sim=0.250)
+    - 2: Linkage to overall system goals (sim=0.221)
+    - 155: Part time team member use (sim=0.220)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+  → PriorityScore: 1.273
+
+18. As a dispatcher, I want integration with warehouse systems.
+    - 47: Efficiency gains for customer (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 100: Cost for fixing defects (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.000
+
+19. As a driver, I want voice-guided navigation.
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 100: Cost for fixing defects (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+  → PriorityScore: 0.000
+

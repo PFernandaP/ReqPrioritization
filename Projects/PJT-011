@@ -1,0 +1,214 @@
+
+Proyecto: Personalized Online Learning Platform
+Guidelines: ['Adaptive content', 'Progress analytics', 'Interactive quizzes', 'Scalable infrastructure', 'Multimedia support']
+Dimensiones asociadas (7): ['Business Context', 'Operational Benefits', 'Costs', 'Benefits', 'System-related Benefits', 'Market-related Benefits', 'Project-related Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  52: Contribution to user task
+  172: Time to market
+  2: Linkage to overall system goals
+  31: Importance to release goal
+  30: Relevance to project success
+  33: Feature contribution to project vision
+  183: Integration to external systems
+  26: Feature influence on buying decision
+  174: Impact on Maintenance
+  177: Impact on long-term Evolution
+  99: User acceptance testing cost
+  3: Ease of use
+  185: Use case weight
+  188: Frequency of use
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a student, I want personalized learning paths.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.000
+
+2. As an instructor, I want to view student analytics.
+    - 52: Contribution to user task (sim=0.415)
+    - 30: Relevance to project success (sim=0.411)
+    - 31: Importance to release goal (sim=0.405)
+    - 183: Integration to external systems (sim=0.401)
+    - 33: Feature contribution to project vision (sim=0.369)
+    - 2: Linkage to overall system goals (sim=0.351)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 2.353
+
+3. As a user, I want interactive quizzes.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 172: Time to market (sim=0.000)
+  → PriorityScore: 0.000
+
+4. As an admin, I want to manage content adaptivity rules.
+    - 31: Importance to release goal (sim=0.405)
+    - 183: Integration to external systems (sim=0.401)
+    - 33: Feature contribution to project vision (sim=0.369)
+    - 2: Linkage to overall system goals (sim=0.351)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 99: User acceptance testing cost (sim=0.000)
+  → PriorityScore: 1.527
+
+5. As a student, I want progress notifications.
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 99: User acceptance testing cost (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.000
+
+6. As an instructor, I want to assign remedial modules.
+    - 33: Feature contribution to project vision (sim=0.369)
+    - 2: Linkage to overall system goals (sim=0.351)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 99: User acceptance testing cost (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.721
+
+7. As a user, I want multimedia lessons.
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As an admin, I want real-time scalability.
+    - 52: Contribution to user task (sim=0.000)
+    - 99: User acceptance testing cost (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 185: Use case weight (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a student, I want to set learning goals.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 99: User acceptance testing cost (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 185: Use case weight (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an instructor, I want to create branching scenarios.
+    - 99: User acceptance testing cost (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 185: Use case weight (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+    - 172: Time to market (sim=0.521)
+  → PriorityScore: 0.521
+
+11. As a user, I want peer discussion boards.
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 185: Use case weight (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+    - 52: Contribution to user task (sim=0.525)
+    - 99: User acceptance testing cost (sim=0.518)
+  → PriorityScore: 1.043
+
+12. As an admin, I want A/B testing capabilities.
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 185: Use case weight (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+    - 99: User acceptance testing cost (sim=0.518)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 0.518
+
+13. As a student, I want mobile access.
+    - 184: System value of a feature (sim=0.000)
+    - 185: Use case weight (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+  → PriorityScore: 0.000
+
+14. As an instructor, I want notifications for at-risk students.
+    - 185: Use case weight (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+  → PriorityScore: 0.000
+
+15. As a user, I want downloadable lesson materials.
+    - 188: Frequency of use (sim=0.000)
+    - 52: Contribution to user task (sim=0.525)
+    - 99: User acceptance testing cost (sim=0.518)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+  → PriorityScore: 1.043
+
+16. As an admin, I want backup and restore tools.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.000
+
+17. As a student, I want progress export to CSV.
+    - 52: Contribution to user task (sim=0.415)
+    - 30: Relevance to project success (sim=0.411)
+    - 31: Importance to release goal (sim=0.405)
+    - 183: Integration to external systems (sim=0.401)
+    - 33: Feature contribution to project vision (sim=0.369)
+    - 2: Linkage to overall system goals (sim=0.351)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 2.353
+
+18. As a user, I want to bookmark lessons.
+    - 172: Time to market (sim=0.323)
+    - 30: Relevance to project success (sim=0.255)
+    - 31: Importance to release goal (sim=0.251)
+    - 183: Integration to external systems (sim=0.249)
+    - 33: Feature contribution to project vision (sim=0.229)
+    - 2: Linkage to overall system goals (sim=0.218)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 1.523
+
+19. As an instructor, I want customized assessment templates.
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 99: User acceptance testing cost (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.000
+

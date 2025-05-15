@@ -1,0 +1,214 @@
+
+Proyecto: Hiring Platform for Companies
+Guidelines: ['Efficient job posting', 'Information security', 'Access to relevant profiles', 'Hiring reports', 'User-friendly interface']
+Dimensiones asociadas (7): ['Technical Context', 'Project-related Benefits', 'Operational Benefits', 'System-related Benefits', 'Stakeholder Benefits', 'Strategy-related Benefits', 'Business Context']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  52: Contribution to user task
+  44: Criticality to mission success
+  172: Time to market
+  2: Linkage to overall system goals
+  30: Relevance to project success
+  31: Importance to release goal
+  33: Feature contribution to project vision
+  37: Relevance to stakeholders' goals
+  43: Importance to business goals
+  183: Integration to external systems
+  236: Dependencies due to downstream activities
+  197: Experience on the area
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As an employer, I want to post job openings quickly and efficiently.
+    - 172: Time to market (sim=0.269)
+    - 43: Importance to business goals (sim=0.248)
+    - 30: Relevance to project success (sim=0.243)
+    - 52: Contribution to user task (sim=0.236)
+    - 31: Importance to release goal (sim=0.233)
+    - 37: Relevance to stakeholders' goals (sim=0.233)
+    - 44: Criticality to mission success (sim=0.227)
+  → PriorityScore: 1.690
+
+2. As a candidate, I want to easily apply to the job openings that interest me.
+    - 43: Importance to business goals (sim=0.286)
+    - 30: Relevance to project success (sim=0.281)
+    - 52: Contribution to user task (sim=0.273)
+    - 31: Importance to release goal (sim=0.269)
+    - 37: Relevance to stakeholders' goals (sim=0.269)
+    - 44: Criticality to mission success (sim=0.263)
+    - 183: Integration to external systems (sim=0.259)
+  → PriorityScore: 1.901
+
+3. As an administrator, I want to manage access permissions to the platform.
+    - 30: Relevance to project success (sim=0.326)
+    - 52: Contribution to user task (sim=0.316)
+    - 31: Importance to release goal (sim=0.313)
+    - 37: Relevance to stakeholders' goals (sim=0.313)
+    - 44: Criticality to mission success (sim=0.305)
+    - 183: Integration to external systems (sim=0.300)
+    - 33: Feature contribution to project vision (sim=0.280)
+  → PriorityScore: 2.153
+
+4. As an employer, I want to receive notifications of new applications to my job postings.
+    - 52: Contribution to user task (sim=0.349)
+    - 31: Importance to release goal (sim=0.344)
+    - 37: Relevance to stakeholders' goals (sim=0.344)
+    - 44: Criticality to mission success (sim=0.336)
+    - 183: Integration to external systems (sim=0.331)
+    - 33: Feature contribution to project vision (sim=0.308)
+    - 2: Linkage to overall system goals (sim=0.302)
+  → PriorityScore: 2.315
+
+5. As a candidate, I want to save interesting job openings to apply later.
+    - 31: Importance to release goal (sim=0.375)
+    - 37: Relevance to stakeholders' goals (sim=0.375)
+    - 44: Criticality to mission success (sim=0.366)
+    - 183: Integration to external systems (sim=0.360)
+    - 33: Feature contribution to project vision (sim=0.336)
+    - 2: Linkage to overall system goals (sim=0.329)
+    - 236: Dependencies due to downstream activities (sim=0.329)
+  → PriorityScore: 2.471
+
+6. As an employer, I want to view a detailed profile of the candidates.
+    - 31: Importance to release goal (sim=0.200)
+    - 37: Relevance to stakeholders' goals (sim=0.200)
+    - 44: Criticality to mission success (sim=0.195)
+    - 183: Integration to external systems (sim=0.192)
+    - 33: Feature contribution to project vision (sim=0.179)
+    - 2: Linkage to overall system goals (sim=0.176)
+    - 236: Dependencies due to downstream activities (sim=0.176)
+  → PriorityScore: 1.320
+
+7. As an administrator, I want reports on candidates per job opening.
+    - 43: Importance to business goals (sim=0.000)
+    - 44: Criticality to mission success (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As a candidate, I want to receive alerts about new relevant job openings.
+    - 183: Integration to external systems (sim=0.360)
+    - 33: Feature contribution to project vision (sim=0.336)
+    - 2: Linkage to overall system goals (sim=0.329)
+    - 236: Dependencies due to downstream activities (sim=0.329)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 1.355
+
+9. As an employer, I want to contact candidates through the platform.
+    - 183: Integration to external systems (sim=0.217)
+    - 33: Feature contribution to project vision (sim=0.202)
+    - 2: Linkage to overall system goals (sim=0.198)
+    - 236: Dependencies due to downstream activities (sim=0.198)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.815
+
+10. As an administrator, I want to manage job promotion campaigns.
+    - 2: Linkage to overall system goals (sim=0.329)
+    - 236: Dependencies due to downstream activities (sim=0.329)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 172: Time to market (sim=0.432)
+  → PriorityScore: 1.091
+
+11. As a candidate, I want to receive job recommendations based on my profile.
+    - 2: Linkage to overall system goals (sim=0.148)
+    - 236: Dependencies due to downstream activities (sim=0.148)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 197: Experience on the area (sim=0.258)
+    - 172: Time to market (sim=0.195)
+  → PriorityScore: 0.748
+
+12. As an employer, I want to filter candidates based on specific skills.
+    - 236: Dependencies due to downstream activities (sim=0.122)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 197: Experience on the area (sim=0.212)
+    - 172: Time to market (sim=0.160)
+    - 43: Importance to business goals (sim=0.148)
+  → PriorityScore: 0.642
+
+13. As an administrator, I want statistics on the most popular job openings.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 197: Experience on the area (sim=0.660)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+  → PriorityScore: 0.660
+
+14. As a candidate, I want to receive alerts for upcoming stages in the selection process.
+    - 236: Dependencies due to downstream activities (sim=0.111)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.215)
+    - 172: Time to market (sim=0.146)
+    - 211: Actor usage for a particular scenario (sim=0.144)
+    - 210: Object usage for a particular scenario (sim=0.141)
+    - 43: Importance to business goals (sim=0.135)
+  → PriorityScore: 0.892
+
+15. As an employer, I want to evaluate candidates directly on the platform.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 197: Experience on the area (sim=0.579)
+    - 172: Time to market (sim=0.207)
+    - 43: Importance to business goals (sim=0.191)
+    - 30: Relevance to project success (sim=0.188)
+    - 52: Contribution to user task (sim=0.182)
+    - 31: Importance to release goal (sim=0.180)
+  → PriorityScore: 1.527
+
+16. As an administrator, I want hiring time reports by job opening.
+    - 172: Time to market (sim=0.414)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 43: Importance to business goals (sim=0.000)
+  → PriorityScore: 0.414
+
+17. As a candidate, I want to easily update my profile and professional experience.
+    - 172: Time to market (sim=0.202)
+    - 43: Importance to business goals (sim=0.186)
+    - 30: Relevance to project success (sim=0.183)
+    - 52: Contribution to user task (sim=0.177)
+    - 31: Importance to release goal (sim=0.175)
+    - 37: Relevance to stakeholders' goals (sim=0.175)
+    - 44: Criticality to mission success (sim=0.171)
+  → PriorityScore: 1.270
+
+18. As an employer, I want to view the background of each selected candidate.
+    - 43: Importance to business goals (sim=0.213)
+    - 30: Relevance to project success (sim=0.209)
+    - 52: Contribution to user task (sim=0.203)
+    - 31: Importance to release goal (sim=0.200)
+    - 37: Relevance to stakeholders' goals (sim=0.200)
+    - 44: Criticality to mission success (sim=0.195)
+    - 183: Integration to external systems (sim=0.192)
+  → PriorityScore: 1.414
+
+19. As an administrator, I want to generate user satisfaction reports for the recruitment process.
+    - 211: Actor usage for a particular scenario (sim=0.150)
+    - 210: Object usage for a particular scenario (sim=0.147)
+    - 43: Importance to business goals (sim=0.141)
+    - 30: Relevance to project success (sim=0.139)
+    - 31: Importance to release goal (sim=0.133)
+    - 37: Relevance to stakeholders' goals (sim=0.133)
+    - 44: Criticality to mission success (sim=0.130)
+  → PriorityScore: 0.974
+

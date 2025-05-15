@@ -1,0 +1,214 @@
+
+Proyecto: Restaurant Reservation System
+Guidelines: ['Donation security', 'Fundraising transparency', 'Impact reports', 'Social media sharing', 'Cause adaptability']
+Dimensiones asociadas (7): ['Risks', 'Business Context', 'System-related Benefits', 'Benefits', 'Market-related Benefits', 'Project-related Benefits', 'Stakeholder Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  177: Impact on long-term Evolution
+  105: Impact on essential non-functional requirements
+  174: Impact on Maintenance
+  26: Feature influence on buying decision
+  33: Feature contribution to project vision
+  30: Relevance to project success
+  2: Linkage to overall system goals
+  31: Importance to release goal
+  37: Relevance to stakeholders' goals
+  172: Time to market
+  183: Integration to external systems
+  3: Ease of use
+  188: Frequency of use
+  155: Part time team member use
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a user, I want to create a campaign to raise funds for educational projects.
+    - 172: Time to market (sim=0.391)
+    - 30: Relevance to project success (sim=0.315)
+    - 31: Importance to release goal (sim=0.296)
+    - 37: Relevance to stakeholders' goals (sim=0.296)
+    - 183: Integration to external systems (sim=0.289)
+    - 33: Feature contribution to project vision (sim=0.269)
+    - 2: Linkage to overall system goals (sim=0.266)
+  → PriorityScore: 2.123
+
+2. As a donor, I want to make contributions securely.
+    - 30: Relevance to project success (sim=0.432)
+    - 31: Importance to release goal (sim=0.405)
+    - 37: Relevance to stakeholders' goals (sim=0.405)
+    - 183: Integration to external systems (sim=0.396)
+    - 33: Feature contribution to project vision (sim=0.369)
+    - 2: Linkage to overall system goals (sim=0.364)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 2.370
+
+3. As an administrator, I want reports on received donations.
+    - 26: Feature influence on buying decision (sim=0.397)
+    - 105: Impact on essential non-functional requirements (sim=0.360)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+  → PriorityScore: 0.757
+
+4. As a user, I want to receive updates on my campaign’s progress.
+    - 26: Feature influence on buying decision (sim=0.219)
+    - 30: Relevance to project success (sim=0.212)
+    - 105: Impact on essential non-functional requirements (sim=0.199)
+    - 31: Importance to release goal (sim=0.199)
+    - 37: Relevance to stakeholders' goals (sim=0.199)
+    - 183: Integration to external systems (sim=0.194)
+    - 33: Feature contribution to project vision (sim=0.181)
+  → PriorityScore: 1.401
+
+5. As an administrator, I want options to share campaigns on social media.
+    - 30: Relevance to project success (sim=0.212)
+    - 105: Impact on essential non-functional requirements (sim=0.199)
+    - 31: Importance to release goal (sim=0.199)
+    - 37: Relevance to stakeholders' goals (sim=0.199)
+    - 183: Integration to external systems (sim=0.194)
+    - 33: Feature contribution to project vision (sim=0.181)
+    - 2: Linkage to overall system goals (sim=0.178)
+  → PriorityScore: 1.360
+
+6. As a donor, I want to see the impact of my contributions on education.
+    - 30: Relevance to project success (sim=0.177)
+    - 31: Importance to release goal (sim=0.166)
+    - 37: Relevance to stakeholders' goals (sim=0.166)
+    - 183: Integration to external systems (sim=0.162)
+    - 33: Feature contribution to project vision (sim=0.151)
+    - 2: Linkage to overall system goals (sim=0.149)
+    - 3: Ease of use (sim=0.122)
+  → PriorityScore: 1.094
+
+7. As a user, I want recurring donation options to support long-term causes.
+    - 33: Feature contribution to project vision (sim=0.135)
+    - 2: Linkage to overall system goals (sim=0.133)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.267
+
+8. As an administrator, I want statistics on the most popular educational campaigns.
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a user, I want to receive a contribution certificate.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a donor, I want to be notified about new educational campaigns.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+    - 172: Time to market (sim=0.536)
+  → PriorityScore: 0.536
+
+11. As an administrator, I want to manage access permissions by role.
+    - 155: Part time team member use (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+    - 172: Time to market (sim=0.536)
+    - 30: Relevance to project success (sim=0.432)
+  → PriorityScore: 0.967
+
+12. As a user, I want to receive impact reports for each campaign.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.260)
+    - 172: Time to market (sim=0.223)
+    - 177: Impact on long-term Evolution (sim=0.194)
+  → PriorityScore: 0.677
+
+13. As a donor, I want international payment options.
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+  → PriorityScore: 0.000
+
+14. As an administrator, I want to generate success reports for educational campaigns.
+    - 184: System value of a feature (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+    - 30: Relevance to project success (sim=0.548)
+    - 172: Time to market (sim=0.261)
+    - 31: Importance to release goal (sim=0.198)
+    - 37: Relevance to stakeholders' goals (sim=0.198)
+    - 183: Integration to external systems (sim=0.193)
+  → PriorityScore: 1.397
+
+15. As a user, I want to receive notifications about campaign milestones.
+    - 188: Frequency of use (sim=0.000)
+    - 172: Time to market (sim=0.315)
+    - 30: Relevance to project success (sim=0.254)
+    - 31: Importance to release goal (sim=0.238)
+    - 37: Relevance to stakeholders' goals (sim=0.238)
+    - 183: Integration to external systems (sim=0.233)
+    - 33: Feature contribution to project vision (sim=0.217)
+  → PriorityScore: 1.495
+
+16. As a donor, I want the option to donate anonymously.
+    - 172: Time to market (sim=0.315)
+    - 30: Relevance to project success (sim=0.254)
+    - 31: Importance to release goal (sim=0.238)
+    - 37: Relevance to stakeholders' goals (sim=0.238)
+    - 183: Integration to external systems (sim=0.233)
+    - 33: Feature contribution to project vision (sim=0.217)
+    - 2: Linkage to overall system goals (sim=0.214)
+  → PriorityScore: 1.709
+
+17. As a user, I want to receive alerts about campaigns that need more support.
+    - 30: Relevance to project success (sim=0.171)
+    - 31: Importance to release goal (sim=0.160)
+    - 37: Relevance to stakeholders' goals (sim=0.160)
+    - 183: Integration to external systems (sim=0.157)
+    - 33: Feature contribution to project vision (sim=0.146)
+    - 2: Linkage to overall system goals (sim=0.144)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 0.938
+
+18. As an administrator, I want fundraising trend reports for educational causes.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+  → PriorityScore: 0.000
+
+19. As a user, I want to customize my profile with my preferred causes.
+    - 37: Relevance to stakeholders' goals (sim=0.160)
+    - 183: Integration to external systems (sim=0.157)
+    - 33: Feature contribution to project vision (sim=0.146)
+    - 2: Linkage to overall system goals (sim=0.144)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.607
+

@@ -1,0 +1,214 @@
+
+Proyecto: Employee Wellness Application
+Guidelines: ['Well-being promotion', 'Personalized reminders', 'Integration with wearables', 'Data protection', 'User-friendly interface']
+Dimensiones asociadas (7): ['Operational Benefits', 'Technical Context', 'Market-related Benefits', 'Stakeholder Benefits', 'Costs', 'Risks', 'Business Context']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  184: System value of a feature
+  52: Contribution to user task
+  183: Integration to external systems
+  37: Relevance to stakeholders' goals
+  172: Time to market
+  236: Dependencies due to downstream activities
+  228: Number of use cases inherited by this use case
+  224: Number of use cases this use case includes
+  225: Number of use cases that includes this use case
+  226: Number of use cases this use case extends
+  227: Number of use cases that extend this use case
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As an employee, I want to log my daily physical activity.
+    - 172: Time to market (sim=0.576)
+    - 52: Contribution to user task (sim=0.453)
+    - 183: Integration to external systems (sim=0.444)
+    - 37: Relevance to stakeholders' goals (sim=0.421)
+    - 236: Dependencies due to downstream activities (sim=0.394)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 2.287
+
+2. As an employee, I want to receive reminders to rest.
+    - 52: Contribution to user task (sim=0.453)
+    - 183: Integration to external systems (sim=0.444)
+    - 37: Relevance to stakeholders' goals (sim=0.421)
+    - 236: Dependencies due to downstream activities (sim=0.394)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 1.711
+
+3. As a wellness administrator, I want to see app usage reports.
+    - 210: Object usage for a particular scenario (sim=0.326)
+    - 52: Contribution to user task (sim=0.306)
+    - 183: Integration to external systems (sim=0.300)
+    - 37: Relevance to stakeholders' goals (sim=0.284)
+    - 236: Dependencies due to downstream activities (sim=0.266)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 1.482
+
+4. As a user, I want to sync my wearable with the app.
+    - 37: Relevance to stakeholders' goals (sim=0.204)
+    - 236: Dependencies due to downstream activities (sim=0.191)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.394
+
+5. As an administrator, I want to protect health data.
+    - 236: Dependencies due to downstream activities (sim=0.247)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.247
+
+6. As a user, I want to receive alerts for prolonged physical activity.
+    - 211: Actor usage for a particular scenario (sim=0.203)
+    - 210: Object usage for a particular scenario (sim=0.199)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+  → PriorityScore: 0.402
+
+7. As a user, I want to log my daily stress level.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As an administrator, I want to compare physical activity by department.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a user, I want to create weekly wellness goals.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an administrator, I want to see wellness trends in the company.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 172: Time to market (sim=0.262)
+  → PriorityScore: 0.262
+
+11. As a user, I want to participate in group wellness challenges.
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.507)
+    - 172: Time to market (sim=0.322)
+  → PriorityScore: 0.829
+
+12. As a user, I want access to health tips based on my activity.
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.427)
+    - 172: Time to market (sim=0.272)
+    - 183: Integration to external systems (sim=0.210)
+  → PriorityScore: 0.909
+
+13. As an administrator, I want notifications about completed challenges.
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.000
+
+14. As a user, I want to receive monthly reports on my progress.
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.529)
+    - 172: Time to market (sim=0.336)
+    - 183: Integration to external systems (sim=0.259)
+    - 37: Relevance to stakeholders' goals (sim=0.246)
+    - 236: Dependencies due to downstream activities (sim=0.230)
+  → PriorityScore: 1.600
+
+15. As a user, I want to receive stretching and exercise recommendations.
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.515)
+    - 172: Time to market (sim=0.328)
+    - 183: Integration to external systems (sim=0.253)
+    - 37: Relevance to stakeholders' goals (sim=0.240)
+    - 236: Dependencies due to downstream activities (sim=0.224)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 1.560
+
+16. As an administrator, I want to manage access to external wellness resources.
+    - 183: Integration to external systems (sim=0.573)
+    - 172: Time to market (sim=0.446)
+    - 52: Contribution to user task (sim=0.351)
+    - 37: Relevance to stakeholders' goals (sim=0.326)
+    - 236: Dependencies due to downstream activities (sim=0.305)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 2.001
+
+17. As a user, I want to receive active break alerts.
+    - 172: Time to market (sim=0.407)
+    - 183: Integration to external systems (sim=0.314)
+    - 37: Relevance to stakeholders' goals (sim=0.297)
+    - 236: Dependencies due to downstream activities (sim=0.279)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 1.297
+
+18. As a user, I want to customize activity reminders.
+    - 183: Integration to external systems (sim=0.314)
+    - 37: Relevance to stakeholders' goals (sim=0.297)
+    - 236: Dependencies due to downstream activities (sim=0.279)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.890
+
+19. As an administrator, I want access to metrics on overall well-being.
+    - 37: Relevance to stakeholders' goals (sim=0.303)
+    - 236: Dependencies due to downstream activities (sim=0.284)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.586
+

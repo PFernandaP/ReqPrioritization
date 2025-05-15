@@ -1,0 +1,214 @@
+
+Proyecto: Finance Management App for SMEs
+Guidelines: ['Personal data privacy and security', 'User-friendly interface', 'Personalized reminders', 'Well-being reports', 'Cross-platform access']
+Dimensiones asociadas (7): ['Operational Benefits', 'Technical Context', 'Risks', 'System-related Benefits', 'Stakeholder Benefits', 'Costs', 'Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  52: Contribution to user task
+  228: Number of use cases inherited by this use case
+  224: Number of use cases this use case includes
+  225: Number of use cases that includes this use case
+  226: Number of use cases this use case extends
+  227: Number of use cases that extend this use case
+  197: Experience on the area
+  2: Linkage to overall system goals
+  37: Relevance to stakeholders' goals
+  236: Dependencies due to downstream activities
+  105: Impact on essential non-functional requirements
+  198: Experience on development methodology
+  215: Sufficient detail in specification
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a female user, I want to track my menstrual cycles for accurate monitoring.
+    - 52: Contribution to user task (sim=0.542)
+    - 37: Relevance to stakeholders' goals (sim=0.267)
+    - 236: Dependencies due to downstream activities (sim=0.246)
+    - 2: Linkage to overall system goals (sim=0.243)
+    - 210: Object usage for a particular scenario (sim=0.204)
+    - 211: Actor usage for a particular scenario (sim=0.204)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 1.706
+
+2. As a female user, I want to receive personalized reminders based on my cycle.
+    - 197: Experience on the area (sim=0.211)
+    - 198: Experience on development methodology (sim=0.206)
+    - 37: Relevance to stakeholders' goals (sim=0.185)
+    - 236: Dependencies due to downstream activities (sim=0.170)
+    - 2: Linkage to overall system goals (sim=0.168)
+    - 105: Impact on essential non-functional requirements (sim=0.167)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 1.106
+
+3. As a female administrator, I want reports on app usage by region.
+    - 228: Number of use cases inherited by this use case (sim=0.245)
+    - 210: Object usage for a particular scenario (sim=0.242)
+    - 211: Actor usage for a particular scenario (sim=0.242)
+    - 105: Impact on essential non-functional requirements (sim=0.209)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.938
+
+4. As a female user, I want wellness recommendations based on the phase of my cycle.
+    - 105: Impact on essential non-functional requirements (sim=0.162)
+    - 224: Number of use cases this use case includes (sim=0.054)
+    - 226: Number of use cases this use case extends (sim=0.053)
+    - 225: Number of use cases that includes this use case (sim=0.050)
+    - 227: Number of use cases that extend this use case (sim=0.049)
+    - 228: Number of use cases inherited by this use case (sim=0.049)
+    - 2: Linkage to overall system goals (sim=0.000)
+  → PriorityScore: 0.417
+
+5. As a female administrator, I want to manage the privacy and security of recorded data.
+    - 2: Linkage to overall system goals (sim=0.163)
+    - 224: Number of use cases this use case includes (sim=0.054)
+    - 226: Number of use cases this use case extends (sim=0.053)
+    - 225: Number of use cases that includes this use case (sim=0.050)
+    - 227: Number of use cases that extend this use case (sim=0.049)
+    - 228: Number of use cases inherited by this use case (sim=0.049)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.418
+
+6. As a female user, I want to view graphs of my cycle and its patterns.
+    - 226: Number of use cases this use case extends (sim=0.061)
+    - 225: Number of use cases that includes this use case (sim=0.058)
+    - 227: Number of use cases that extend this use case (sim=0.057)
+    - 228: Number of use cases inherited by this use case (sim=0.057)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+  → PriorityScore: 0.233
+
+7. As a female user, I want to log specific symptoms for detailed tracking.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As a female administrator, I want statistics on wellness patterns across the platform.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a female user, I want notifications about upcoming cycles or changes in patterns.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a female administrator, I want interface customization options.
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.000)
+  → PriorityScore: 0.000
+
+11. As a female user, I want access to personal care recommendations based on my cycle.
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.374)
+    - 197: Experience on the area (sim=0.211)
+  → PriorityScore: 0.585
+
+12. As a female administrator, I want to view user satisfaction statistics.
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.646)
+    - 37: Relevance to stakeholders' goals (sim=0.318)
+    - 236: Dependencies due to downstream activities (sim=0.293)
+  → PriorityScore: 1.257
+
+13. As a female user, I want access to a full history of my past cycles.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 52: Contribution to user task (sim=0.591)
+    - 37: Relevance to stakeholders' goals (sim=0.291)
+    - 236: Dependencies due to downstream activities (sim=0.268)
+    - 2: Linkage to overall system goals (sim=0.264)
+  → PriorityScore: 1.415
+
+14. As a female administrator, I want to manage the app’s integration with other health devices.
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.220)
+    - 197: Experience on the area (sim=0.216)
+    - 37: Relevance to stakeholders' goals (sim=0.209)
+    - 236: Dependencies due to downstream activities (sim=0.192)
+    - 2: Linkage to overall system goals (sim=0.189)
+  → PriorityScore: 1.026
+
+15. As a female user, I want to mark certain days or symptoms as important for later review.
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.542)
+    - 37: Relevance to stakeholders' goals (sim=0.267)
+    - 236: Dependencies due to downstream activities (sim=0.246)
+    - 2: Linkage to overall system goals (sim=0.243)
+    - 210: Object usage for a particular scenario (sim=0.204)
+    - 211: Actor usage for a particular scenario (sim=0.204)
+  → PriorityScore: 1.706
+
+16. As a female administrator, I want tools to analyze trends in user wellness.
+    - 52: Contribution to user task (sim=0.515)
+    - 215: Sufficient detail in specification (sim=0.277)
+    - 37: Relevance to stakeholders' goals (sim=0.254)
+    - 236: Dependencies due to downstream activities (sim=0.234)
+    - 2: Linkage to overall system goals (sim=0.230)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+  → PriorityScore: 1.509
+
+17. As a female user, I want customizable alert options based on my preferences.
+    - 198: Experience on development methodology (sim=0.264)
+    - 52: Contribution to user task (sim=0.230)
+    - 105: Impact on essential non-functional requirements (sim=0.215)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.709
+
+18. As a female administrator, I want reports on usage and effectiveness of the app.
+    - 210: Object usage for a particular scenario (sim=0.188)
+    - 211: Actor usage for a particular scenario (sim=0.188)
+    - 105: Impact on essential non-functional requirements (sim=0.163)
+    - 224: Number of use cases this use case includes (sim=0.054)
+    - 226: Number of use cases this use case extends (sim=0.053)
+    - 225: Number of use cases that includes this use case (sim=0.050)
+    - 227: Number of use cases that extend this use case (sim=0.050)
+  → PriorityScore: 0.746
+
+19. As a female user, I want to receive support messages and product recommendations based on my cycle.
+    - 37: Relevance to stakeholders' goals (sim=0.145)
+    - 236: Dependencies due to downstream activities (sim=0.134)
+    - 2: Linkage to overall system goals (sim=0.132)
+    - 105: Impact on essential non-functional requirements (sim=0.132)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+  → PriorityScore: 0.542
+

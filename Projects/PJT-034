@@ -1,0 +1,214 @@
+
+Proyecto: Online Course Management Platform
+Guidelines: ['Secure content Access', 'Updated materials', 'Scalability for large audiences', 'Usage reports', 'User interaction']
+Dimensiones asociadas (7): ['Technical Context', 'Operational Benefits', 'Stakeholder Benefits', 'Customer Benefits', 'Costs', 'System-related Benefits', 'Risks']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  52: Contribution to user task
+  2: Linkage to overall system goals
+  37: Relevance to stakeholders' goals
+  228: Number of use cases inherited by this use case
+  236: Dependencies due to downstream activities
+  224: Number of use cases this use case includes
+  225: Number of use cases that includes this use case
+  226: Number of use cases this use case extends
+  227: Number of use cases that extend this use case
+  197: Experience on the area
+  105: Impact on essential non-functional requirements
+  198: Experience on development methodology
+  3: Ease of use
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a user, I want to access health courses adapted to my level of knowledge.
+    - 52: Contribution to user task (sim=0.524)
+    - 37: Relevance to stakeholders' goals (sim=0.340)
+    - 236: Dependencies due to downstream activities (sim=0.313)
+    - 2: Linkage to overall system goals (sim=0.309)
+    - 3: Ease of use (sim=0.101)
+    - 224: Number of use cases this use case includes (sim=0.051)
+    - 226: Number of use cases this use case extends (sim=0.050)
+  → PriorityScore: 1.689
+
+2. As an administrator, I want to manage access permissions to sensitive content.
+    - 37: Relevance to stakeholders' goals (sim=0.441)
+    - 236: Dependencies due to downstream activities (sim=0.406)
+    - 2: Linkage to overall system goals (sim=0.401)
+    - 3: Ease of use (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+  → PriorityScore: 1.248
+
+3. As a user, I want to see a history of all completed courses.
+    - 236: Dependencies due to downstream activities (sim=0.268)
+    - 2: Linkage to overall system goals (sim=0.264)
+    - 3: Ease of use (sim=0.174)
+    - 224: Number of use cases this use case includes (sim=0.088)
+    - 226: Number of use cases this use case extends (sim=0.087)
+    - 225: Number of use cases that includes this use case (sim=0.081)
+    - 227: Number of use cases that extend this use case (sim=0.081)
+  → PriorityScore: 1.043
+
+4. As an administrator, I want statistics on the most popular courses.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.000
+
+5. As a user, I want to participate in discussion forums with other students and professionals.
+    - 3: Ease of use (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.000
+
+6. As an administrator, I want reports on the effectiveness of each course.
+    - 226: Number of use cases this use case extends (sim=0.066)
+    - 225: Number of use cases that includes this use case (sim=0.062)
+    - 227: Number of use cases that extend this use case (sim=0.062)
+    - 228: Number of use cases inherited by this use case (sim=0.061)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.251
+
+7. As a user, I want to receive certificates upon course completion.
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As an administrator, I want to manage material updates based on changes in health regulations.
+    - 3: Ease of use (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a user, I want to receive reminders about courses in progress.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an administrator, I want to view user participation statistics.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.646)
+  → PriorityScore: 0.646
+
+11. As a user, I want to receive course recommendations based on my interests.
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.423)
+    - 197: Experience on the area (sim=0.238)
+  → PriorityScore: 0.662
+
+12. As an administrator, I want options to customize the educational interface.
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.251)
+    - 197: Experience on the area (sim=0.246)
+    - 37: Relevance to stakeholders' goals (sim=0.238)
+  → PriorityScore: 0.735
+
+13. As a user, I want to access multimedia content on health topics.
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.515)
+    - 197: Experience on the area (sim=0.290)
+    - 198: Experience on development methodology (sim=0.283)
+    - 37: Relevance to stakeholders' goals (sim=0.254)
+  → PriorityScore: 1.341
+
+14. As an administrator, I want student satisfaction reports.
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.000
+
+15. As a user, I want to take assessments to measure my learning.
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.539)
+    - 37: Relevance to stakeholders' goals (sim=0.350)
+    - 236: Dependencies due to downstream activities (sim=0.322)
+    - 2: Linkage to overall system goals (sim=0.317)
+    - 3: Ease of use (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 1.529
+
+16. As an administrator, I want to manage course feedback surveys.
+    - 52: Contribution to user task (sim=0.466)
+    - 37: Relevance to stakeholders' goals (sim=0.441)
+    - 236: Dependencies due to downstream activities (sim=0.406)
+    - 2: Linkage to overall system goals (sim=0.401)
+    - 3: Ease of use (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+  → PriorityScore: 1.714
+
+17. As a user, I want to download supplementary materials to study offline.
+    - 37: Relevance to stakeholders' goals (sim=0.398)
+    - 236: Dependencies due to downstream activities (sim=0.366)
+    - 2: Linkage to overall system goals (sim=0.361)
+    - 3: Ease of use (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+  → PriorityScore: 1.125
+
+18. As an administrator, I want to view usage trends by user type.
+    - 210: Object usage for a particular scenario (sim=0.220)
+    - 211: Actor usage for a particular scenario (sim=0.220)
+    - 37: Relevance to stakeholders' goals (sim=0.209)
+    - 236: Dependencies due to downstream activities (sim=0.192)
+    - 2: Linkage to overall system goals (sim=0.189)
+    - 3: Ease of use (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 1.031
+
+19. As a user, I want to receive alerts about new courses related to my profile.
+    - 2: Linkage to overall system goals (sim=0.317)
+    - 3: Ease of use (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.317
+

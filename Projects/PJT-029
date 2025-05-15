@@ -1,0 +1,214 @@
+
+Proyecto: Contract Management System
+Guidelines: ['Personal data security', 'Efficient vacancy management', 'Access to detailed profiles', 'Hiring reports', 'Social media integration']
+Dimensiones asociadas (7): ['Project-related Benefits', 'Operational Benefits', 'Risks', 'Business Context', 'System-related Benefits', 'Strategy-related Benefits', 'Stakeholder Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  172: Time to market
+  183: Integration to external systems
+  2: Linkage to overall system goals
+  30: Relevance to project success
+  31: Importance to release goal
+  33: Feature contribution to project vision
+  37: Relevance to stakeholders' goals
+  43: Importance to business goals
+  44: Criticality to mission success
+  52: Contribution to user task
+  77: Control and follow-up
+  105: Impact on essential non-functional requirements
+  56: Cost reduction of IT operation
+  79: Integration and coordination
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a recruiter, I want to post job openings and detail the requirements for each position.
+    - 79: Integration and coordination (sim=0.239)
+    - 77: Control and follow-up (sim=0.199)
+    - 105: Impact on essential non-functional requirements (sim=0.190)
+    - 172: Time to market (sim=0.166)
+    - 43: Importance to business goals (sim=0.143)
+    - 30: Relevance to project success (sim=0.142)
+    - 31: Importance to release goal (sim=0.133)
+  → PriorityScore: 1.212
+
+2. As a candidate, I want to create a professional profile to apply for jobs.
+    - 43: Importance to business goals (sim=0.349)
+    - 30: Relevance to project success (sim=0.346)
+    - 31: Importance to release goal (sim=0.324)
+    - 37: Relevance to stakeholders' goals (sim=0.324)
+    - 52: Contribution to user task (sim=0.319)
+    - 183: Integration to external systems (sim=0.319)
+    - 44: Criticality to mission success (sim=0.316)
+  → PriorityScore: 2.297
+
+3. As an administrator, I want reports on active and inactive job listings.
+    - 105: Impact on essential non-functional requirements (sim=0.267)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 43: Importance to business goals (sim=0.000)
+  → PriorityScore: 0.267
+
+4. As a recruiter, I want to filter candidates based on their skills and experience.
+    - 172: Time to market (sim=0.189)
+    - 43: Importance to business goals (sim=0.162)
+    - 30: Relevance to project success (sim=0.161)
+    - 31: Importance to release goal (sim=0.151)
+    - 37: Relevance to stakeholders' goals (sim=0.151)
+    - 52: Contribution to user task (sim=0.149)
+    - 183: Integration to external systems (sim=0.149)
+  → PriorityScore: 1.111
+
+5. As a candidate, I want to receive notifications about new jobs that match my profile.
+    - 37: Relevance to stakeholders' goals (sim=0.385)
+    - 52: Contribution to user task (sim=0.379)
+    - 183: Integration to external systems (sim=0.379)
+    - 44: Criticality to mission success (sim=0.376)
+    - 33: Feature contribution to project vision (sim=0.347)
+    - 2: Linkage to overall system goals (sim=0.344)
+    - 56: Cost reduction of IT operation (sim=0.000)
+  → PriorityScore: 2.211
+
+6. As an administrator, I want options to manage recruiter access.
+    - 52: Contribution to user task (sim=0.379)
+    - 183: Integration to external systems (sim=0.379)
+    - 44: Criticality to mission success (sim=0.376)
+    - 33: Feature contribution to project vision (sim=0.347)
+    - 2: Linkage to overall system goals (sim=0.344)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+  → PriorityScore: 1.826
+
+7. As a candidate, I want to upload and update my resume.
+    - 37: Relevance to stakeholders' goals (sim=0.236)
+    - 52: Contribution to user task (sim=0.233)
+    - 183: Integration to external systems (sim=0.233)
+    - 44: Criticality to mission success (sim=0.231)
+    - 33: Feature contribution to project vision (sim=0.213)
+    - 2: Linkage to overall system goals (sim=0.211)
+    - 56: Cost reduction of IT operation (sim=0.000)
+  → PriorityScore: 1.357
+
+8. As a recruiter, I want to contact candidates through the platform.
+    - 44: Criticality to mission success (sim=0.210)
+    - 33: Feature contribution to project vision (sim=0.194)
+    - 2: Linkage to overall system goals (sim=0.192)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 79: Integration and coordination (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.596
+
+9. As an administrator, I want to view statistics on the most applied-to job postings.
+    - 33: Feature contribution to project vision (sim=0.247)
+    - 2: Linkage to overall system goals (sim=0.246)
+    - 105: Impact on essential non-functional requirements (sim=0.173)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 79: Integration and coordination (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.666
+
+10. As a candidate, I want to review the status of my job applications.
+    - 2: Linkage to overall system goals (sim=0.176)
+    - 184: System value of a feature (sim=0.134)
+    - 56: Cost reduction of IT operation (sim=0.106)
+    - 77: Control and follow-up (sim=0.000)
+    - 79: Integration and coordination (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 172: Time to market (sim=0.247)
+  → PriorityScore: 0.664
+
+11. As a recruiter, I want to compare candidates to facilitate selection.
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 79: Integration and coordination (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 172: Time to market (sim=0.481)
+    - 43: Importance to business goals (sim=0.415)
+  → PriorityScore: 0.896
+
+12. As an administrator, I want reports on average hiring times.
+    - 79: Integration and coordination (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.377)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+  → PriorityScore: 0.377
+
+13. As a candidate, I want to receive alerts for scheduled interviews.
+    - 79: Integration and coordination (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 172: Time to market (sim=0.295)
+    - 43: Importance to business goals (sim=0.254)
+    - 30: Relevance to project success (sim=0.252)
+    - 31: Importance to release goal (sim=0.236)
+  → PriorityScore: 1.039
+
+14. As a recruiter, I want to share job openings on social media.
+    - 79: Integration and coordination (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.220)
+    - 172: Time to market (sim=0.218)
+    - 43: Importance to business goals (sim=0.188)
+    - 30: Relevance to project success (sim=0.187)
+    - 31: Importance to release goal (sim=0.175)
+  → PriorityScore: 0.988
+
+15. As a candidate, I want to receive job recommendations based on my profile.
+    - 184: System value of a feature (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.298)
+    - 172: Time to market (sim=0.295)
+    - 43: Importance to business goals (sim=0.254)
+    - 30: Relevance to project success (sim=0.252)
+    - 31: Importance to release goal (sim=0.236)
+    - 37: Relevance to stakeholders' goals (sim=0.236)
+  → PriorityScore: 1.573
+
+16. As an administrator, I want to analyze hiring metrics by department.
+    - 172: Time to market (sim=0.481)
+    - 43: Importance to business goals (sim=0.415)
+    - 30: Relevance to project success (sim=0.412)
+    - 31: Importance to release goal (sim=0.385)
+    - 37: Relevance to stakeholders' goals (sim=0.385)
+    - 52: Contribution to user task (sim=0.379)
+    - 183: Integration to external systems (sim=0.379)
+  → PriorityScore: 2.837
+
+17. As a candidate, I want to set up job alerts based on my preferences.
+    - 105: Impact on essential non-functional requirements (sim=0.220)
+    - 172: Time to market (sim=0.218)
+    - 43: Importance to business goals (sim=0.188)
+    - 30: Relevance to project success (sim=0.187)
+    - 31: Importance to release goal (sim=0.175)
+    - 37: Relevance to stakeholders' goals (sim=0.175)
+    - 52: Contribution to user task (sim=0.172)
+  → PriorityScore: 1.335
+
+18. As a recruiter, I want access to a database of qualified candidates.
+    - 30: Relevance to project success (sim=0.211)
+    - 31: Importance to release goal (sim=0.197)
+    - 37: Relevance to stakeholders' goals (sim=0.197)
+    - 52: Contribution to user task (sim=0.194)
+    - 183: Integration to external systems (sim=0.194)
+    - 44: Criticality to mission success (sim=0.193)
+    - 33: Feature contribution to project vision (sim=0.178)
+  → PriorityScore: 1.365
+
+19. As an administrator, I want satisfaction reports from recruiters and candidates.
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 43: Importance to business goals (sim=0.000)
+    - 44: Criticality to mission success (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.000
+

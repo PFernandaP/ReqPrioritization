@@ -1,0 +1,214 @@
+
+Proyecto: Shopping and Discounts Application
+Guidelines: ['Personal data security', 'Contract management', 'Performance reports', 'Work event notifications', 'Scalability']
+Dimensiones asociadas (7): ['System-related Benefits', 'Risks', 'Operational Benefits', 'Benefits', 'Market-related Benefits', 'Project-related Benefits', 'Stakeholder Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  2: Linkage to overall system goals
+  30: Relevance to project success
+  31: Importance to release goal
+  33: Feature contribution to project vision
+  37: Relevance to stakeholders' goals
+  52: Contribution to user task
+  26: Feature influence on buying decision
+  105: Impact on essential non-functional requirements
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  36: Value creation for developer
+  53: Support for main usage scenario
+  56: Cost reduction of IT operation
+  109: Loss of confidential data
+  3: Ease of use
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As an administrator, I want to securely manage each employee's personal information.
+    - 30: Relevance to project success (sim=0.259)
+    - 37: Relevance to stakeholders' goals (sim=0.252)
+    - 52: Contribution to user task (sim=0.252)
+    - 31: Importance to release goal (sim=0.246)
+    - 33: Feature contribution to project vision (sim=0.229)
+    - 2: Linkage to overall system goals (sim=0.223)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 1.460
+
+2. As a manager, I want to receive alerts for contract expirations.
+    - 53: Support for main usage scenario (sim=0.329)
+    - 30: Relevance to project success (sim=0.272)
+    - 37: Relevance to stakeholders' goals (sim=0.265)
+    - 52: Contribution to user task (sim=0.265)
+    - 31: Importance to release goal (sim=0.259)
+    - 33: Feature contribution to project vision (sim=0.241)
+    - 2: Linkage to overall system goals (sim=0.235)
+  → PriorityScore: 1.865
+
+3. As an administrator, I want options to update employee benefits.
+    - 52: Contribution to user task (sim=0.418)
+    - 31: Importance to release goal (sim=0.408)
+    - 33: Feature contribution to project vision (sim=0.380)
+    - 2: Linkage to overall system goals (sim=0.370)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+  → PriorityScore: 1.576
+
+4. As a manager, I want to view performance reports by department.
+    - 31: Importance to release goal (sim=0.259)
+    - 33: Feature contribution to project vision (sim=0.241)
+    - 2: Linkage to overall system goals (sim=0.235)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+  → PriorityScore: 0.735
+
+5. As an administrator, I want to manage access permissions based on roles.
+    - 52: Contribution to user task (sim=0.265)
+    - 31: Importance to release goal (sim=0.259)
+    - 33: Feature contribution to project vision (sim=0.241)
+    - 2: Linkage to overall system goals (sim=0.235)
+    - 3: Ease of use (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+  → PriorityScore: 1.000
+
+6. As an employee, I want to view a history of my performance evaluations.
+    - 2: Linkage to overall system goals (sim=0.214)
+    - 3: Ease of use (sim=0.164)
+    - 109: Loss of confidential data (sim=0.127)
+    - 56: Cost reduction of IT operation (sim=0.109)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+  → PriorityScore: 0.613
+
+7. As a manager, I want options to plan promotions and salary increases.
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As an administrator, I want to automatically manage contract renewals.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As an employee, I want to receive notifications about company events.
+    - 36: Value creation for developer (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an administrator, I want reports on employee turnover by department.
+    - 52: Contribution to user task (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.437)
+  → PriorityScore: 0.437
+
+11. As a manager, I want access to a database of internal candidates for promotions.
+    - 56: Cost reduction of IT operation (sim=0.086)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 36: Value creation for developer (sim=0.281)
+    - 53: Support for main usage scenario (sim=0.238)
+  → PriorityScore: 0.605
+
+12. As an administrator, I want to manage the company's organizational structure.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 30: Relevance to project success (sim=0.208)
+    - 37: Relevance to stakeholders' goals (sim=0.203)
+    - 52: Contribution to user task (sim=0.203)
+  → PriorityScore: 0.614
+
+13. As an employee, I want to receive reminders for my performance reviews.
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 36: Value creation for developer (sim=0.307)
+    - 53: Support for main usage scenario (sim=0.260)
+    - 30: Relevance to project success (sim=0.215)
+    - 37: Relevance to stakeholders' goals (sim=0.210)
+  → PriorityScore: 0.992
+
+14. As an administrator, I want statistics on average time spent in each position.
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.266)
+    - 111: Technical risk in proposed system (sim=0.266)
+    - 26: Feature influence on buying decision (sim=0.245)
+    - 105: Impact on essential non-functional requirements (sim=0.216)
+    - 2: Linkage to overall system goals (sim=0.000)
+  → PriorityScore: 0.992
+
+15. As a manager, I want to conduct annual performance evaluations.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 30: Relevance to project success (sim=0.272)
+    - 37: Relevance to stakeholders' goals (sim=0.265)
+    - 52: Contribution to user task (sim=0.265)
+    - 31: Importance to release goal (sim=0.259)
+    - 33: Feature contribution to project vision (sim=0.241)
+    - 2: Linkage to overall system goals (sim=0.235)
+  → PriorityScore: 1.537
+
+16. As an administrator, I want to export employee information reports.
+    - 30: Relevance to project success (sim=0.259)
+    - 37: Relevance to stakeholders' goals (sim=0.252)
+    - 52: Contribution to user task (sim=0.252)
+    - 31: Importance to release goal (sim=0.246)
+    - 33: Feature contribution to project vision (sim=0.229)
+    - 2: Linkage to overall system goals (sim=0.223)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 1.460
+
+17. As an employee, I want access to a summary of my employment benefits.
+    - 37: Relevance to stakeholders' goals (sim=0.342)
+    - 52: Contribution to user task (sim=0.342)
+    - 31: Importance to release goal (sim=0.334)
+    - 33: Feature contribution to project vision (sim=0.311)
+    - 2: Linkage to overall system goals (sim=0.303)
+    - 3: Ease of use (sim=0.231)
+    - 109: Loss of confidential data (sim=0.179)
+  → PriorityScore: 2.042
+
+18. As an administrator, I want to manage platform access based on work location.
+    - 30: Relevance to project success (sim=0.272)
+    - 37: Relevance to stakeholders' goals (sim=0.265)
+    - 52: Contribution to user task (sim=0.265)
+    - 31: Importance to release goal (sim=0.259)
+    - 33: Feature contribution to project vision (sim=0.241)
+    - 2: Linkage to overall system goals (sim=0.235)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 1.537
+
+19. As a manager, I want an analysis of employee job satisfaction.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+  → PriorityScore: 0.000
+

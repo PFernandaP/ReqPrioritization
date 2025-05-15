@@ -1,0 +1,214 @@
+
+Proyecto: Corporate Training Platform
+Guidelines: ['Personal data privacy', 'Cross-platform access', 'Session personalization', 'Automatic reminders', 'Scalability']
+Dimensiones asociadas (7): ['System-related Benefits', 'Risks', 'Benefits', 'Market-related Benefits', 'Project-related Benefits', 'Stakeholder Benefits', 'Financial Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  2: Linkage to overall system goals
+  31: Importance to release goal
+  33: Feature contribution to project vision
+  37: Relevance to stakeholders' goals
+  30: Relevance to project success
+  26: Feature influence on buying decision
+  39: Return on investment
+  105: Impact on essential non-functional requirements
+  3: Ease of use
+  35: End user value
+  155: Part time team member use
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  150: Impediment of attaining the requirement
+  36: Value creation for developer
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a user, I want to log my mood daily to keep track.
+    - 30: Relevance to project success (sim=0.369)
+    - 37: Relevance to stakeholders' goals (sim=0.359)
+    - 31: Importance to release goal (sim=0.351)
+    - 35: End user value (sim=0.337)
+    - 33: Feature contribution to project vision (sim=0.321)
+    - 2: Linkage to overall system goals (sim=0.318)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 2.055
+
+2. As a user, I want access to guided meditation sessions on different topics.
+    - 39: Return on investment (sim=0.300)
+    - 26: Feature influence on buying decision (sim=0.229)
+    - 30: Relevance to project success (sim=0.223)
+    - 37: Relevance to stakeholders' goals (sim=0.217)
+    - 31: Importance to release goal (sim=0.211)
+    - 105: Impact on essential non-functional requirements (sim=0.204)
+    - 33: Feature contribution to project vision (sim=0.194)
+  → PriorityScore: 1.577
+
+3. As an administrator, I want usage reports by tool type.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 35: End user value (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+  → PriorityScore: 0.000
+
+4. As a user, I want to receive daily reminders to record my mood.
+    - 35: End user value (sim=0.337)
+    - 33: Feature contribution to project vision (sim=0.321)
+    - 2: Linkage to overall system goals (sim=0.318)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+  → PriorityScore: 0.976
+
+5. As a user, I want to set weekly wellness goals.
+    - 31: Importance to release goal (sim=0.207)
+    - 33: Feature contribution to project vision (sim=0.189)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.396
+
+6. As an administrator, I want to see statistics on the most used breathing exercises.
+    - 31: Importance to release goal (sim=0.211)
+    - 105: Impact on essential non-functional requirements (sim=0.204)
+    - 33: Feature contribution to project vision (sim=0.194)
+    - 2: Linkage to overall system goals (sim=0.192)
+    - 3: Ease of use (sim=0.000)
+    - 35: End user value (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+  → PriorityScore: 0.801
+
+7. As a user, I want access to personalized wellness tips.
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As a user, I want to receive alerts when my mood significantly drops.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As an administrator, I want to manage access permissions for advanced features.
+    - 35: End user value (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a user, I want to be able to share my achievements on social media.
+    - 3: Ease of use (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 30: Relevance to project success (sim=0.301)
+  → PriorityScore: 0.301
+
+11. As a user, I want to receive suggestions for new wellness activities.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 35: End user value (sim=0.385)
+    - 36: Value creation for developer (sim=0.334)
+  → PriorityScore: 0.719
+
+12. As an administrator, I want app customization options by region.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 0.000
+
+13. As a user, I want access to a full history of my mood records.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 35: End user value (sim=0.453)
+    - 30: Relevance to project success (sim=0.248)
+    - 37: Relevance to stakeholders' goals (sim=0.242)
+    - 31: Importance to release goal (sim=0.236)
+  → PriorityScore: 1.179
+
+14. As a user, I want to mark exercises as favorites to repeat them.
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 30: Relevance to project success (sim=0.369)
+    - 37: Relevance to stakeholders' goals (sim=0.359)
+    - 31: Importance to release goal (sim=0.351)
+    - 35: End user value (sim=0.337)
+    - 33: Feature contribution to project vision (sim=0.321)
+  → PriorityScore: 1.737
+
+15. As an administrator, I want user satisfaction reports.
+    - 155: Part time team member use (sim=0.000)
+    - 35: End user value (sim=0.620)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+  → PriorityScore: 0.620
+
+16. As a user, I want to receive daily motivational messages.
+    - 35: End user value (sim=0.491)
+    - 30: Relevance to project success (sim=0.269)
+    - 37: Relevance to stakeholders' goals (sim=0.262)
+    - 31: Importance to release goal (sim=0.255)
+    - 33: Feature contribution to project vision (sim=0.234)
+    - 2: Linkage to overall system goals (sim=0.232)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 1.743
+
+17. As a user, I want to customize the themes of the meditations.
+    - 35: End user value (sim=0.256)
+    - 30: Relevance to project success (sim=0.140)
+    - 37: Relevance to stakeholders' goals (sim=0.136)
+    - 31: Importance to release goal (sim=0.133)
+    - 33: Feature contribution to project vision (sim=0.122)
+    - 2: Linkage to overall system goals (sim=0.121)
+    - 3: Ease of use (sim=0.087)
+  → PriorityScore: 0.996
+
+18. As an administrator, I want to see wellness trends on the platform.
+    - 26: Feature influence on buying decision (sim=0.192)
+    - 30: Relevance to project success (sim=0.186)
+    - 37: Relevance to stakeholders' goals (sim=0.181)
+    - 31: Importance to release goal (sim=0.177)
+    - 105: Impact on essential non-functional requirements (sim=0.171)
+    - 33: Feature contribution to project vision (sim=0.162)
+    - 2: Linkage to overall system goals (sim=0.161)
+  → PriorityScore: 1.229
+
+19. As a user, I want to sync my progress with my device calendar.
+    - 31: Importance to release goal (sim=0.207)
+    - 33: Feature contribution to project vision (sim=0.189)
+    - 2: Linkage to overall system goals (sim=0.188)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+  → PriorityScore: 0.584
+

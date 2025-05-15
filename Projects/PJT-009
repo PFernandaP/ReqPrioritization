@@ -1,0 +1,214 @@
+
+Proyecto: Energy Monitoring System for Buildings
+Guidelines: ['Real-time analytics', 'Low power usage', 'Scalable sensors', 'User-friendly reporting', 'Alert notifications']
+Dimensiones asociadas (7): ['Technical Context', 'Operational Benefits', 'Costs', 'Business Context', 'Stakeholder Benefits', 'Risks', 'Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  184: System value of a feature
+  228: Number of use cases inherited by this use case
+  224: Number of use cases this use case includes
+  225: Number of use cases that includes this use case
+  226: Number of use cases this use case extends
+  227: Number of use cases that extend this use case
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  215: Sufficient detail in specification
+  52: Contribution to user task
+  155: Part time team member use
+  35: End user value
+  99: User acceptance testing cost
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a facility manager, I want real-time energy dashboards.
+    - 155: Part time team member use (sim=0.420)
+    - 35: End user value (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 99: User acceptance testing cost (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.420
+
+2. As a user, I want alerts for high consumption.
+    - 99: User acceptance testing cost (sim=0.358)
+    - 52: Contribution to user task (sim=0.334)
+    - 211: Actor usage for a particular scenario (sim=0.252)
+    - 210: Object usage for a particular scenario (sim=0.247)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+  → PriorityScore: 1.191
+
+3. As an admin, I want to configure sensor networks.
+    - 99: User acceptance testing cost (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+4. As a user, I want historical usage graphs.
+    - 210: Object usage for a particular scenario (sim=0.326)
+    - 52: Contribution to user task (sim=0.305)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+  → PriorityScore: 0.631
+
+5. As an admin, I want exportable CSV data.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.000
+
+6. As a user, I want mobile access.
+    - 155: Part time team member use (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+7. As an admin, I want sensor health reports.
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As a user, I want customizable alert thresholds.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As an admin, I want integration with building management systems.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a user, I want consumption forecasts.
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 35: End user value (sim=0.524)
+  → PriorityScore: 0.524
+
+11. As an admin, I want role-based dashboards.
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 35: End user value (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.000
+
+12. As a user, I want energy-saving tips.
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 35: End user value (sim=0.327)
+    - 99: User acceptance testing cost (sim=0.302)
+    - 52: Contribution to user task (sim=0.282)
+  → PriorityScore: 0.912
+
+13. As an admin, I want audit logs.
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 35: End user value (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 99: User acceptance testing cost (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.000
+
+14. As a user, I want multi-building support.
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 35: End user value (sim=0.370)
+    - 99: User acceptance testing cost (sim=0.342)
+    - 52: Contribution to user task (sim=0.319)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 1.032
+
+15. As a user, I want push notifications for anomalies.
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 35: End user value (sim=0.388)
+    - 99: User acceptance testing cost (sim=0.358)
+    - 52: Contribution to user task (sim=0.334)
+    - 211: Actor usage for a particular scenario (sim=0.252)
+    - 210: Object usage for a particular scenario (sim=0.247)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 1.579
+
+16. As an admin, I want schedule-based reporting.
+    - 35: End user value (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 99: User acceptance testing cost (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+17. As a user, I want drill-down by device.
+    - 228: Number of use cases inherited by this use case (sim=0.306)
+    - 99: User acceptance testing cost (sim=0.302)
+    - 52: Contribution to user task (sim=0.282)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.890
+
+18. As an admin, I want integration with ERP systems.
+    - 99: User acceptance testing cost (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+19. As a user, I want exportable PDF reports.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+  → PriorityScore: 0.000
+

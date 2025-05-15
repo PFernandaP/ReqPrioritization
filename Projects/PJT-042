@@ -1,0 +1,214 @@
+
+Proyecto: Quality Control System for Manufacturing
+Guidelines: ['Medical information security', 'Automated reminders', 'Medical system integration', 'Ease of use', 'Cross-platform access']
+Dimensiones asociadas (7): ['Risks', 'Technical Context', 'Business Context', 'System-related Benefits', 'Operational Benefits', 'Market-related Benefits', 'Financial Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  183: Integration to external systems
+  2: Linkage to overall system goals
+  52: Contribution to user task
+  172: Time to market
+  197: Experience on the area
+  236: Dependencies due to downstream activities
+  26: Feature influence on buying decision
+  39: Return on investment
+  105: Impact on essential non-functional requirements
+  174: Impact on Maintenance
+  177: Impact on long-term Evolution
+  198: Experience on development methodology
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a patient, I want to book medical appointments online to avoid phone calls.
+    - 172: Time to market (sim=0.566)
+    - 183: Integration to external systems (sim=0.437)
+    - 52: Contribution to user task (sim=0.434)
+    - 236: Dependencies due to downstream activities (sim=0.394)
+    - 2: Linkage to overall system goals (sim=0.387)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+  → PriorityScore: 2.218
+
+2. As a doctor, I want to view a brief medical history of the patient before the consultation.
+    - 172: Time to market (sim=0.237)
+    - 183: Integration to external systems (sim=0.183)
+    - 52: Contribution to user task (sim=0.182)
+    - 236: Dependencies due to downstream activities (sim=0.165)
+    - 2: Linkage to overall system goals (sim=0.162)
+    - 184: System value of a feature (sim=0.077)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 1.007
+
+3. As an administrator, I want reports of completed and cancelled consultations.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.000
+
+4. As a patient, I want to receive reminders of my appointments via SMS and email.
+    - 236: Dependencies due to downstream activities (sim=0.252)
+    - 2: Linkage to overall system goals (sim=0.248)
+    - 184: System value of a feature (sim=0.117)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.617
+
+5. As an administrator, I want to manage access permissions based on roles in the clinic.
+    - 183: Integration to external systems (sim=0.183)
+    - 52: Contribution to user task (sim=0.182)
+    - 236: Dependencies due to downstream activities (sim=0.165)
+    - 198: Experience on development methodology (sim=0.164)
+    - 2: Linkage to overall system goals (sim=0.162)
+    - 177: Impact on long-term Evolution (sim=0.149)
+    - 26: Feature influence on buying decision (sim=0.145)
+  → PriorityScore: 1.150
+
+6. As a doctor, I want options to record notes from each consultation.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+  → PriorityScore: 0.000
+
+7. As a patient, I want access to my previous consultation history.
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As an administrator, I want to see statistics on doctors’ availability.
+    - 198: Experience on development methodology (sim=0.212)
+    - 2: Linkage to overall system goals (sim=0.209)
+    - 177: Impact on long-term Evolution (sim=0.192)
+    - 26: Feature influence on buying decision (sim=0.187)
+    - 105: Impact on essential non-functional requirements (sim=0.172)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.972
+
+9. As a patient, I want to receive follow-up or test recommendations after a consultation.
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a doctor, I want to schedule follow-up appointments based on each patient's condition.
+    - 177: Impact on long-term Evolution (sim=0.139)
+    - 26: Feature influence on buying decision (sim=0.135)
+    - 105: Impact on essential non-functional requirements (sim=0.125)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 172: Time to market (sim=0.221)
+  → PriorityScore: 0.620
+
+11. As an administrator, I want reports on treatment effectiveness in the clinic.
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 197: Experience on the area (sim=0.410)
+    - 174: Impact on Maintenance (sim=0.222)
+  → PriorityScore: 0.632
+
+12. As a patient, I want options to cancel or reschedule my appointment online.
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 172: Time to market (sim=0.566)
+    - 183: Integration to external systems (sim=0.437)
+    - 52: Contribution to user task (sim=0.434)
+  → PriorityScore: 1.437
+
+13. As a doctor, I want to receive alerts for upcoming appointments and schedule changes.
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 172: Time to market (sim=0.279)
+    - 183: Integration to external systems (sim=0.216)
+    - 52: Contribution to user task (sim=0.214)
+    - 236: Dependencies due to downstream activities (sim=0.194)
+  → PriorityScore: 0.904
+
+14. As a patient, I want access to a list of my scheduled appointments.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 172: Time to market (sim=0.486)
+    - 183: Integration to external systems (sim=0.376)
+    - 52: Contribution to user task (sim=0.373)
+    - 236: Dependencies due to downstream activities (sim=0.338)
+    - 2: Linkage to overall system goals (sim=0.333)
+  → PriorityScore: 1.906
+
+15. As an administrator, I want to manage communication between patients and doctors on the platform.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 197: Experience on the area (sim=0.376)
+    - 172: Time to market (sim=0.239)
+    - 174: Impact on Maintenance (sim=0.204)
+    - 39: Return on investment (sim=0.190)
+    - 183: Integration to external systems (sim=0.185)
+    - 52: Contribution to user task (sim=0.183)
+  → PriorityScore: 1.377
+
+16. As a patient, I want options to share my medical history with other doctors.
+    - 172: Time to market (sim=0.287)
+    - 183: Integration to external systems (sim=0.221)
+    - 52: Contribution to user task (sim=0.220)
+    - 236: Dependencies due to downstream activities (sim=0.199)
+    - 2: Linkage to overall system goals (sim=0.196)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+  → PriorityScore: 1.124
+
+17. As an administrator, I want integration options with billing systems.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.000
+
+18. As a doctor, I want to view my patients’ treatment histories.
+    - 52: Contribution to user task (sim=0.434)
+    - 236: Dependencies due to downstream activities (sim=0.394)
+    - 2: Linkage to overall system goals (sim=0.387)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 1.215
+
+19. As a patient, I want to receive alerts when appointments become available for quick rescheduling.
+    - 236: Dependencies due to downstream activities (sim=0.211)
+    - 2: Linkage to overall system goals (sim=0.207)
+    - 211: Actor usage for a particular scenario (sim=0.204)
+    - 210: Object usage for a particular scenario (sim=0.200)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.822
+

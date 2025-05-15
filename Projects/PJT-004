@@ -1,0 +1,214 @@
+
+Proyecto: Inventory Management System for E-commerce
+Guidelines: ['Real-time updates', 'Low latency', 'User-friendly dashboard', 'Supplier integration', 'Scalable architecture']
+Dimensiones asociadas (7): ['Business Context', 'Operational Benefits', 'Costs', 'Risks', 'Technical Context', 'Stakeholder Benefits', 'Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  184: System value of a feature
+  52: Contribution to user task
+  172: Time to market
+  183: Integration to external systems
+  37: Relevance to stakeholders' goals
+  228: Number of use cases inherited by this use case
+  236: Dependencies due to downstream activities
+  224: Number of use cases this use case includes
+  225: Number of use cases that includes this use case
+  226: Number of use cases this use case extends
+  227: Number of use cases that extend this use case
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a store manager, I want to view real-time stock levels.
+    - 172: Time to market (sim=0.798)
+    - 52: Contribution to user task (sim=0.313)
+    - 183: Integration to external systems (sim=0.307)
+    - 37: Relevance to stakeholders' goals (sim=0.291)
+    - 236: Dependencies due to downstream activities (sim=0.272)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 1.980
+
+2. As an admin, I want automatic low-stock alerts.
+    - 52: Contribution to user task (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+3. As a user, I want to add new products easily.
+    - 183: Integration to external systems (sim=0.235)
+    - 37: Relevance to stakeholders' goals (sim=0.222)
+    - 236: Dependencies due to downstream activities (sim=0.208)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.666
+
+4. As an admin, I want to integrate supplier catalogs.
+    - 37: Relevance to stakeholders' goals (sim=0.262)
+    - 236: Dependencies due to downstream activities (sim=0.246)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.508
+
+5. As a manager, I want to generate inventory reports.
+    - 236: Dependencies due to downstream activities (sim=0.393)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.393
+
+6. As a user, I want to search products by SKU.
+    - 236: Dependencies due to downstream activities (sim=0.174)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.174
+
+7. As an admin, I want to update stock counts in bulk.
+    - 236: Dependencies due to downstream activities (sim=0.266)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+  → PriorityScore: 0.266
+
+8. As a manager, I want forecasts for restocking.
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a user, I want to view product history.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an admin, I want role-based access control.
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+  → PriorityScore: 0.000
+
+11. As a user, I want barcode scanning support.
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 52: Contribution to user task (sim=0.319)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+  → PriorityScore: 0.319
+
+12. As a manager, I want supplier performance metrics.
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.000
+
+13. As an admin, I want automated reorder point calculation.
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.000
+
+14. As a user, I want exportable CSV reports.
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 52: Contribution to user task (sim=0.452)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 172: Time to market (sim=0.000)
+  → PriorityScore: 0.452
+
+15. As a manager, I want alerts on expired products.
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+  → PriorityScore: 0.000
+
+16. As a user, I want to filter products by category.
+    - 52: Contribution to user task (sim=0.399)
+    - 172: Time to market (sim=0.244)
+    - 228: Number of use cases inherited by this use case (sim=0.216)
+    - 183: Integration to external systems (sim=0.196)
+    - 37: Relevance to stakeholders' goals (sim=0.185)
+    - 236: Dependencies due to downstream activities (sim=0.174)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 1.415
+
+17. As a manager, I want audit logs of inventory changes.
+    - 224: Number of use cases this use case includes (sim=0.112)
+    - 226: Number of use cases this use case extends (sim=0.110)
+    - 225: Number of use cases that includes this use case (sim=0.104)
+    - 227: Number of use cases that extend this use case (sim=0.103)
+    - 228: Number of use cases inherited by this use case (sim=0.102)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.530
+
+18. As an admin, I want to schedule bulk updates.
+    - 183: Integration to external systems (sim=0.443)
+    - 37: Relevance to stakeholders' goals (sim=0.420)
+    - 236: Dependencies due to downstream activities (sim=0.393)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 1.256
+
+19. As a user, I want push notifications for critical events.
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.000
+

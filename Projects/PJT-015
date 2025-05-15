@@ -1,0 +1,214 @@
+
+Proyecto: Event Management System
+Guidelines: ['Ease of use', 'Confirmation notifications', 'Real-time reservation management', 'Secure payments', 'Menu personalization']
+Dimensiones asociadas (7): ['Technical Context', 'Risks', 'Business Context', 'System-related Benefits', 'Operational Benefits', 'Market-related Benefits', 'Financial Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  184: System value of a feature
+  172: Time to market
+  2: Linkage to overall system goals
+  52: Contribution to user task
+  183: Integration to external systems
+  236: Dependencies due to downstream activities
+  197: Experience on the area
+  198: Experience on development methodology
+  26: Feature influence on buying decision
+  39: Return on investment
+  105: Impact on essential non-functional requirements
+  174: Impact on Maintenance
+  177: Impact on long-term Evolution
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a customer, I want to book a table online to avoid waiting times.
+    - 172: Time to market (sim=0.442)
+    - 183: Integration to external systems (sim=0.341)
+    - 52: Contribution to user task (sim=0.339)
+    - 236: Dependencies due to downstream activities (sim=0.307)
+    - 2: Linkage to overall system goals (sim=0.302)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+  → PriorityScore: 1.732
+
+2. As an administrator, I want to manage table availability in real time.
+    - 183: Integration to external systems (sim=0.197)
+    - 52: Contribution to user task (sim=0.195)
+    - 236: Dependencies due to downstream activities (sim=0.177)
+    - 2: Linkage to overall system goals (sim=0.174)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.743
+
+3. As a customer, I want to receive a confirmation of my reservation via SMS.
+    - 52: Contribution to user task (sim=0.283)
+    - 236: Dependencies due to downstream activities (sim=0.256)
+    - 2: Linkage to overall system goals (sim=0.252)
+    - 184: System value of a feature (sim=0.120)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.911
+
+4. As an administrator, I want occupancy and reservation reports by shift.
+    - 52: Contribution to user task (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+5. As a customer, I want to place takeout orders through the app.
+    - 236: Dependencies due to downstream activities (sim=0.224)
+    - 2: Linkage to overall system goals (sim=0.220)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.445
+
+6. As an administrator, I want to see a reservation history of frequent customers.
+    - 184: System value of a feature (sim=0.107)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+  → PriorityScore: 0.107
+
+7. As a customer, I want to be able to cancel or modify my reservation online.
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As an administrator, I want to manage the menu and prices flexibly.
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a customer, I want to see recommendations for popular dishes before ordering.
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an administrator, I want to manage table assignments to maximize restaurant capacity.
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 172: Time to market (sim=0.566)
+  → PriorityScore: 0.566
+
+11. As a customer, I want online payment options for my orders.
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.274)
+    - 210: Object usage for a particular scenario (sim=0.269)
+  → PriorityScore: 0.543
+
+12. As an administrator, I want reports on dish sales and consumption.
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.265)
+    - 39: Return on investment (sim=0.248)
+    - 197: Experience on the area (sim=0.219)
+  → PriorityScore: 0.732
+
+13. As a customer, I want to receive alerts about restaurant discounts and promotions.
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 172: Time to market (sim=0.322)
+    - 183: Integration to external systems (sim=0.249)
+    - 52: Contribution to user task (sim=0.247)
+    - 236: Dependencies due to downstream activities (sim=0.224)
+  → PriorityScore: 1.042
+
+14. As an administrator, I want app customization options for the customer experience.
+    - 184: System value of a feature (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 197: Experience on the area (sim=0.527)
+    - 198: Experience on development methodology (sim=0.288)
+    - 211: Actor usage for a particular scenario (sim=0.182)
+    - 210: Object usage for a particular scenario (sim=0.179)
+    - 2: Linkage to overall system goals (sim=0.000)
+  → PriorityScore: 1.176
+
+15. As a customer, I want to receive a notification when my order is ready.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 172: Time to market (sim=0.400)
+    - 183: Integration to external systems (sim=0.309)
+    - 52: Contribution to user task (sim=0.307)
+    - 236: Dependencies due to downstream activities (sim=0.278)
+    - 2: Linkage to overall system goals (sim=0.274)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 1.568
+
+16. As an administrator, I want to manage customer reviews and ratings.
+    - 172: Time to market (sim=0.322)
+    - 183: Integration to external systems (sim=0.249)
+    - 52: Contribution to user task (sim=0.247)
+    - 236: Dependencies due to downstream activities (sim=0.224)
+    - 2: Linkage to overall system goals (sim=0.220)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+  → PriorityScore: 1.263
+
+17. As a customer, I want to see photos and descriptions of dishes on the menu.
+    - 172: Time to market (sim=0.244)
+    - 174: Impact on Maintenance (sim=0.207)
+    - 39: Return on investment (sim=0.194)
+    - 183: Integration to external systems (sim=0.188)
+    - 52: Contribution to user task (sim=0.187)
+    - 236: Dependencies due to downstream activities (sim=0.169)
+    - 198: Experience on development methodology (sim=0.169)
+  → PriorityScore: 1.358
+
+18. As an administrator, I want statistics on the best-selling dishes.
+    - 39: Return on investment (sim=0.322)
+    - 198: Experience on development methodology (sim=0.280)
+    - 177: Impact on long-term Evolution (sim=0.254)
+    - 26: Feature influence on buying decision (sim=0.247)
+    - 105: Impact on essential non-functional requirements (sim=0.228)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 1.332
+
+19. As a customer, I want pairing recommendations for the selected dishes.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.000
+

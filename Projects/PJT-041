@@ -1,0 +1,214 @@
+
+Proyecto: Menstrual Cycle Tracking Application
+Guidelines: ['Training plan personalization', 'Cross-platform access', 'Personal data security', 'Progress reports', 'Wearable integration']
+Dimensiones asociadas (7): ['Risks', 'System-related Benefits', 'Operational Benefits', 'Costs', 'Business Context', 'Benefits', 'Market-related Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  52: Contribution to user task
+  172: Time to market
+  183: Integration to external systems
+  2: Linkage to overall system goals
+  26: Feature influence on buying decision
+  105: Impact on essential non-functional requirements
+  174: Impact on Maintenance
+  177: Impact on long-term Evolution
+  56: Cost reduction of IT operation
+  186: IT departments technical guidelines
+  53: Support for main usage scenario
+  79: Integration and coordination
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a trainer, I want to create personalized training plans for my clients.
+    - 172: Time to market (sim=0.408)
+    - 183: Integration to external systems (sim=0.315)
+    - 52: Contribution to user task (sim=0.311)
+    - 53: Support for main usage scenario (sim=0.301)
+    - 2: Linkage to overall system goals (sim=0.275)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+  → PriorityScore: 1.610
+
+2. As a client, I want to view my training plan and log my daily activities.
+    - 79: Integration and coordination (sim=0.398)
+    - 183: Integration to external systems (sim=0.315)
+    - 52: Contribution to user task (sim=0.311)
+    - 2: Linkage to overall system goals (sim=0.275)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+  → PriorityScore: 1.299
+
+3. As an administrator, I want to manage access permissions to personal data.
+    - 52: Contribution to user task (sim=0.386)
+    - 2: Linkage to overall system goals (sim=0.342)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 79: Integration and coordination (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.728
+
+4. As a trainer, I want to monitor my clients’ progress in real time.
+    - 183: Integration to external systems (sim=0.254)
+    - 52: Contribution to user task (sim=0.250)
+    - 2: Linkage to overall system goals (sim=0.222)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 79: Integration and coordination (sim=0.000)
+  → PriorityScore: 0.726
+
+5. As a client, I want to receive reminders for my training sessions.
+    - 2: Linkage to overall system goals (sim=0.275)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 79: Integration and coordination (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.275
+
+6. As an administrator, I want user satisfaction reports.
+    - 79: Integration and coordination (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.000
+
+7. As a client, I want to see charts of my physical and health progress.
+    - 56: Cost reduction of IT operation (sim=0.111)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.111
+
+8. As a trainer, I want to access my clients’ performance statistics.
+    - 79: Integration and coordination (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a client, I want to sync my activity with wearable devices.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an administrator, I want interface customization options.
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.000)
+  → PriorityScore: 0.000
+
+11. As a trainer, I want to receive alerts about client progress or inactivity.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 172: Time to market (sim=0.592)
+    - 183: Integration to external systems (sim=0.457)
+  → PriorityScore: 1.049
+
+12. As a client, I want access to a history of my previous workouts.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 172: Time to market (sim=0.500)
+    - 183: Integration to external systems (sim=0.386)
+    - 52: Contribution to user task (sim=0.381)
+  → PriorityScore: 1.267
+
+13. As a trainer, I want to suggest nutrition recommendations to my clients.
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 172: Time to market (sim=0.592)
+    - 183: Integration to external systems (sim=0.457)
+    - 52: Contribution to user task (sim=0.450)
+    - 2: Linkage to overall system goals (sim=0.399)
+  → PriorityScore: 1.898
+
+14. As an administrator, I want reports on platform usage trends.
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.291)
+    - 174: Impact on Maintenance (sim=0.287)
+    - 177: Impact on long-term Evolution (sim=0.210)
+    - 26: Feature influence on buying decision (sim=0.203)
+    - 105: Impact on essential non-functional requirements (sim=0.186)
+  → PriorityScore: 1.178
+
+15. As a client, I want to mark certain exercises as favorites to review later.
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 172: Time to market (sim=0.592)
+    - 183: Integration to external systems (sim=0.457)
+    - 52: Contribution to user task (sim=0.450)
+    - 2: Linkage to overall system goals (sim=0.399)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+  → PriorityScore: 1.898
+
+16. As a trainer, I want to share educational content about health and sports.
+    - 172: Time to market (sim=0.408)
+    - 79: Integration and coordination (sim=0.398)
+    - 183: Integration to external systems (sim=0.315)
+    - 52: Contribution to user task (sim=0.311)
+    - 2: Linkage to overall system goals (sim=0.275)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+  → PriorityScore: 1.707
+
+17. As an administrator, I want reports on the effectiveness of training programs.
+    - 177: Impact on long-term Evolution (sim=0.200)
+    - 26: Feature influence on buying decision (sim=0.193)
+    - 105: Impact on essential non-functional requirements (sim=0.177)
+    - 184: System value of a feature (sim=0.101)
+    - 56: Cost reduction of IT operation (sim=0.084)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.756
+
+18. As a client, I want to receive notifications about new exercises and techniques.
+    - 183: Integration to external systems (sim=0.315)
+    - 52: Contribution to user task (sim=0.311)
+    - 2: Linkage to overall system goals (sim=0.275)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.901
+
+19. As a trainer, I want to schedule evaluation sessions with clients.
+    - 2: Linkage to overall system goals (sim=0.267)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 79: Integration and coordination (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.267
+

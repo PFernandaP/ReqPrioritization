@@ -1,0 +1,214 @@
+
+Proyecto: E-learning Platform for Companies
+Guidelines: ['Ease of use', 'Course flexibility', 'Integration with video conferencing', 'Scalability', 'Data security']
+Dimensiones asociadas (7): ['Risks', 'Technical Context', 'Business Context', 'System-related Benefits', 'Operational Benefits', 'Market-related Benefits', 'Stakeholder Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  184: System value of a feature
+  52: Contribution to user task
+  183: Integration to external systems
+  2: Linkage to overall system goals
+  37: Relevance to stakeholders' goals
+  172: Time to market
+  236: Dependencies due to downstream activities
+  197: Experience on the area
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  215: Sufficient detail in specification
+  26: Feature influence on buying decision
+  105: Impact on essential non-functional requirements
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As an employee, I want to enroll in courses and complete evaluations online.
+    - 172: Time to market (sim=0.298)
+    - 110: Technical risk in current system (sim=0.289)
+    - 111: Technical risk in proposed system (sim=0.284)
+    - 215: Sufficient detail in specification (sim=0.280)
+    - 52: Contribution to user task (sim=0.230)
+    - 183: Integration to external systems (sim=0.229)
+    - 37: Relevance to stakeholders' goals (sim=0.224)
+  → PriorityScore: 1.833
+
+2. As an instructor, I want to monitor employee progress.
+    - 52: Contribution to user task (sim=0.426)
+    - 183: Integration to external systems (sim=0.425)
+    - 37: Relevance to stakeholders' goals (sim=0.416)
+    - 2: Linkage to overall system goals (sim=0.382)
+    - 236: Dependencies due to downstream activities (sim=0.382)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 2.031
+
+3. As an administrator, I want employee performance reports.
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+  → PriorityScore: 0.000
+
+4. As a user, I want secure access to video conferences.
+    - 37: Relevance to stakeholders' goals (sim=0.283)
+    - 2: Linkage to overall system goals (sim=0.260)
+    - 236: Dependencies due to downstream activities (sim=0.260)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.802
+
+5. As a manager, I want reports on course effectiveness.
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+6. As a user, I want to receive course completion certificates.
+    - 236: Dependencies due to downstream activities (sim=0.260)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+  → PriorityScore: 0.260
+
+7. As an instructor, I want to schedule live or recorded sessions.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As a user, I want to save personal notes during the course.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As an administrator, I want to manage access permissions for specific courses.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an employee, I want to review my completed course history.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.552)
+  → PriorityScore: 0.552
+
+11. As a manager, I want to see statistics on the most popular courses.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 197: Experience on the area (sim=0.530)
+    - 172: Time to market (sim=0.310)
+  → PriorityScore: 0.840
+
+12. As a user, I want to access courses from any device.
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 52: Contribution to user task (sim=0.497)
+    - 172: Time to market (sim=0.298)
+    - 183: Integration to external systems (sim=0.229)
+  → PriorityScore: 1.023
+
+13. As an administrator, I want to customize content according to the audience.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.486)
+    - 52: Contribution to user task (sim=0.375)
+    - 183: Integration to external systems (sim=0.374)
+    - 37: Relevance to stakeholders' goals (sim=0.366)
+  → PriorityScore: 1.601
+
+14. As a user, I want to participate in course discussion forums.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 52: Contribution to user task (sim=0.497)
+    - 172: Time to market (sim=0.298)
+    - 110: Technical risk in current system (sim=0.289)
+    - 111: Technical risk in proposed system (sim=0.284)
+    - 215: Sufficient detail in specification (sim=0.280)
+  → PriorityScore: 1.647
+
+15. As an administrator, I want to restrict access to certain materials.
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.552)
+    - 52: Contribution to user task (sim=0.426)
+    - 183: Integration to external systems (sim=0.425)
+    - 37: Relevance to stakeholders' goals (sim=0.416)
+    - 2: Linkage to overall system goals (sim=0.382)
+    - 236: Dependencies due to downstream activities (sim=0.382)
+  → PriorityScore: 2.583
+
+16. As an employee, I want to receive deadline reminders.
+    - 172: Time to market (sim=0.338)
+    - 52: Contribution to user task (sim=0.261)
+    - 183: Integration to external systems (sim=0.260)
+    - 37: Relevance to stakeholders' goals (sim=0.254)
+    - 2: Linkage to overall system goals (sim=0.234)
+    - 236: Dependencies due to downstream activities (sim=0.234)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 1.580
+
+17. As a manager, I want to compare performance across different teams.
+    - 52: Contribution to user task (sim=0.273)
+    - 183: Integration to external systems (sim=0.272)
+    - 37: Relevance to stakeholders' goals (sim=0.267)
+    - 2: Linkage to overall system goals (sim=0.245)
+    - 236: Dependencies due to downstream activities (sim=0.245)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 1.301
+
+18. As an administrator, I want to manage evaluations and grading automatically.
+    - 183: Integration to external systems (sim=0.289)
+    - 37: Relevance to stakeholders' goals (sim=0.283)
+    - 2: Linkage to overall system goals (sim=0.260)
+    - 236: Dependencies due to downstream activities (sim=0.260)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 1.091
+
+19. As a user, I want to share my achievements on social media if I wish.
+    - 183: Integration to external systems (sim=0.193)
+    - 37: Relevance to stakeholders' goals (sim=0.189)
+    - 2: Linkage to overall system goals (sim=0.174)
+    - 236: Dependencies due to downstream activities (sim=0.174)
+    - 26: Feature influence on buying decision (sim=0.173)
+    - 105: Impact on essential non-functional requirements (sim=0.159)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 1.062
+

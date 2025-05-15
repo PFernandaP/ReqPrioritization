@@ -1,0 +1,214 @@
+
+Proyecto: Property Management Platform
+Guidelines: ['Cross-platform access', 'Secure payments', 'Offer notifications', 'Usage reports', 'Map integration']
+Dimensiones asociadas (7): ['Operational Benefits', 'Technical Context', 'Costs', 'Business Context', 'Benefits', 'System-related Benefits', 'Market-related Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  52: Contribution to user task
+  197: Experience on the area
+  228: Number of use cases inherited by this use case
+  224: Number of use cases this use case includes
+  225: Number of use cases that includes this use case
+  226: Number of use cases this use case extends
+  227: Number of use cases that extend this use case
+  172: Time to market
+  174: Impact on Maintenance
+  177: Impact on long-term Evolution
+  26: Feature influence on buying decision
+  183: Integration to external systems
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a user, I want to see discounts and promotions in nearby stores.
+    - 52: Contribution to user task (sim=0.427)
+    - 172: Time to market (sim=0.253)
+    - 183: Integration to external systems (sim=0.198)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.877
+
+2. As a merchant, I want to publish product offers in real time.
+    - 52: Contribution to user task (sim=0.202)
+    - 183: Integration to external systems (sim=0.195)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+  → PriorityScore: 0.397
+
+3. As an administrator, I want reports on the most popular product categories.
+    - 177: Impact on long-term Evolution (sim=0.219)
+    - 26: Feature influence on buying decision (sim=0.213)
+    - 52: Contribution to user task (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.432
+
+4. As a user, I want to receive offer notifications based on my preferences.
+    - 197: Experience on the area (sim=0.204)
+    - 183: Integration to external systems (sim=0.200)
+    - 177: Impact on long-term Evolution (sim=0.184)
+    - 26: Feature influence on buying decision (sim=0.178)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.766
+
+5. As a merchant, I want to manage the availability of products on promotion.
+    - 183: Integration to external systems (sim=0.167)
+    - 177: Impact on long-term Evolution (sim=0.154)
+    - 26: Feature influence on buying decision (sim=0.150)
+    - 184: System value of a feature (sim=0.095)
+    - 224: Number of use cases this use case includes (sim=0.066)
+    - 226: Number of use cases this use case extends (sim=0.065)
+    - 225: Number of use cases that includes this use case (sim=0.061)
+  → PriorityScore: 0.759
+
+6. As an administrator, I want usage statistics of the application.
+    - 226: Number of use cases this use case extends (sim=0.099)
+    - 225: Number of use cases that includes this use case (sim=0.093)
+    - 227: Number of use cases that extend this use case (sim=0.092)
+    - 228: Number of use cases inherited by this use case (sim=0.091)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 172: Time to market (sim=0.000)
+  → PriorityScore: 0.374
+
+7. As a user, I want to access a map showing the location of stores with promotions.
+    - 226: Number of use cases this use case extends (sim=0.074)
+    - 225: Number of use cases that includes this use case (sim=0.070)
+    - 227: Number of use cases that extend this use case (sim=0.069)
+    - 228: Number of use cases inherited by this use case (sim=0.068)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.281
+
+8. As a merchant, I want promotion options in the app based on the season.
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a user, I want to rate the quality of store products and services.
+    - 227: Number of use cases that extend this use case (sim=0.056)
+    - 228: Number of use cases inherited by this use case (sim=0.055)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.111
+
+10. As an administrator, I want user satisfaction reports.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.465)
+  → PriorityScore: 0.465
+
+11. As a user, I want to be able to share promotions on social media.
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.558)
+    - 172: Time to market (sim=0.447)
+  → PriorityScore: 1.005
+
+12. As a merchant, I want to manage personalized promotions for frequent customers.
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 172: Time to market (sim=0.403)
+    - 52: Contribution to user task (sim=0.326)
+    - 183: Integration to external systems (sim=0.316)
+  → PriorityScore: 1.045
+
+13. As a user, I want access to a history of promotions I’ve participated in.
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 52: Contribution to user task (sim=0.456)
+    - 172: Time to market (sim=0.270)
+    - 183: Integration to external systems (sim=0.211)
+    - 184: System value of a feature (sim=0.120)
+  → PriorityScore: 1.057
+
+14. As an administrator, I want to manage marketing campaigns within the app.
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 172: Time to market (sim=0.238)
+    - 197: Experience on the area (sim=0.228)
+    - 52: Contribution to user task (sim=0.192)
+    - 183: Integration to external systems (sim=0.186)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 0.845
+
+15. As a user, I want to receive alerts for out-of-stock products.
+    - 197: Experience on the area (sim=0.000)
+    - 52: Contribution to user task (sim=0.425)
+    - 172: Time to market (sim=0.252)
+    - 183: Integration to external systems (sim=0.197)
+    - 211: Actor usage for a particular scenario (sim=0.162)
+    - 210: Object usage for a particular scenario (sim=0.159)
+    - 184: System value of a feature (sim=0.112)
+  → PriorityScore: 1.306
+
+16. As a merchant, I want to analyze the impact of promotions on my sales.
+    - 174: Impact on Maintenance (sim=0.458)
+    - 197: Experience on the area (sim=0.381)
+    - 177: Impact on long-term Evolution (sim=0.343)
+    - 172: Time to market (sim=0.217)
+    - 52: Contribution to user task (sim=0.175)
+    - 183: Integration to external systems (sim=0.169)
+    - 26: Feature influence on buying decision (sim=0.151)
+  → PriorityScore: 1.896
+
+17. As a user, I want to see product recommendations based on my previous purchases.
+    - 172: Time to market (sim=0.230)
+    - 174: Impact on Maintenance (sim=0.221)
+    - 197: Experience on the area (sim=0.184)
+    - 183: Integration to external systems (sim=0.180)
+    - 177: Impact on long-term Evolution (sim=0.165)
+    - 26: Feature influence on buying decision (sim=0.161)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 1.140
+
+18. As a merchant, I want to offer exclusive discounts to app users.
+    - 183: Integration to external systems (sim=0.431)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.431
+
+19. As a user, I want online payment options for in-store promotions.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+  → PriorityScore: 0.000
+

@@ -1,0 +1,214 @@
+
+Proyecto: Task and Productivity Application
+Guidelines: ['Task organization', 'Cross-platform access', 'Reminder personalization', 'Productivity analysis', 'Data security']
+Dimensiones asociadas (7): ['Risks', 'Operational Benefits', 'System-related Benefits', 'Costs', 'Technical Context', 'Benefits', 'Market-related Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  52: Contribution to user task
+  224: Number of use cases this use case includes
+  225: Number of use cases that includes this use case
+  226: Number of use cases this use case extends
+  227: Number of use cases that extend this use case
+  228: Number of use cases inherited by this use case
+  236: Dependencies due to downstream activities
+  2: Linkage to overall system goals
+  197: Experience on the area
+  3: Ease of use
+  213: Number of times use case appears
+  229: Feature weight from use cases
+  26: Feature influence on buying decision
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a user, I want to create tasks and assign due dates to each one.
+    - 236: Dependencies due to downstream activities (sim=0.525)
+    - 52: Contribution to user task (sim=0.523)
+    - 2: Linkage to overall system goals (sim=0.308)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 1.355
+
+2. As a user, I want to receive reminders before each task's deadline.
+    - 236: Dependencies due to downstream activities (sim=0.243)
+    - 2: Linkage to overall system goals (sim=0.236)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.479
+
+3. As an administrator, I want usage statistics to improve the platform.
+    - 210: Object usage for a particular scenario (sim=0.257)
+    - 211: Actor usage for a particular scenario (sim=0.257)
+    - 236: Dependencies due to downstream activities (sim=0.248)
+    - 2: Linkage to overall system goals (sim=0.241)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 213: Number of times use case appears (sim=0.000)
+  → PriorityScore: 1.002
+
+4. As a user, I want to group tasks under a project.
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 213: Number of times use case appears (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.000
+
+5. As a user, I want to access my tasks from different devices.
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 213: Number of times use case appears (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.000
+
+6. As a user, I want to set priorities for each task.
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 213: Number of times use case appears (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+  → PriorityScore: 0.000
+
+7. As a user, I want to receive reports on my weekly productivity.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 213: Number of times use case appears (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As a user, I want to see progress charts for each project.
+    - 197: Experience on the area (sim=0.000)
+    - 213: Number of times use case appears (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As an administrator, I want to manage access permissions for advanced features.
+    - 213: Number of times use case appears (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 229: Feature weight from use cases (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a user, I want to configure custom reminders according to my routine.
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 229: Feature weight from use cases (sim=0.000)
+    - 52: Contribution to user task (sim=0.630)
+  → PriorityScore: 0.630
+
+11. As a user, I want to share specific projects with collaborators.
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 229: Feature weight from use cases (sim=0.000)
+    - 52: Contribution to user task (sim=0.526)
+    - 236: Dependencies due to downstream activities (sim=0.243)
+  → PriorityScore: 0.769
+
+12. As an administrator, I want reports on completed and ongoing tasks.
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 229: Feature weight from use cases (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 197: Experience on the area (sim=0.327)
+    - 26: Feature influence on buying decision (sim=0.284)
+    - 2: Linkage to overall system goals (sim=0.000)
+  → PriorityScore: 0.611
+
+13. As a user, I want to receive suggestions for organization and improving my productivity.
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 229: Feature weight from use cases (sim=0.000)
+    - 52: Contribution to user task (sim=0.367)
+    - 236: Dependencies due to downstream activities (sim=0.170)
+    - 2: Linkage to overall system goals (sim=0.165)
+    - 210: Object usage for a particular scenario (sim=0.137)
+  → PriorityScore: 0.839
+
+14. As a user, I want to receive notifications about overdue tasks.
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 229: Feature weight from use cases (sim=0.000)
+    - 52: Contribution to user task (sim=0.663)
+    - 236: Dependencies due to downstream activities (sim=0.306)
+    - 2: Linkage to overall system goals (sim=0.297)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 1.267
+
+15. As a user, I want access to a monthly summary of my productivity.
+    - 229: Feature weight from use cases (sim=0.000)
+    - 52: Contribution to user task (sim=0.486)
+    - 236: Dependencies due to downstream activities (sim=0.225)
+    - 2: Linkage to overall system goals (sim=0.218)
+    - 3: Ease of use (sim=0.129)
+    - 213: Number of times use case appears (sim=0.077)
+    - 224: Number of use cases this use case includes (sim=0.065)
+  → PriorityScore: 1.200
+
+16. As an administrator, I want statistics on active users on the platform.
+    - 197: Experience on the area (sim=0.547)
+    - 26: Feature influence on buying decision (sim=0.316)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.863
+
+17. As a user, I want to customize the design and colors of the app.
+    - 197: Experience on the area (sim=0.310)
+    - 236: Dependencies due to downstream activities (sim=0.149)
+    - 2: Linkage to overall system goals (sim=0.144)
+    - 3: Ease of use (sim=0.086)
+    - 213: Number of times use case appears (sim=0.051)
+    - 224: Number of use cases this use case includes (sim=0.043)
+    - 226: Number of use cases this use case extends (sim=0.042)
+  → PriorityScore: 0.825
+
+18. As a user, I want to set productivity goals and track them.
+    - 236: Dependencies due to downstream activities (sim=0.181)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 213: Number of times use case appears (sim=0.000)
+  → PriorityScore: 0.181
+
+19. As a user, I want to sync my tasks with my device's calendar.
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 213: Number of times use case appears (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.000
+

@@ -1,0 +1,214 @@
+
+Proyecto: Project Monitoring System
+Guidelines: ['Personal data security', 'Plan personalization', 'Meal reminders', 'Recipe access', 'Intuitive interface']
+Dimensiones asociadas (7): ['Risks', 'System-related Benefits', 'Technical Context', 'Benefits', 'Market-related Benefits', 'Project-related Benefits', 'Stakeholder Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  228: Number of use cases inherited by this use case
+  224: Number of use cases this use case includes
+  225: Number of use cases that includes this use case
+  226: Number of use cases this use case extends
+  227: Number of use cases that extend this use case
+  2: Linkage to overall system goals
+  31: Importance to release goal
+  37: Relevance to stakeholders' goals
+  33: Feature contribution to project vision
+  30: Relevance to project success
+  236: Dependencies due to downstream activities
+  197: Experience on the area
+  3: Ease of use
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a user, I want to log my daily meals to keep track of my diet.
+    - 30: Relevance to project success (sim=0.360)
+    - 37: Relevance to stakeholders' goals (sim=0.351)
+    - 31: Importance to release goal (sim=0.343)
+    - 33: Feature contribution to project vision (sim=0.317)
+    - 236: Dependencies due to downstream activities (sim=0.315)
+    - 2: Linkage to overall system goals (sim=0.310)
+    - 3: Ease of use (sim=0.115)
+  → PriorityScore: 2.111
+
+2. As a user, I want to receive reminders for each meal.
+    - 37: Relevance to stakeholders' goals (sim=0.228)
+    - 31: Importance to release goal (sim=0.223)
+    - 210: Object usage for a particular scenario (sim=0.218)
+    - 211: Actor usage for a particular scenario (sim=0.218)
+    - 33: Feature contribution to project vision (sim=0.206)
+    - 236: Dependencies due to downstream activities (sim=0.205)
+    - 2: Linkage to overall system goals (sim=0.202)
+  → PriorityScore: 1.500
+
+3. As an administrator, I want usage reports for the application.
+    - 197: Experience on the area (sim=0.258)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+  → PriorityScore: 0.258
+
+4. As a user, I want to receive healthy recipe suggestions based on my preferences.
+    - 31: Importance to release goal (sim=0.180)
+    - 33: Feature contribution to project vision (sim=0.166)
+    - 236: Dependencies due to downstream activities (sim=0.165)
+    - 2: Linkage to overall system goals (sim=0.163)
+    - 3: Ease of use (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.673
+
+5. As a user, I want to set nutrient intake goals.
+    - 33: Feature contribution to project vision (sim=0.195)
+    - 236: Dependencies due to downstream activities (sim=0.194)
+    - 3: Ease of use (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.389
+
+6. As an administrator, I want to see statistics on the most logged foods.
+    - 236: Dependencies due to downstream activities (sim=0.206)
+    - 2: Linkage to overall system goals (sim=0.203)
+    - 3: Ease of use (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+  → PriorityScore: 0.409
+
+7. As a user, I want access to a list of foods allowed based on my diet.
+    - 2: Linkage to overall system goals (sim=0.156)
+    - 3: Ease of use (sim=0.116)
+    - 224: Number of use cases this use case includes (sim=0.058)
+    - 226: Number of use cases this use case extends (sim=0.058)
+    - 225: Number of use cases that includes this use case (sim=0.054)
+    - 227: Number of use cases that extend this use case (sim=0.054)
+    - 228: Number of use cases inherited by this use case (sim=0.053)
+  → PriorityScore: 0.549
+
+8. As a user, I want to receive alerts about the intake of certain nutrients.
+    - 3: Ease of use (sim=0.140)
+    - 224: Number of use cases this use case includes (sim=0.070)
+    - 226: Number of use cases this use case extends (sim=0.069)
+    - 225: Number of use cases that includes this use case (sim=0.065)
+    - 227: Number of use cases that extend this use case (sim=0.064)
+    - 228: Number of use cases inherited by this use case (sim=0.064)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.472
+
+9. As an administrator, I want to manage access permissions for advanced features.
+    - 3: Ease of use (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a user, I want to view charts of my nutritional progress.
+    - 225: Number of use cases that includes this use case (sim=0.078)
+    - 227: Number of use cases that extend this use case (sim=0.077)
+    - 228: Number of use cases inherited by this use case (sim=0.076)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 30: Relevance to project success (sim=0.261)
+  → PriorityScore: 0.492
+
+11. As a user, I want to receive recommendations from other users with similar preferences.
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 30: Relevance to project success (sim=0.147)
+    - 37: Relevance to stakeholders' goals (sim=0.143)
+  → PriorityScore: 0.291
+
+12. As an administrator, I want app customization options by region.
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.393)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 0.393
+
+13. As a user, I want access to a history of all my logged meals.
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 30: Relevance to project success (sim=0.261)
+    - 37: Relevance to stakeholders' goals (sim=0.254)
+    - 31: Importance to release goal (sim=0.248)
+    - 33: Feature contribution to project vision (sim=0.230)
+  → PriorityScore: 0.993
+
+14. As a user, I want to mark recipes as favorites.
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 30: Relevance to project success (sim=0.284)
+    - 37: Relevance to stakeholders' goals (sim=0.276)
+    - 31: Importance to release goal (sim=0.270)
+    - 33: Feature contribution to project vision (sim=0.250)
+    - 236: Dependencies due to downstream activities (sim=0.248)
+  → PriorityScore: 1.328
+
+15. As an administrator, I want user satisfaction reports.
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+  → PriorityScore: 0.000
+
+16. As a user, I want to receive motivational messages about eating habits.
+    - 30: Relevance to project success (sim=0.284)
+    - 37: Relevance to stakeholders' goals (sim=0.276)
+    - 31: Importance to release goal (sim=0.270)
+    - 33: Feature contribution to project vision (sim=0.250)
+    - 236: Dependencies due to downstream activities (sim=0.248)
+    - 2: Linkage to overall system goals (sim=0.245)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 1.573
+
+17. As a user, I want to customize my health goals within the app.
+    - 2: Linkage to overall system goals (sim=0.355)
+    - 197: Experience on the area (sim=0.193)
+    - 30: Relevance to project success (sim=0.166)
+    - 31: Importance to release goal (sim=0.158)
+    - 33: Feature contribution to project vision (sim=0.147)
+    - 236: Dependencies due to downstream activities (sim=0.146)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 1.166
+
+18. As an administrator, I want to see healthy eating trends on the platform.
+    - 37: Relevance to stakeholders' goals (sim=0.186)
+    - 31: Importance to release goal (sim=0.182)
+    - 33: Feature contribution to project vision (sim=0.168)
+    - 236: Dependencies due to downstream activities (sim=0.167)
+    - 2: Linkage to overall system goals (sim=0.165)
+    - 3: Ease of use (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.867
+
+19. As a user, I want to sync my progress with my device’s calendar.
+    - 33: Feature contribution to project vision (sim=0.195)
+    - 236: Dependencies due to downstream activities (sim=0.194)
+    - 2: Linkage to overall system goals (sim=0.191)
+    - 3: Ease of use (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.580
+

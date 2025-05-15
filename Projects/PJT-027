@@ -1,0 +1,214 @@
+
+Proyecto: Nutrition and Health Application
+Guidelines: ['Ease of use', 'Confirmation notifications', 'Cancellation management', 'Secure payments', 'Scalability for different sports']
+Dimensiones asociadas (7): ['Technical Context', 'Risks', 'Business Context', 'System-related Benefits', 'Operational Benefits', 'Market-related Benefits', 'Customer Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  184: System value of a feature
+  52: Contribution to user task
+  228: Number of use cases inherited by this use case
+  224: Number of use cases this use case includes
+  225: Number of use cases that includes this use case
+  226: Number of use cases this use case extends
+  227: Number of use cases that extend this use case
+  172: Time to market
+  197: Experience on the area
+  236: Dependencies due to downstream activities
+  2: Linkage to overall system goals
+  183: Integration to external systems
+  177: Impact on long-term Evolution
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a user, I want to see real-time availability of sports courts.
+    - 172: Time to market (sim=0.539)
+    - 52: Contribution to user task (sim=0.413)
+    - 183: Integration to external systems (sim=0.190)
+    - 236: Dependencies due to downstream activities (sim=0.171)
+    - 2: Linkage to overall system goals (sim=0.168)
+    - 184: System value of a feature (sim=0.080)
+    - 224: Number of use cases this use case includes (sim=0.055)
+  → PriorityScore: 1.615
+
+2. As a user, I want to book a court to avoid scheduling conflicts.
+    - 172: Time to market (sim=0.497)
+    - 183: Integration to external systems (sim=0.384)
+    - 236: Dependencies due to downstream activities (sim=0.345)
+    - 2: Linkage to overall system goals (sim=0.340)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+  → PriorityScore: 1.565
+
+3. As an administrator, I want to manage the availability of courts.
+    - 183: Integration to external systems (sim=0.218)
+    - 52: Contribution to user task (sim=0.217)
+    - 236: Dependencies due to downstream activities (sim=0.197)
+    - 2: Linkage to overall system goals (sim=0.193)
+    - 184: System value of a feature (sim=0.092)
+    - 224: Number of use cases this use case includes (sim=0.063)
+    - 226: Number of use cases this use case extends (sim=0.062)
+  → PriorityScore: 1.042
+
+4. As a user, I want to receive a confirmation of my reservation via email and SMS.
+    - 236: Dependencies due to downstream activities (sim=0.206)
+    - 2: Linkage to overall system goals (sim=0.203)
+    - 184: System value of a feature (sim=0.096)
+    - 224: Number of use cases this use case includes (sim=0.066)
+    - 226: Number of use cases this use case extends (sim=0.065)
+    - 225: Number of use cases that includes this use case (sim=0.061)
+    - 227: Number of use cases that extend this use case (sim=0.061)
+  → PriorityScore: 0.759
+
+5. As a user, I want to cancel or modify my reservation online.
+    - 2: Linkage to overall system goals (sim=0.261)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.261
+
+6. As an administrator, I want to view usage statistics for each court.
+    - 236: Dependencies due to downstream activities (sim=0.227)
+    - 2: Linkage to overall system goals (sim=0.223)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+  → PriorityScore: 0.449
+
+7. As a user, I want to be able to pay online for the reservation.
+    - 211: Actor usage for a particular scenario (sim=0.128)
+    - 210: Object usage for a particular scenario (sim=0.125)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+  → PriorityScore: 0.253
+
+8. As an administrator, I want occupancy reports by sport type.
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a user, I want to see photos and information about the sports facilities.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an administrator, I want to generate income reports for each court.
+    - 197: Experience on the area (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 172: Time to market (sim=0.419)
+  → PriorityScore: 0.419
+
+11. As a user, I want to receive alerts about promotions and discounts.
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.526)
+    - 172: Time to market (sim=0.313)
+  → PriorityScore: 0.838
+
+12. As an administrator, I want to manage access to the facilities based on reservation type.
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 172: Time to market (sim=0.411)
+    - 197: Experience on the area (sim=0.330)
+    - 183: Integration to external systems (sim=0.318)
+  → PriorityScore: 1.059
+
+13. As a user, I want to rate and comment on the quality of the facilities.
+    - 228: Number of use cases inherited by this use case (sim=0.038)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 197: Experience on the area (sim=0.469)
+    - 52: Contribution to user task (sim=0.319)
+    - 172: Time to market (sim=0.190)
+    - 183: Integration to external systems (sim=0.146)
+  → PriorityScore: 1.162
+
+14. As an administrator, I want to view a reservation history by customer.
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 172: Time to market (sim=0.305)
+    - 228: Number of use cases inherited by this use case (sim=0.266)
+    - 183: Integration to external systems (sim=0.236)
+    - 52: Contribution to user task (sim=0.234)
+    - 236: Dependencies due to downstream activities (sim=0.212)
+  → PriorityScore: 1.254
+
+15. As a user, I want to receive recommendations for sports or activities based on my preferences.
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.379)
+    - 52: Contribution to user task (sim=0.358)
+    - 172: Time to market (sim=0.213)
+    - 183: Integration to external systems (sim=0.164)
+    - 197: Experience on the area (sim=0.158)
+    - 2: Linkage to overall system goals (sim=0.146)
+  → PriorityScore: 1.418
+
+16. As an administrator, I want to manage schedule assignments to maximize facility use.
+    - 172: Time to market (sim=0.521)
+    - 183: Integration to external systems (sim=0.403)
+    - 52: Contribution to user task (sim=0.400)
+    - 236: Dependencies due to downstream activities (sim=0.363)
+    - 2: Linkage to overall system goals (sim=0.357)
+    - 224: Number of use cases this use case includes (sim=0.228)
+    - 226: Number of use cases this use case extends (sim=0.225)
+  → PriorityScore: 2.497
+
+17. As a user, I want equipment rental options along with the reservation.
+    - 197: Experience on the area (sim=0.257)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.257
+
+18. As an administrator, I want user satisfaction reports.
+    - 172: Time to market (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+19. As a user, I want to receive notifications of court availability at my preferred time.
+    - 236: Dependencies due to downstream activities (sim=0.150)
+    - 2: Linkage to overall system goals (sim=0.148)
+    - 184: System value of a feature (sim=0.070)
+    - 224: Number of use cases this use case includes (sim=0.048)
+    - 226: Number of use cases this use case extends (sim=0.047)
+    - 225: Number of use cases that includes this use case (sim=0.045)
+    - 227: Number of use cases that extend this use case (sim=0.044)
+  → PriorityScore: 0.552
+

@@ -1,0 +1,214 @@
+
+Proyecto: Sports Training Platform
+Guidelines: ['Secure communication', 'Schedule change notifications', 'Real-time location access', 'Usage reports', 'Scalability for multiple routes']
+Dimensiones asociadas (7): ['Technical Context', 'Operational Benefits', 'Business Context', 'Customer Benefits', 'Costs', 'Risks', 'System-related Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  184: System value of a feature
+  172: Time to market
+  2: Linkage to overall system goals
+  52: Contribution to user task
+  183: Integration to external systems
+  236: Dependencies due to downstream activities
+  197: Experience on the area
+  150: Impediment of attaining the requirement
+  196: Familiarity of the life-cycle model
+  200: Motivation of the team
+  174: Impact on Maintenance
+  105: Impact on essential non-functional requirements
+  177: Impact on long-term Evolution
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a parent, I want to book school transportation for my child.
+    - 172: Time to market (sim=0.414)
+    - 52: Contribution to user task (sim=0.336)
+    - 183: Integration to external systems (sim=0.332)
+    - 236: Dependencies due to downstream activities (sim=0.295)
+    - 2: Linkage to overall system goals (sim=0.290)
+    - 211: Actor usage for a particular scenario (sim=0.243)
+    - 210: Object usage for a particular scenario (sim=0.239)
+  → PriorityScore: 2.149
+
+2. As a driver, I want to see the list of students for each assigned route.
+    - 150: Impediment of attaining the requirement (sim=0.335)
+    - 172: Time to market (sim=0.307)
+    - 196: Familiarity of the life-cycle model (sim=0.302)
+    - 197: Experience on the area (sim=0.270)
+    - 52: Contribution to user task (sim=0.249)
+    - 183: Integration to external systems (sim=0.246)
+    - 236: Dependencies due to downstream activities (sim=0.219)
+  → PriorityScore: 1.926
+
+3. As an administrator, I want to manage driver routes in real time.
+    - 183: Integration to external systems (sim=0.245)
+    - 236: Dependencies due to downstream activities (sim=0.218)
+    - 2: Linkage to overall system goals (sim=0.214)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.677
+
+4. As a parent, I want to receive notifications of the bus arrival and departure.
+    - 196: Familiarity of the life-cycle model (sim=0.289)
+    - 197: Experience on the area (sim=0.258)
+    - 52: Contribution to user task (sim=0.238)
+    - 183: Integration to external systems (sim=0.236)
+    - 236: Dependencies due to downstream activities (sim=0.209)
+    - 2: Linkage to overall system goals (sim=0.206)
+    - 184: System value of a feature (sim=0.098)
+  → PriorityScore: 1.534
+
+5. As a driver, I want to log arrival and departure times at each stop.
+    - 2: Linkage to overall system goals (sim=0.203)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 196: Familiarity of the life-cycle model (sim=0.000)
+  → PriorityScore: 0.203
+
+6. As an administrator, I want reports on usage and effectiveness of each route.
+    - 105: Impact on essential non-functional requirements (sim=0.160)
+    - 200: Motivation of the team (sim=0.082)
+    - 184: System value of a feature (sim=0.081)
+    - 150: Impediment of attaining the requirement (sim=0.069)
+    - 196: Familiarity of the life-cycle model (sim=0.062)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.454
+
+7. As a parent, I want to access the real-time location of the bus.
+    - 183: Integration to external systems (sim=0.170)
+    - 236: Dependencies due to downstream activities (sim=0.151)
+    - 2: Linkage to overall system goals (sim=0.149)
+    - 184: System value of a feature (sim=0.071)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.541
+
+8. As a driver, I want to receive alerts about changes in the assigned routes.
+    - 236: Dependencies due to downstream activities (sim=0.189)
+    - 2: Linkage to overall system goals (sim=0.186)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.374
+
+9. As an administrator, I want to see usage statistics for each route.
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 196: Familiarity of the life-cycle model (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 200: Motivation of the team (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a parent, I want to receive delay alerts for the service.
+    - 211: Actor usage for a particular scenario (sim=0.192)
+    - 210: Object usage for a particular scenario (sim=0.188)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 172: Time to market (sim=0.326)
+  → PriorityScore: 0.706
+
+11. As an administrator, I want to manage access permissions to the platform.
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 172: Time to market (sim=0.490)
+    - 52: Contribution to user task (sim=0.398)
+  → PriorityScore: 0.888
+
+12. As a driver, I want options to mark student attendance.
+    - 197: Experience on the area (sim=0.000)
+    - 200: Motivation of the team (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 172: Time to market (sim=0.553)
+    - 52: Contribution to user task (sim=0.449)
+    - 183: Integration to external systems (sim=0.444)
+  → PriorityScore: 1.445
+
+13. As a parent, I want to access a history of transportation bookings for my child.
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 172: Time to market (sim=0.376)
+    - 52: Contribution to user task (sim=0.305)
+    - 183: Integration to external systems (sim=0.302)
+    - 236: Dependencies due to downstream activities (sim=0.268)
+  → PriorityScore: 1.249
+
+14. As an administrator, I want reports on parent satisfaction with the service.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 197: Experience on the area (sim=0.410)
+    - 174: Impact on Maintenance (sim=0.243)
+    - 200: Motivation of the team (sim=0.232)
+    - 150: Impediment of attaining the requirement (sim=0.196)
+    - 196: Familiarity of the life-cycle model (sim=0.177)
+  → PriorityScore: 1.257
+
+15. As a driver, I want to receive vehicle maintenance alerts.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.444)
+    - 172: Time to market (sim=0.374)
+    - 52: Contribution to user task (sim=0.303)
+    - 183: Integration to external systems (sim=0.300)
+    - 236: Dependencies due to downstream activities (sim=0.266)
+    - 2: Linkage to overall system goals (sim=0.262)
+  → PriorityScore: 1.949
+
+16. As a parent, I want to personalize my alerts according to my needs.
+    - 172: Time to market (sim=0.553)
+    - 52: Contribution to user task (sim=0.449)
+    - 183: Integration to external systems (sim=0.444)
+    - 236: Dependencies due to downstream activities (sim=0.394)
+    - 2: Linkage to overall system goals (sim=0.388)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+  → PriorityScore: 2.227
+
+17. As an administrator, I want to control the number of students per route.
+    - 150: Impediment of attaining the requirement (sim=0.273)
+    - 172: Time to market (sim=0.250)
+    - 196: Familiarity of the life-cycle model (sim=0.246)
+    - 197: Experience on the area (sim=0.220)
+    - 52: Contribution to user task (sim=0.203)
+    - 183: Integration to external systems (sim=0.201)
+    - 236: Dependencies due to downstream activities (sim=0.178)
+  → PriorityScore: 1.570
+
+18. As a parent, I want to rate the punctuality and safety of the service.
+    - 197: Experience on the area (sim=0.336)
+    - 196: Familiarity of the life-cycle model (sim=0.328)
+    - 172: Time to market (sim=0.191)
+    - 52: Contribution to user task (sim=0.155)
+    - 183: Integration to external systems (sim=0.154)
+    - 236: Dependencies due to downstream activities (sim=0.136)
+    - 2: Linkage to overall system goals (sim=0.134)
+  → PriorityScore: 1.435
+
+19. As an administrator, I want to see a weekly summary of reported incidents.
+    - 236: Dependencies due to downstream activities (sim=0.335)
+    - 2: Linkage to overall system goals (sim=0.330)
+    - 200: Motivation of the team (sim=0.158)
+    - 184: System value of a feature (sim=0.157)
+    - 150: Impediment of attaining the requirement (sim=0.134)
+    - 196: Familiarity of the life-cycle model (sim=0.121)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 1.235
+

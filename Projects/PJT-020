@@ -1,0 +1,214 @@
+
+Proyecto: Sales Platform for Retailers
+Guidelines: ['Habit personalization', 'Automatic reminders', 'Progress reports', 'Data security', 'Cross-platform access']
+Dimensiones asociadas (7): ['Risks', 'System-related Benefits', 'Benefits', 'Market-related Benefits', 'Project-related Benefits', 'Stakeholder Benefits', 'Financial Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  2: Linkage to overall system goals
+  31: Importance to release goal
+  37: Relevance to stakeholders' goals
+  30: Relevance to project success
+  33: Feature contribution to project vision
+  26: Feature influence on buying decision
+  39: Return on investment
+  105: Impact on essential non-functional requirements
+  35: End user value
+  3: Ease of use
+  155: Part time team member use
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  150: Impediment of attaining the requirement
+  36: Value creation for developer
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a user, I want to create and customize my daily habits.
+    - 35: End user value (sim=0.491)
+    - 30: Relevance to project success (sim=0.269)
+    - 37: Relevance to stakeholders' goals (sim=0.262)
+    - 31: Importance to release goal (sim=0.255)
+    - 33: Feature contribution to project vision (sim=0.234)
+    - 2: Linkage to overall system goals (sim=0.232)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 1.743
+
+2. As a user, I want to receive reminders for each habit.
+    - 36: Value creation for developer (sim=0.334)
+    - 30: Relevance to project success (sim=0.211)
+    - 37: Relevance to stakeholders' goals (sim=0.205)
+    - 31: Importance to release goal (sim=0.200)
+    - 33: Feature contribution to project vision (sim=0.184)
+    - 2: Linkage to overall system goals (sim=0.182)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 1.317
+
+3. As an administrator, I want usage reports for the application.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 35: End user value (sim=0.000)
+  → PriorityScore: 0.000
+
+4. As a user, I want to view my progress in each habit on a chart.
+    - 111: Technical risk in proposed system (sim=0.244)
+    - 26: Feature influence on buying decision (sim=0.196)
+    - 30: Relevance to project success (sim=0.191)
+    - 37: Relevance to stakeholders' goals (sim=0.186)
+    - 31: Importance to release goal (sim=0.181)
+    - 105: Impact on essential non-functional requirements (sim=0.175)
+    - 33: Feature contribution to project vision (sim=0.166)
+  → PriorityScore: 1.340
+
+5. As a user, I want to receive suggestions for new habits based on my interests.
+    - 30: Relevance to project success (sim=0.186)
+    - 37: Relevance to stakeholders' goals (sim=0.181)
+    - 31: Importance to release goal (sim=0.177)
+    - 105: Impact on essential non-functional requirements (sim=0.171)
+    - 33: Feature contribution to project vision (sim=0.162)
+    - 2: Linkage to overall system goals (sim=0.161)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 1.038
+
+6. As an administrator, I want to see statistics on the most common habits.
+    - 31: Importance to release goal (sim=0.211)
+    - 105: Impact on essential non-functional requirements (sim=0.204)
+    - 33: Feature contribution to project vision (sim=0.194)
+    - 2: Linkage to overall system goals (sim=0.192)
+    - 3: Ease of use (sim=0.000)
+    - 35: End user value (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+  → PriorityScore: 0.801
+
+7. As a user, I want to share my achievements on social media.
+    - 105: Impact on essential non-functional requirements (sim=0.171)
+    - 33: Feature contribution to project vision (sim=0.162)
+    - 2: Linkage to overall system goals (sim=0.161)
+    - 3: Ease of use (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.493
+
+8. As a user, I want to receive alerts for incomplete habits.
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As an administrator, I want to manage access permissions to the application.
+    - 35: End user value (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a user, I want to visualize the weekly and monthly progress of each habit.
+    - 36: Value creation for developer (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 35: End user value (sim=0.366)
+  → PriorityScore: 0.366
+
+11. As a user, I want to receive recommendations from other users with similar habits.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 35: End user value (sim=0.270)
+    - 30: Relevance to project success (sim=0.148)
+  → PriorityScore: 0.418
+
+12. As an administrator, I want customization options for the app based on region.
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 36: Value creation for developer (sim=0.326)
+    - 150: Impediment of attaining the requirement (sim=0.292)
+    - 39: Return on investment (sim=0.277)
+  → PriorityScore: 0.895
+
+13. As a user, I want to set goals for each habit and track them.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.429)
+    - 2: Linkage to overall system goals (sim=0.380)
+    - 35: End user value (sim=0.334)
+    - 36: Value creation for developer (sim=0.291)
+  → PriorityScore: 1.434
+
+14. As a user, I want access to a history of all my completed habits.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 35: End user value (sim=0.453)
+    - 30: Relevance to project success (sim=0.248)
+    - 37: Relevance to stakeholders' goals (sim=0.242)
+    - 31: Importance to release goal (sim=0.236)
+    - 33: Feature contribution to project vision (sim=0.216)
+  → PriorityScore: 1.395
+
+15. As an administrator, I want user satisfaction reports.
+    - 155: Part time team member use (sim=0.000)
+    - 35: End user value (sim=0.620)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+  → PriorityScore: 0.620
+
+16. As a user, I want to receive daily motivational messages.
+    - 35: End user value (sim=0.491)
+    - 30: Relevance to project success (sim=0.269)
+    - 37: Relevance to stakeholders' goals (sim=0.262)
+    - 31: Importance to release goal (sim=0.255)
+    - 33: Feature contribution to project vision (sim=0.234)
+    - 2: Linkage to overall system goals (sim=0.232)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 1.743
+
+17. As a user, I want to mark habits as favorites.
+    - 30: Relevance to project success (sim=0.269)
+    - 37: Relevance to stakeholders' goals (sim=0.262)
+    - 31: Importance to release goal (sim=0.255)
+    - 33: Feature contribution to project vision (sim=0.234)
+    - 2: Linkage to overall system goals (sim=0.232)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 1.252
+
+18. As an administrator, I want to see healthy habit trends on the platform.
+    - 26: Feature influence on buying decision (sim=0.192)
+    - 30: Relevance to project success (sim=0.186)
+    - 37: Relevance to stakeholders' goals (sim=0.181)
+    - 31: Importance to release goal (sim=0.177)
+    - 105: Impact on essential non-functional requirements (sim=0.171)
+    - 33: Feature contribution to project vision (sim=0.162)
+    - 2: Linkage to overall system goals (sim=0.161)
+  → PriorityScore: 1.229
+
+19. As a user, I want to sync my habits with my device’s calendar.
+    - 31: Importance to release goal (sim=0.207)
+    - 33: Feature contribution to project vision (sim=0.189)
+    - 2: Linkage to overall system goals (sim=0.188)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+  → PriorityScore: 0.584
+

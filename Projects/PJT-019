@@ -1,0 +1,214 @@
+
+Proyecto: Online Tutoring Platform
+Guidelines: ['Efficient event organization', 'Attendee registration', 'Payment integration', 'Personalized notifications', 'Attendance reports']
+Dimensiones asociadas (7): ['Operational Benefits', 'Costs', 'Business Context', 'Benefits', 'System-related Benefits', 'Market-related Benefits', 'Project-related Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  52: Contribution to user task
+  172: Time to market
+  183: Integration to external systems
+  2: Linkage to overall system goals
+  30: Relevance to project success
+  31: Importance to release goal
+  33: Feature contribution to project vision
+  26: Feature influence on buying decision
+  174: Impact on Maintenance
+  177: Impact on long-term Evolution
+  77: Control and follow-up
+  53: Support for main usage scenario
+  100: Cost for fixing defects
+  175: Importance for product architecture
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As an organizer, I want to create and customize events according to the type of activity.
+    - 172: Time to market (sim=0.418)
+    - 52: Contribution to user task (sim=0.333)
+    - 30: Relevance to project success (sim=0.330)
+    - 31: Importance to release goal (sim=0.325)
+    - 183: Integration to external systems (sim=0.322)
+    - 33: Feature contribution to project vision (sim=0.297)
+    - 2: Linkage to overall system goals (sim=0.282)
+  → PriorityScore: 2.307
+
+2. As an attendee, I want to register for events easily.
+    - 100: Cost for fixing defects (sim=0.369)
+    - 172: Time to market (sim=0.335)
+    - 53: Support for main usage scenario (sim=0.316)
+    - 52: Contribution to user task (sim=0.267)
+    - 30: Relevance to project success (sim=0.265)
+    - 31: Importance to release goal (sim=0.260)
+    - 183: Integration to external systems (sim=0.258)
+  → PriorityScore: 2.071
+
+3. As an administrator, I want attendance reports for each event.
+    - 53: Support for main usage scenario (sim=0.413)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.413
+
+4. As an organizer, I want to manage the guest list and attendance confirmations.
+    - 30: Relevance to project success (sim=0.265)
+    - 31: Importance to release goal (sim=0.260)
+    - 183: Integration to external systems (sim=0.258)
+    - 33: Feature contribution to project vision (sim=0.238)
+    - 2: Linkage to overall system goals (sim=0.226)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+  → PriorityScore: 1.248
+
+5. As an attendee, I want to receive notifications about the event I registered for.
+    - 52: Contribution to user task (sim=0.267)
+    - 30: Relevance to project success (sim=0.265)
+    - 31: Importance to release goal (sim=0.260)
+    - 183: Integration to external systems (sim=0.258)
+    - 33: Feature contribution to project vision (sim=0.238)
+    - 2: Linkage to overall system goals (sim=0.226)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 1.515
+
+6. As an administrator, I want to manage payment options for events.
+    - 30: Relevance to project success (sim=0.265)
+    - 31: Importance to release goal (sim=0.260)
+    - 183: Integration to external systems (sim=0.258)
+    - 33: Feature contribution to project vision (sim=0.238)
+    - 2: Linkage to overall system goals (sim=0.226)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+  → PriorityScore: 1.248
+
+7. As an organizer, I want to assign roles and tasks to other team members.
+    - 2: Linkage to overall system goals (sim=0.260)
+    - 77: Control and follow-up (sim=0.196)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 100: Cost for fixing defects (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 175: Importance for product architecture (sim=0.000)
+  → PriorityScore: 0.456
+
+8. As an attendee, I want to view an event summary and agenda.
+    - 2: Linkage to overall system goals (sim=0.226)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 100: Cost for fixing defects (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 175: Importance for product architecture (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.226
+
+9. As an administrator, I want occupancy reports for event spaces.
+    - 52: Contribution to user task (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an organizer, I want to send post-event satisfaction surveys.
+    - 77: Control and follow-up (sim=0.000)
+    - 100: Cost for fixing defects (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 175: Importance for product architecture (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 172: Time to market (sim=0.521)
+  → PriorityScore: 0.521
+
+11. As an attendee, I want to receive a registration confirmation via email and SMS.
+    - 100: Cost for fixing defects (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 175: Importance for product architecture (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 77: Control and follow-up (sim=0.341)
+    - 172: Time to market (sim=0.335)
+  → PriorityScore: 0.677
+
+12. As an organizer, I want to manage and update the event agenda in real time.
+    - 174: Impact on Maintenance (sim=0.000)
+    - 175: Importance for product architecture (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 172: Time to market (sim=0.643)
+    - 77: Control and follow-up (sim=0.271)
+    - 52: Contribution to user task (sim=0.212)
+  → PriorityScore: 1.126
+
+13. As an administrator, I want income and expense reports for the event.
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 175: Importance for product architecture (sim=0.346)
+    - 100: Cost for fixing defects (sim=0.341)
+    - 77: Control and follow-up (sim=0.315)
+    - 53: Support for main usage scenario (sim=0.292)
+  → PriorityScore: 1.294
+
+14. As an organizer, I want options to share event information on social media.
+    - 175: Importance for product architecture (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.323)
+    - 172: Time to market (sim=0.251)
+    - 177: Impact on long-term Evolution (sim=0.245)
+    - 26: Feature influence on buying decision (sim=0.237)
+    - 52: Contribution to user task (sim=0.200)
+  → PriorityScore: 1.256
+
+15. As an attendee, I want to receive alerts about changes to the event agenda.
+    - 184: System value of a feature (sim=0.000)
+    - 172: Time to market (sim=0.521)
+    - 52: Contribution to user task (sim=0.415)
+    - 30: Relevance to project success (sim=0.411)
+    - 31: Importance to release goal (sim=0.405)
+    - 183: Integration to external systems (sim=0.401)
+    - 33: Feature contribution to project vision (sim=0.369)
+  → PriorityScore: 2.522
+
+16. As an administrator, I want to control access to activities based on ticket type.
+    - 172: Time to market (sim=0.385)
+    - 52: Contribution to user task (sim=0.307)
+    - 30: Relevance to project success (sim=0.304)
+    - 31: Importance to release goal (sim=0.299)
+    - 183: Integration to external systems (sim=0.297)
+    - 33: Feature contribution to project vision (sim=0.273)
+    - 77: Control and follow-up (sim=0.263)
+  → PriorityScore: 2.129
+
+17. As an organizer, I want statistics on event effectiveness.
+    - 177: Impact on long-term Evolution (sim=0.279)
+    - 26: Feature influence on buying decision (sim=0.271)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.550
+
+18. As an attendee, I want to be able to evaluate the activities at the end of the event.
+    - 30: Relevance to project success (sim=0.376)
+    - 31: Importance to release goal (sim=0.370)
+    - 183: Integration to external systems (sim=0.367)
+    - 33: Feature contribution to project vision (sim=0.338)
+    - 2: Linkage to overall system goals (sim=0.321)
+    - 184: System value of a feature (sim=0.161)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 1.932
+
+19. As an organizer, I want to customize the platform design for each event.
+    - 53: Support for main usage scenario (sim=0.316)
+    - 52: Contribution to user task (sim=0.267)
+    - 30: Relevance to project success (sim=0.265)
+    - 31: Importance to release goal (sim=0.260)
+    - 183: Integration to external systems (sim=0.258)
+    - 33: Feature contribution to project vision (sim=0.238)
+    - 2: Linkage to overall system goals (sim=0.226)
+  → PriorityScore: 1.831
+

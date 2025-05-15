@@ -1,0 +1,214 @@
+
+Proyecto: School Transport Reservation Management System
+Guidelines: ['Financial data security', 'Income and expense reports', 'Cross-platform access', 'Category personalization', 'Bank integration']
+Dimensiones asociadas (7): ['Operational Benefits', 'Risks', 'System-related Benefits', 'Costs', 'Penalties', 'Business Context', 'Technical Context']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  184: System value of a feature
+  160: Detraction from product's value
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  159: Penalty in operation
+  215: Sufficient detail in specification
+  52: Contribution to user task
+  172: Time to market
+  183: Integration to external systems
+  236: Dependencies due to downstream activities
+  2: Linkage to overall system goals
+  197: Experience on the area
+  51: Fit with business processes
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a business owner, I want to record my income and expenses for accurate tracking.
+    - 172: Time to market (sim=0.278)
+    - 51: Fit with business processes (sim=0.243)
+    - 52: Contribution to user task (sim=0.222)
+    - 183: Integration to external systems (sim=0.220)
+    - 236: Dependencies due to downstream activities (sim=0.195)
+    - 2: Linkage to overall system goals (sim=0.192)
+    - 211: Actor usage for a particular scenario (sim=0.169)
+  → PriorityScore: 1.518
+
+2. As an administrator, I want monthly income and expense reports.
+    - 51: Fit with business processes (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 172: Time to market (sim=0.000)
+  → PriorityScore: 0.000
+
+3. As a business owner, I want to receive alerts for expenses outside the budget.
+    - 197: Experience on the area (sim=0.240)
+    - 52: Contribution to user task (sim=0.222)
+    - 183: Integration to external systems (sim=0.220)
+    - 236: Dependencies due to downstream activities (sim=0.195)
+    - 2: Linkage to overall system goals (sim=0.192)
+    - 211: Actor usage for a particular scenario (sim=0.169)
+    - 210: Object usage for a particular scenario (sim=0.166)
+  → PriorityScore: 1.403
+
+4. As an administrator, I want to customize income and expense categories.
+    - 236: Dependencies due to downstream activities (sim=0.273)
+    - 2: Linkage to overall system goals (sim=0.269)
+    - 51: Fit with business processes (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+  → PriorityScore: 0.542
+
+5. As a business owner, I want to see real-time cash flow charts.
+    - 236: Dependencies due to downstream activities (sim=0.180)
+    - 2: Linkage to overall system goals (sim=0.177)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.357
+
+6. As an administrator, I want expense statistics by business area.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+7. As a business owner, I want to schedule recurring payments from the app.
+    - 236: Dependencies due to downstream activities (sim=0.189)
+    - 2: Linkage to overall system goals (sim=0.186)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.375
+
+8. As an administrator, I want to manage access permissions to the application.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a business owner, I want to receive invoice due date reminders.
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an administrator, I want a history of all company transactions.
+    - 183: Integration to external systems (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 184: System value of a feature (sim=0.316)
+  → PriorityScore: 0.316
+
+11. As a business owner, I want to view financial projections based on my current income.
+    - 160: Detraction from product's value (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 110: Technical risk in current system (sim=0.214)
+    - 172: Time to market (sim=0.204)
+  → PriorityScore: 0.418
+
+12. As an administrator, I want to generate exportable reports by category.
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.352)
+    - 52: Contribution to user task (sim=0.281)
+    - 183: Integration to external systems (sim=0.279)
+  → PriorityScore: 0.912
+
+13. As a business owner, I want to sync my bank accounts to automatically update income and expenses.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.449)
+    - 52: Contribution to user task (sim=0.359)
+    - 183: Integration to external systems (sim=0.355)
+    - 236: Dependencies due to downstream activities (sim=0.315)
+  → PriorityScore: 1.478
+
+14. As an administrator, I want profitability reports by project.
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 51: Fit with business processes (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.000
+
+15. As a business owner, I want to receive investment recommendations based on my cash flow.
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.224)
+    - 51: Fit with business processes (sim=0.196)
+    - 52: Contribution to user task (sim=0.179)
+    - 197: Experience on the area (sim=0.179)
+    - 183: Integration to external systems (sim=0.177)
+    - 236: Dependencies due to downstream activities (sim=0.157)
+  → PriorityScore: 1.114
+
+16. As an administrator, I want access to the company’s financial health metrics.
+    - 172: Time to market (sim=0.295)
+    - 197: Experience on the area (sim=0.255)
+    - 52: Contribution to user task (sim=0.236)
+    - 183: Integration to external systems (sim=0.233)
+    - 236: Dependencies due to downstream activities (sim=0.207)
+    - 2: Linkage to overall system goals (sim=0.204)
+    - 51: Fit with business processes (sim=0.000)
+  → PriorityScore: 1.430
+
+17. As a business owner, I want to manage company taxes through the app.
+    - 51: Fit with business processes (sim=0.272)
+    - 197: Experience on the area (sim=0.269)
+    - 52: Contribution to user task (sim=0.248)
+    - 183: Integration to external systems (sim=0.246)
+    - 236: Dependencies due to downstream activities (sim=0.218)
+    - 2: Linkage to overall system goals (sim=0.215)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 1.468
+
+18. As an administrator, I want user satisfaction reports.
+    - 51: Fit with business processes (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+  → PriorityScore: 0.000
+
+19. As a business owner, I want to receive alerts for upcoming payments and forecasted expenses.
+    - 183: Integration to external systems (sim=0.220)
+    - 236: Dependencies due to downstream activities (sim=0.195)
+    - 2: Linkage to overall system goals (sim=0.192)
+    - 211: Actor usage for a particular scenario (sim=0.169)
+    - 210: Object usage for a particular scenario (sim=0.166)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.941
+

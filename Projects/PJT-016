@@ -1,0 +1,214 @@
+
+Proyecto: Educational Fundraising Platform
+Guidelines: ['Inventory management', 'Secure payments', 'Stock notifications', 'Sales reports', 'Mobile accessibility']
+Dimensiones asociadas (7): ['Market-related Benefits', 'Operational Benefits', 'Risks', 'Benefits', 'System-related Benefits', 'Project-related Benefits', 'Stakeholder Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  52: Contribution to user task
+  2: Linkage to overall system goals
+  30: Relevance to project success
+  31: Importance to release goal
+  33: Feature contribution to project vision
+  37: Relevance to stakeholders' goals
+  26: Feature influence on buying decision
+  105: Impact on essential non-functional requirements
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  15: Product Market value
+  28: Long term Product strategy
+  18: Additional customer sales
+  16: Customer loyalty
+  19: Extra cost customer will spend
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a retailer, I want to manage product inventory in real time.
+    - 15: Product Market value (sim=0.321)
+    - 28: Long term Product strategy (sim=0.244)
+    - 110: Technical risk in current system (sim=0.241)
+    - 111: Technical risk in proposed system (sim=0.241)
+    - 30: Relevance to project success (sim=0.179)
+    - 37: Relevance to stakeholders' goals (sim=0.175)
+    - 52: Contribution to user task (sim=0.175)
+  → PriorityScore: 1.576
+
+2. As an administrator, I want to receive notifications when inventory is low.
+    - 37: Relevance to stakeholders' goals (sim=0.418)
+    - 52: Contribution to user task (sim=0.418)
+    - 31: Importance to release goal (sim=0.408)
+    - 33: Feature contribution to project vision (sim=0.380)
+    - 2: Linkage to overall system goals (sim=0.370)
+    - 15: Product Market value (sim=0.000)
+    - 16: Customer loyalty (sim=0.000)
+  → PriorityScore: 1.994
+
+3. As a customer, I want to see product availability before making a purchase.
+    - 28: Long term Product strategy (sim=0.218)
+    - 18: Additional customer sales (sim=0.210)
+    - 30: Relevance to project success (sim=0.160)
+    - 19: Extra cost customer will spend (sim=0.160)
+    - 37: Relevance to stakeholders' goals (sim=0.156)
+    - 52: Contribution to user task (sim=0.156)
+    - 31: Importance to release goal (sim=0.152)
+  → PriorityScore: 1.212
+
+4. As a retailer, I want to easily update product prices and promotions.
+    - 37: Relevance to stakeholders' goals (sim=0.214)
+    - 52: Contribution to user task (sim=0.214)
+    - 31: Importance to release goal (sim=0.210)
+    - 33: Feature contribution to project vision (sim=0.195)
+    - 2: Linkage to overall system goals (sim=0.190)
+    - 16: Customer loyalty (sim=0.000)
+    - 18: Additional customer sales (sim=0.000)
+  → PriorityScore: 1.023
+
+5. As an administrator, I want sales reports by product category.
+    - 16: Customer loyalty (sim=0.000)
+    - 19: Extra cost customer will spend (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+  → PriorityScore: 0.000
+
+6. As a customer, I want online payment options for my purchases.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 28: Long term Product strategy (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.000
+
+7. As a retailer, I want to schedule seasonal promotions and discounts.
+    - 15: Product Market value (sim=0.000)
+    - 16: Customer loyalty (sim=0.000)
+    - 18: Additional customer sales (sim=0.000)
+    - 19: Extra cost customer will spend (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 28: Long term Product strategy (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As a customer, I want to receive notifications about discounts and offers.
+    - 33: Feature contribution to project vision (sim=0.204)
+    - 2: Linkage to overall system goals (sim=0.198)
+    - 15: Product Market value (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 28: Long term Product strategy (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.401
+
+9. As an administrator, I want a sales history to forecast demand.
+    - 16: Customer loyalty (sim=0.000)
+    - 19: Extra cost customer will spend (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 28: Long term Product strategy (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a customer, I want to see product descriptions and photos in the catalog.
+    - 52: Contribution to user task (sim=0.146)
+    - 31: Importance to release goal (sim=0.142)
+    - 33: Feature contribution to project vision (sim=0.133)
+    - 2: Linkage to overall system goals (sim=0.129)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 15: Product Market value (sim=0.268)
+  → PriorityScore: 0.818
+
+11. As a retailer, I want personalized shipping options depending on the product type.
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 15: Product Market value (sim=0.353)
+    - 28: Long term Product strategy (sim=0.269)
+  → PriorityScore: 0.622
+
+12. As an administrator, I want statistics on best-selling products.
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.309)
+    - 105: Impact on essential non-functional requirements (sim=0.273)
+    - 2: Linkage to overall system goals (sim=0.000)
+  → PriorityScore: 0.582
+
+13. As a customer, I want to receive purchase confirmations by email and SMS.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 16: Customer loyalty (sim=0.369)
+    - 18: Additional customer sales (sim=0.301)
+    - 30: Relevance to project success (sim=0.230)
+    - 19: Extra cost customer will spend (sim=0.229)
+  → PriorityScore: 1.128
+
+14. As a retailer, I want to manage product availability across different physical stores.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 15: Product Market value (sim=0.373)
+    - 28: Long term Product strategy (sim=0.284)
+    - 30: Relevance to project success (sim=0.208)
+    - 37: Relevance to stakeholders' goals (sim=0.203)
+    - 52: Contribution to user task (sim=0.203)
+  → PriorityScore: 1.271
+
+15. As an administrator, I want to generate reports on losses due to damaged products.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 30: Relevance to project success (sim=0.325)
+    - 37: Relevance to stakeholders' goals (sim=0.316)
+    - 52: Contribution to user task (sim=0.316)
+    - 31: Importance to release goal (sim=0.309)
+    - 33: Feature contribution to project vision (sim=0.288)
+    - 2: Linkage to overall system goals (sim=0.280)
+  → PriorityScore: 1.835
+
+16. As a customer, I want to see product ratings from other users.
+    - 15: Product Market value (sim=0.261)
+    - 16: Customer loyalty (sim=0.234)
+    - 28: Long term Product strategy (sim=0.198)
+    - 18: Additional customer sales (sim=0.191)
+    - 30: Relevance to project success (sim=0.146)
+    - 19: Extra cost customer will spend (sim=0.145)
+    - 37: Relevance to stakeholders' goals (sim=0.142)
+  → PriorityScore: 1.318
+
+17. As a retailer, I want to integrate the platform with social media for product promotion.
+    - 28: Long term Product strategy (sim=0.197)
+    - 30: Relevance to project success (sim=0.145)
+    - 37: Relevance to stakeholders' goals (sim=0.141)
+    - 52: Contribution to user task (sim=0.141)
+    - 31: Importance to release goal (sim=0.138)
+    - 33: Feature contribution to project vision (sim=0.128)
+    - 2: Linkage to overall system goals (sim=0.125)
+  → PriorityScore: 1.014
+
+18. As an administrator, I want to manage platform access based on user roles.
+    - 105: Impact on essential non-functional requirements (sim=0.236)
+    - 30: Relevance to project success (sim=0.215)
+    - 37: Relevance to stakeholders' goals (sim=0.210)
+    - 31: Importance to release goal (sim=0.205)
+    - 33: Feature contribution to project vision (sim=0.191)
+    - 2: Linkage to overall system goals (sim=0.186)
+    - 15: Product Market value (sim=0.000)
+  → PriorityScore: 1.242
+
+19. As a customer, I want to receive product recommendations based on my purchase history.
+    - 18: Additional customer sales (sim=0.247)
+    - 26: Feature influence on buying decision (sim=0.235)
+    - 105: Impact on essential non-functional requirements (sim=0.207)
+    - 30: Relevance to project success (sim=0.189)
+    - 19: Extra cost customer will spend (sim=0.188)
+    - 37: Relevance to stakeholders' goals (sim=0.184)
+    - 52: Contribution to user task (sim=0.184)
+  → PriorityScore: 1.435
+

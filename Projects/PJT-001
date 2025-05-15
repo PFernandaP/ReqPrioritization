@@ -1,0 +1,214 @@
+
+Proyecto: Hotel Reservation Management System
+Guidelines: ['Intuitive user experience', 'Secure payments', 'Scalability', 'Continuous availability', 'Multilanguage support']
+Dimensiones asociadas (7): ['Technical Context', 'Operational Benefits', 'System-related Benefits', 'Costs', 'Business Context', 'Stakeholder Benefits', 'Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  52: Contribution to user task
+  2: Linkage to overall system goals
+  37: Relevance to stakeholders' goals
+  172: Time to market
+  183: Integration to external systems
+  236: Dependencies due to downstream activities
+  197: Experience on the area
+  174: Impact on Maintenance
+  198: Experience on development methodology
+  177: Impact on long-term Evolution
+  215: Sufficient detail in specification
+  56: Cost reduction of IT operation
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a customer, I want to search for available rooms to make an online reservation.
+    - 172: Time to market (sim=0.396)
+    - 52: Contribution to user task (sim=0.346)
+    - 183: Integration to external systems (sim=0.331)
+    - 37: Relevance to stakeholders' goals (sim=0.327)
+    - 236: Dependencies due to downstream activities (sim=0.299)
+    - 2: Linkage to overall system goals (sim=0.296)
+    - 211: Actor usage for a particular scenario (sim=0.138)
+  → PriorityScore: 2.132
+
+2. As a customer, I want to receive reservation confirmations by email and SMS.
+    - 52: Contribution to user task (sim=0.188)
+    - 183: Integration to external systems (sim=0.180)
+    - 37: Relevance to stakeholders' goals (sim=0.178)
+    - 236: Dependencies due to downstream activities (sim=0.163)
+    - 2: Linkage to overall system goals (sim=0.161)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.869
+
+3. As a customer, I want to cancel or modify my reservation online.
+    - 183: Integration to external systems (sim=0.266)
+    - 37: Relevance to stakeholders' goals (sim=0.262)
+    - 236: Dependencies due to downstream activities (sim=0.240)
+    - 2: Linkage to overall system goals (sim=0.237)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 1.004
+
+4. As an administrator, I want to view an updated room availability calendar.
+    - 37: Relevance to stakeholders' goals (sim=0.249)
+    - 236: Dependencies due to downstream activities (sim=0.228)
+    - 2: Linkage to overall system goals (sim=0.226)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.703
+
+5. As a manager, I want occupancy and reservation reports.
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+  → PriorityScore: 0.000
+
+6. As a customer, I want an interface in my preferred language.
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+  → PriorityScore: 0.000
+
+7. As a manager, I want monthly and annual revenue reports.
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As a user, I want to save personal notes during the course.
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a customer, I want to see photos and detailed descriptions of the rooms.
+    - 56: Cost reduction of IT operation (sim=0.096)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+  → PriorityScore: 0.096
+
+10. As a customer, I want early check-in and late check-out options.
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.320)
+  → PriorityScore: 0.320
+
+11. As an administrator, I want maintenance alerts for specific rooms.
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.483)
+    - 211: Actor usage for a particular scenario (sim=0.227)
+  → PriorityScore: 0.709
+
+12. As a customer, I want to add additional services like transport or spa.
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.317)
+    - 52: Contribution to user task (sim=0.277)
+    - 183: Integration to external systems (sim=0.266)
+  → PriorityScore: 0.861
+
+13. As an administrator, I want to manage the inventory of hotel services and products.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 197: Experience on the area (sim=0.227)
+    - 172: Time to market (sim=0.208)
+    - 52: Contribution to user task (sim=0.182)
+    - 183: Integration to external systems (sim=0.174)
+  → PriorityScore: 0.791
+
+14. As a customer, I want to see reviews from other guests.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.244)
+    - 52: Contribution to user task (sim=0.213)
+    - 183: Integration to external systems (sim=0.204)
+    - 37: Relevance to stakeholders' goals (sim=0.201)
+    - 236: Dependencies due to downstream activities (sim=0.184)
+  → PriorityScore: 1.045
+
+15. As a manager, I want reports on the most requested additional services.
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 197: Experience on the area (sim=0.661)
+    - 174: Impact on Maintenance (sim=0.376)
+    - 198: Experience on development methodology (sim=0.309)
+    - 177: Impact on long-term Evolution (sim=0.275)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+  → PriorityScore: 1.621
+
+16. As an administrator, I want access to a history of all previous reservations.
+    - 172: Time to market (sim=0.399)
+    - 52: Contribution to user task (sim=0.348)
+    - 183: Integration to external systems (sim=0.334)
+    - 37: Relevance to stakeholders' goals (sim=0.329)
+    - 236: Dependencies due to downstream activities (sim=0.301)
+    - 2: Linkage to overall system goals (sim=0.298)
+    - 184: System value of a feature (sim=0.212)
+  → PriorityScore: 2.221
+
+17. As a customer, I want to receive notifications about special offers or discounts.
+    - 52: Contribution to user task (sim=0.277)
+    - 183: Integration to external systems (sim=0.266)
+    - 37: Relevance to stakeholders' goals (sim=0.262)
+    - 236: Dependencies due to downstream activities (sim=0.240)
+    - 2: Linkage to overall system goals (sim=0.237)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 1.282
+
+18. As an administrator, I want to assign specific roles to hotel staff.
+    - 183: Integration to external systems (sim=0.417)
+    - 37: Relevance to stakeholders' goals (sim=0.411)
+    - 236: Dependencies due to downstream activities (sim=0.377)
+    - 2: Linkage to overall system goals (sim=0.372)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 1.578
+
+19. As a customer, I want to be able to pay in different currencies according to my preference.
+    - 37: Relevance to stakeholders' goals (sim=0.353)
+    - 236: Dependencies due to downstream activities (sim=0.324)
+    - 2: Linkage to overall system goals (sim=0.320)
+    - 215: Sufficient detail in specification (sim=0.192)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 1.189
+

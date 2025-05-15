@@ -1,0 +1,214 @@
+
+Proyecto: Sports Field Reservation System
+Guidelines: ['Data security and confidentiality', 'Expiration management', 'Automatic notifications', 'Role-based access', 'Activity reports']
+Dimensiones asociadas (7): ['Operational Benefits', 'Risks', 'Technical Context', 'System-related Benefits', 'Benefits', 'Market-related Benefits', 'Project-related Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  197: Experience on the area
+  52: Contribution to user task
+  26: Feature influence on buying decision
+  105: Impact on essential non-functional requirements
+  198: Experience on development methodology
+  2: Linkage to overall system goals
+  30: Relevance to project success
+  31: Importance to release goal
+  33: Feature contribution to project vision
+  236: Dependencies due to downstream activities
+  225: Number of use cases that includes this use case
+  227: Number of use cases that extend this use case
+  228: Number of use cases inherited by this use case
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As an administrator, I want to securely create and store contracts.
+    - 52: Contribution to user task (sim=0.291)
+    - 30: Relevance to project success (sim=0.288)
+    - 31: Importance to release goal (sim=0.281)
+    - 33: Feature contribution to project vision (sim=0.264)
+    - 236: Dependencies due to downstream activities (sim=0.258)
+    - 2: Linkage to overall system goals (sim=0.250)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 1.631
+
+2. As a manager, I want to receive notifications before contracts expire.
+    - 30: Relevance to project success (sim=0.424)
+    - 31: Importance to release goal (sim=0.413)
+    - 33: Feature contribution to project vision (sim=0.389)
+    - 236: Dependencies due to downstream activities (sim=0.380)
+    - 2: Linkage to overall system goals (sim=0.368)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 1.974
+
+3. As an administrator, I want to assign access permissions to specific contracts.
+    - 31: Importance to release goal (sim=0.413)
+    - 33: Feature contribution to project vision (sim=0.389)
+    - 236: Dependencies due to downstream activities (sim=0.380)
+    - 2: Linkage to overall system goals (sim=0.368)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+  → PriorityScore: 1.550
+
+4. As a user, I want to view a change history for each contract.
+    - 210: Object usage for a particular scenario (sim=0.188)
+    - 211: Actor usage for a particular scenario (sim=0.188)
+    - 33: Feature contribution to project vision (sim=0.177)
+    - 236: Dependencies due to downstream activities (sim=0.173)
+    - 2: Linkage to overall system goals (sim=0.168)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.894
+
+5. As a manager, I want reports on contracts that are about to expire.
+    - 26: Feature influence on buying decision (sim=0.230)
+    - 52: Contribution to user task (sim=0.225)
+    - 30: Relevance to project success (sim=0.223)
+    - 31: Importance to release goal (sim=0.217)
+    - 105: Impact on essential non-functional requirements (sim=0.206)
+    - 33: Feature contribution to project vision (sim=0.204)
+    - 236: Dependencies due to downstream activities (sim=0.200)
+  → PriorityScore: 1.505
+
+6. As an administrator, I want to manage the automatic renewal of certain contracts.
+    - 236: Dependencies due to downstream activities (sim=0.237)
+    - 2: Linkage to overall system goals (sim=0.229)
+    - 225: Number of use cases that includes this use case (sim=0.078)
+    - 227: Number of use cases that extend this use case (sim=0.077)
+    - 228: Number of use cases inherited by this use case (sim=0.076)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.697
+
+7. As a user, I want to securely access contracts from any device.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As an administrator, I want activity reports for each contract.
+    - 52: Contribution to user task (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a manager, I want to see the average duration of the company’s contracts.
+    - 227: Number of use cases that extend this use case (sim=0.044)
+    - 228: Number of use cases inherited by this use case (sim=0.044)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.088
+
+10. As an administrator, I want to securely archive expired contracts.
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.429)
+  → PriorityScore: 0.429
+
+11. As a user, I want to receive alerts for contracts that require review.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.447)
+    - 225: Number of use cases that includes this use case (sim=0.203)
+  → PriorityScore: 0.650
+
+12. As a manager, I want contract compliance statistics.
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+  → PriorityScore: 0.000
+
+13. As an administrator, I want to manage access to the contract database by role.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.293)
+    - 30: Relevance to project success (sim=0.290)
+    - 31: Importance to release goal (sim=0.283)
+    - 33: Feature contribution to project vision (sim=0.266)
+  → PriorityScore: 1.131
+
+14. As a user, I want options to download copies of my contracts.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 52: Contribution to user task (sim=0.597)
+    - 30: Relevance to project success (sim=0.258)
+    - 31: Importance to release goal (sim=0.252)
+    - 33: Feature contribution to project vision (sim=0.237)
+    - 236: Dependencies due to downstream activities (sim=0.231)
+  → PriorityScore: 1.575
+
+15. As a manager, I want to compare the profitability of similar contracts.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 197: Experience on the area (sim=0.311)
+    - 52: Contribution to user task (sim=0.267)
+    - 30: Relevance to project success (sim=0.264)
+    - 31: Importance to release goal (sim=0.257)
+    - 33: Feature contribution to project vision (sim=0.242)
+    - 236: Dependencies due to downstream activities (sim=0.237)
+  → PriorityScore: 1.578
+
+16. As an administrator, I want to set alerts for contract breaches.
+    - 52: Contribution to user task (sim=0.298)
+    - 30: Relevance to project success (sim=0.294)
+    - 31: Importance to release goal (sim=0.287)
+    - 210: Object usage for a particular scenario (sim=0.286)
+    - 211: Actor usage for a particular scenario (sim=0.286)
+    - 33: Feature contribution to project vision (sim=0.270)
+    - 236: Dependencies due to downstream activities (sim=0.264)
+  → PriorityScore: 1.985
+
+17. As a user, I want to receive renewal recommendations based on market conditions.
+    - 197: Experience on the area (sim=0.200)
+    - 198: Experience on development methodology (sim=0.195)
+    - 26: Feature influence on buying decision (sim=0.175)
+    - 30: Relevance to project success (sim=0.170)
+    - 31: Importance to release goal (sim=0.166)
+    - 105: Impact on essential non-functional requirements (sim=0.157)
+    - 33: Feature contribution to project vision (sim=0.156)
+  → PriorityScore: 1.218
+
+18. As an administrator, I want a complete history of all signed contracts.
+    - 228: Number of use cases inherited by this use case (sim=0.191)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.191
+
+19. As a manager, I want reports on contract effectiveness in each business area.
+    - 105: Impact on essential non-functional requirements (sim=0.148)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.148
+

@@ -1,0 +1,214 @@
+
+Proyecto: Online Legal Consultation Platform
+Guidelines: ['Personal data security', 'Quick client info access', 'Billing integration', 'Customer reports', 'User-friendly interface']
+Dimensiones asociadas (7): ['Market-related Benefits', 'Operational Benefits', 'Technical Context', 'Customer Benefits', 'Costs', 'Risks', 'Penalties']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  160: Detraction from product's value
+  52: Contribution to user task
+  236: Dependencies due to downstream activities
+  197: Experience on the area
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  159: Penalty in operation
+  215: Sufficient detail in specification
+  26: Feature influence on buying decision
+  105: Impact on essential non-functional requirements
+  198: Experience on development methodology
+  228: Number of use cases inherited by this use case
+  224: Number of use cases this use case includes
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As an administrator, I want to record basic information for each client.
+    - 52: Contribution to user task (sim=0.303)
+    - 236: Dependencies due to downstream activities (sim=0.268)
+    - 210: Object usage for a particular scenario (sim=0.165)
+    - 211: Actor usage for a particular scenario (sim=0.165)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.901
+
+2. As a manager, I want to view the transaction history of each client.
+    - 236: Dependencies due to downstream activities (sim=0.305)
+    - 197: Experience on the area (sim=0.286)
+    - 224: Number of use cases this use case includes (sim=0.081)
+    - 228: Number of use cases inherited by this use case (sim=0.074)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.746
+
+3. As an administrator, I want to manage access permissions based on roles.
+    - 197: Experience on the area (sim=0.241)
+    - 198: Experience on development methodology (sim=0.235)
+    - 26: Feature influence on buying decision (sim=0.209)
+    - 105: Impact on essential non-functional requirements (sim=0.191)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+  → PriorityScore: 0.877
+
+4. As a user, I want to be able to update my personal account information.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+  → PriorityScore: 0.000
+
+5. As a manager, I want activity reports on frequent clients.
+    - 52: Contribution to user task (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+6. As an administrator, I want to integrate the client account with billing.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+7. As a user, I want to receive a monthly summary of my transactions.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As an administrator, I want to manage the client's contact preferences.
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a manager, I want to view customer complaints and requests.
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an administrator, I want options to archive inactive accounts.
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.502)
+  → PriorityScore: 0.502
+
+11. As a user, I want to see a history of my purchases and payments.
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 52: Contribution to user task (sim=0.531)
+    - 236: Dependencies due to downstream activities (sim=0.260)
+  → PriorityScore: 0.791
+
+12. As an administrator, I want client account reports by market segment.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.304)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+  → PriorityScore: 0.304
+
+13. As a manager, I want to compare activity across different customer segments.
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.395)
+    - 236: Dependencies due to downstream activities (sim=0.349)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.744
+
+14. As an administrator, I want to configure inactivity alerts for clients.
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.399)
+    - 236: Dependencies due to downstream activities (sim=0.353)
+    - 210: Object usage for a particular scenario (sim=0.218)
+    - 211: Actor usage for a particular scenario (sim=0.218)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 1.187
+
+15. As a user, I want to be able to add and manage payment methods.
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.594)
+    - 236: Dependencies due to downstream activities (sim=0.374)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.969
+
+16. As a manager, I want access to customer loyalty statistics.
+    - 52: Contribution to user task (sim=0.301)
+    - 236: Dependencies due to downstream activities (sim=0.266)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+  → PriorityScore: 0.567
+
+17. As an administrator, I want customer satisfaction reports.
+    - 52: Contribution to user task (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+  → PriorityScore: 0.000
+
+18. As a manager, I want options to segment the customer database.
+    - 197: Experience on the area (sim=0.220)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+  → PriorityScore: 0.220
+
+19. As a user, I want to receive product or service recommendations based on my history.
+    - 197: Experience on the area (sim=0.194)
+    - 198: Experience on development methodology (sim=0.189)
+    - 26: Feature influence on buying decision (sim=0.168)
+    - 105: Impact on essential non-functional requirements (sim=0.154)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+  → PriorityScore: 0.706
+

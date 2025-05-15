@@ -1,0 +1,214 @@
+
+Proyecto: Health Education Platform
+Guidelines: ['Secure content access', 'Scalability for large groups', 'Progress reports', 'Course personalization', 'Video integration']
+Dimensiones asociadas (7): ['Technical Context', 'Customer Benefits', 'Operational Benefits', 'Costs', 'Business Context', 'System-related Benefits', 'Stakeholder Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  184: System value of a feature
+  183: Integration to external systems
+  2: Linkage to overall system goals
+  37: Relevance to stakeholders' goals
+  52: Contribution to user task
+  172: Time to market
+  236: Dependencies due to downstream activities
+  197: Experience on the area
+  174: Impact on Maintenance
+  177: Impact on long-term Evolution
+  198: Experience on development methodology
+  215: Sufficient detail in specification
+  196: Familiarity of the life-cycle model
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As an instructor, I want to create courses and organize the content into modules.
+    - 197: Experience on the area (sim=0.293)
+    - 172: Time to market (sim=0.268)
+    - 196: Familiarity of the life-cycle model (sim=0.243)
+    - 52: Contribution to user task (sim=0.234)
+    - 183: Integration to external systems (sim=0.224)
+    - 37: Relevance to stakeholders' goals (sim=0.221)
+    - 236: Dependencies due to downstream activities (sim=0.202)
+  → PriorityScore: 1.684
+
+2. As a student, I want to enroll in courses that interest me.
+    - 172: Time to market (sim=0.244)
+    - 52: Contribution to user task (sim=0.213)
+    - 183: Integration to external systems (sim=0.204)
+    - 37: Relevance to stakeholders' goals (sim=0.201)
+    - 236: Dependencies due to downstream activities (sim=0.184)
+    - 2: Linkage to overall system goals (sim=0.182)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 1.229
+
+3. As an administrator, I want to manage course access permissions based on roles.
+    - 197: Experience on the area (sim=0.250)
+    - 198: Experience on development methodology (sim=0.247)
+    - 52: Contribution to user task (sim=0.221)
+    - 177: Impact on long-term Evolution (sim=0.219)
+    - 183: Integration to external systems (sim=0.212)
+    - 37: Relevance to stakeholders' goals (sim=0.209)
+    - 236: Dependencies due to downstream activities (sim=0.191)
+  → PriorityScore: 1.548
+
+4. As an instructor, I want to conduct evaluations of students at the end of each module.
+    - 172: Time to market (sim=0.199)
+    - 52: Contribution to user task (sim=0.174)
+    - 183: Integration to external systems (sim=0.167)
+    - 37: Relevance to stakeholders' goals (sim=0.164)
+    - 236: Dependencies due to downstream activities (sim=0.150)
+    - 2: Linkage to overall system goals (sim=0.149)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 1.003
+
+5. As a student, I want to receive certificates upon completing a course.
+    - 236: Dependencies due to downstream activities (sim=0.377)
+    - 2: Linkage to overall system goals (sim=0.373)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 196: Familiarity of the life-cycle model (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+  → PriorityScore: 0.750
+
+6. As an administrator, I want performance reports on the courses.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+7. As an instructor, I want to upload videos and support materials for the course.
+    - 236: Dependencies due to downstream activities (sim=0.163)
+    - 2: Linkage to overall system goals (sim=0.161)
+    - 211: Actor usage for a particular scenario (sim=0.136)
+    - 210: Object usage for a particular scenario (sim=0.133)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.593
+
+8. As a student, I want to view a history of completed courses.
+    - 196: Familiarity of the life-cycle model (sim=0.157)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.157
+
+9. As an administrator, I want statistics on the most popular courses.
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an instructor, I want to access discussion forums with students.
+    - 196: Familiarity of the life-cycle model (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.318)
+  → PriorityScore: 0.318
+
+11. As a student, I want to receive reminders for upcoming classes or evaluations.
+    - 184: System value of a feature (sim=0.000)
+    - 196: Familiarity of the life-cycle model (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.373)
+    - 52: Contribution to user task (sim=0.326)
+  → PriorityScore: 0.699
+
+12. As an administrator, I want options to customize the platform interface.
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 197: Experience on the area (sim=0.272)
+    - 172: Time to market (sim=0.249)
+    - 196: Familiarity of the life-cycle model (sim=0.226)
+  → PriorityScore: 0.747
+
+13. As an instructor, I want access to video conferencing tools on the platform.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 197: Experience on the area (sim=0.558)
+    - 174: Impact on Maintenance (sim=0.318)
+    - 172: Time to market (sim=0.268)
+    - 198: Experience on development methodology (sim=0.261)
+  → PriorityScore: 1.404
+
+14. As a student, I want to complete self-assessment quizzes.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.499)
+    - 52: Contribution to user task (sim=0.436)
+    - 183: Integration to external systems (sim=0.418)
+    - 37: Relevance to stakeholders' goals (sim=0.412)
+    - 236: Dependencies due to downstream activities (sim=0.377)
+  → PriorityScore: 2.141
+
+15. As an administrator, I want to manage promotional campaigns for certain courses.
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.373)
+    - 52: Contribution to user task (sim=0.326)
+    - 183: Integration to external systems (sim=0.312)
+    - 37: Relevance to stakeholders' goals (sim=0.308)
+    - 236: Dependencies due to downstream activities (sim=0.282)
+    - 2: Linkage to overall system goals (sim=0.279)
+  → PriorityScore: 1.880
+
+16. As a student, I want to receive recommendations for related courses.
+    - 172: Time to market (sim=0.373)
+    - 52: Contribution to user task (sim=0.326)
+    - 183: Integration to external systems (sim=0.312)
+    - 37: Relevance to stakeholders' goals (sim=0.308)
+    - 236: Dependencies due to downstream activities (sim=0.282)
+    - 2: Linkage to overall system goals (sim=0.279)
+    - 211: Actor usage for a particular scenario (sim=0.235)
+  → PriorityScore: 2.114
+
+17. As an instructor, I want to receive feedback from students.
+    - 52: Contribution to user task (sim=0.264)
+    - 183: Integration to external systems (sim=0.253)
+    - 37: Relevance to stakeholders' goals (sim=0.250)
+    - 236: Dependencies due to downstream activities (sim=0.229)
+    - 2: Linkage to overall system goals (sim=0.226)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 1.222
+
+18. As an administrator, I want reports on student satisfaction.
+    - 198: Experience on development methodology (sim=0.286)
+    - 177: Impact on long-term Evolution (sim=0.254)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+  → PriorityScore: 0.540
+
+19. As a student, I want access to a frequently asked questions section about the course.
+    - 52: Contribution to user task (sim=0.288)
+    - 183: Integration to external systems (sim=0.275)
+    - 37: Relevance to stakeholders' goals (sim=0.272)
+    - 236: Dependencies due to downstream activities (sim=0.249)
+    - 2: Linkage to overall system goals (sim=0.246)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 1.329
+

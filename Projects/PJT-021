@@ -1,0 +1,214 @@
+
+Proyecto: Inventory Management System for Clinics
+Guidelines: ['Accurate stock control', 'Low inventory notifications', 'Usage reports', 'Supplier integration', 'Data security']
+Dimensiones asociadas (7): ['Operational Benefits', 'Risks', 'Technical Context', 'System-related Benefits', 'Costs', 'Business Context', 'Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  184: System value of a feature
+  2: Linkage to overall system goals
+  52: Contribution to user task
+  172: Time to market
+  183: Integration to external systems
+  236: Dependencies due to downstream activities
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  215: Sufficient detail in specification
+  197: Experience on the area
+  105: Impact on essential non-functional requirements
+  174: Impact on Maintenance
+  177: Impact on long-term Evolution
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As an administrator, I want to view the medical supplies inventory in real time.
+    - 172: Time to market (sim=0.552)
+    - 110: Technical risk in current system (sim=0.250)
+    - 111: Technical risk in proposed system (sim=0.245)
+    - 215: Sufficient detail in specification (sim=0.240)
+    - 197: Experience on the area (sim=0.233)
+    - 52: Contribution to user task (sim=0.215)
+    - 183: Integration to external systems (sim=0.213)
+  → PriorityScore: 1.948
+
+2. As an administrator, I want to receive alerts when inventory is low.
+    - 52: Contribution to user task (sim=0.448)
+    - 183: Integration to external systems (sim=0.444)
+    - 236: Dependencies due to downstream activities (sim=0.394)
+    - 2: Linkage to overall system goals (sim=0.387)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 1.673
+
+3. As a purchasing assistant, I want to automatically generate restocking orders.
+    - 183: Integration to external systems (sim=0.444)
+    - 236: Dependencies due to downstream activities (sim=0.394)
+    - 2: Linkage to overall system goals (sim=0.387)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 1.225
+
+4. As an administrator, I want reports on the usage of medical supplies.
+    - 210: Object usage for a particular scenario (sim=0.251)
+    - 177: Impact on long-term Evolution (sim=0.205)
+    - 105: Impact on essential non-functional requirements (sim=0.191)
+    - 184: System value of a feature (sim=0.099)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.746
+
+5. As an administrator, I want to manage access permissions to the inventory system.
+    - 236: Dependencies due to downstream activities (sim=0.319)
+    - 184: System value of a feature (sim=0.201)
+    - 197: Experience on the area (sim=0.197)
+    - 110: Technical risk in current system (sim=0.178)
+    - 111: Technical risk in proposed system (sim=0.174)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 1.070
+
+6. As a purchasing assistant, I want to check supply availability in other clinics.
+    - 183: Integration to external systems (sim=0.229)
+    - 236: Dependencies due to downstream activities (sim=0.204)
+    - 2: Linkage to overall system goals (sim=0.200)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.633
+
+7. As an administrator, I want reports on inventory costs.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As a user, I want to receive notifications about product expiration dates.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As an administrator, I want to view statistics on supply consumption by department.
+    - 105: Impact on essential non-functional requirements (sim=0.194)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+  → PriorityScore: 0.194
+
+10. As a purchasing assistant, I want to track purchase orders.
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.553)
+  → PriorityScore: 0.553
+
+11. As an administrator, I want to generate reports on losses due to expired or damaged products.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.492)
+    - 172: Time to market (sim=0.388)
+  → PriorityScore: 0.880
+
+12. As a purchasing assistant, I want to integrate restocking orders with suppliers.
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.346)
+    - 52: Contribution to user task (sim=0.281)
+    - 183: Integration to external systems (sim=0.278)
+  → PriorityScore: 0.904
+
+13. As an administrator, I want to obtain a consumption history for each supply.
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.404)
+    - 52: Contribution to user task (sim=0.327)
+    - 183: Integration to external systems (sim=0.324)
+    - 236: Dependencies due to downstream activities (sim=0.288)
+  → PriorityScore: 1.343
+
+14. As a purchasing assistant, I want to schedule restocking based on usage patterns.
+    - 184: System value of a feature (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.254)
+    - 174: Impact on Maintenance (sim=0.254)
+    - 211: Actor usage for a particular scenario (sim=0.224)
+    - 210: Object usage for a particular scenario (sim=0.220)
+    - 52: Contribution to user task (sim=0.206)
+  → PriorityScore: 1.158
+
+15. As an administrator, I want savings reports related to inventory management.
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.273)
+    - 52: Contribution to user task (sim=0.221)
+    - 183: Integration to external systems (sim=0.219)
+    - 236: Dependencies due to downstream activities (sim=0.194)
+    - 2: Linkage to overall system goals (sim=0.191)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 1.098
+
+16. As a purchasing assistant, I want options to perform physical inventories.
+    - 172: Time to market (sim=0.553)
+    - 52: Contribution to user task (sim=0.448)
+    - 183: Integration to external systems (sim=0.444)
+    - 236: Dependencies due to downstream activities (sim=0.394)
+    - 2: Linkage to overall system goals (sim=0.387)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 2.226
+
+17. As an administrator, I want to manage viewing permissions based on roles.
+    - 174: Impact on Maintenance (sim=0.293)
+    - 52: Contribution to user task (sim=0.238)
+    - 197: Experience on the area (sim=0.238)
+    - 183: Integration to external systems (sim=0.235)
+    - 236: Dependencies due to downstream activities (sim=0.209)
+    - 177: Impact on long-term Evolution (sim=0.208)
+    - 2: Linkage to overall system goals (sim=0.206)
+  → PriorityScore: 1.626
+
+18. As a purchasing assistant, I want to receive alerts about delayed deliveries.
+    - 183: Integration to external systems (sim=0.278)
+    - 236: Dependencies due to downstream activities (sim=0.246)
+    - 2: Linkage to overall system goals (sim=0.242)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.767
+
+19. As an administrator, I want inventory reports in exportable format for analysis.
+    - 211: Actor usage for a particular scenario (sim=0.189)
+    - 210: Object usage for a particular scenario (sim=0.186)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.374
+

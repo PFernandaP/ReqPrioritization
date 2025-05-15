@@ -1,0 +1,214 @@
+
+Proyecto: Personal Finance Application
+Guidelines: ['Security', 'Data encryption', 'Budget alerts', 'Cross-platform sync', 'Intuitive UI']
+Dimensiones asociadas (7): ['Risks', 'System-related Benefits', 'Benefits', 'Market-related Benefits', 'Project-related Benefits', 'Stakeholder Benefits', 'Financial Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  35: End user value
+  2: Linkage to overall system goals
+  3: Ease of use
+  155: Part time team member use
+  26: Feature influence on buying decision
+  31: Importance to release goal
+  37: Relevance to stakeholders' goals
+  39: Return on investment
+  105: Impact on essential non-functional requirements
+  30: Relevance to project success
+  33: Feature contribution to project vision
+  36: Value creation for developer
+  109: Loss of confidential data
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a user, I want to log income and expenses.
+    - 35: End user value (sim=0.491)
+    - 30: Relevance to project success (sim=0.269)
+    - 37: Relevance to stakeholders' goals (sim=0.262)
+    - 31: Importance to release goal (sim=0.255)
+    - 33: Feature contribution to project vision (sim=0.234)
+    - 2: Linkage to overall system goals (sim=0.232)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 1.743
+
+2. As a user, I want to set monthly budgets.
+    - 30: Relevance to project success (sim=0.269)
+    - 37: Relevance to stakeholders' goals (sim=0.262)
+    - 31: Importance to release goal (sim=0.255)
+    - 33: Feature contribution to project vision (sim=0.234)
+    - 2: Linkage to overall system goals (sim=0.232)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 1.252
+
+3. As an admin, I want to manage currency rates.
+    - 31: Importance to release goal (sim=0.417)
+    - 33: Feature contribution to project vision (sim=0.382)
+    - 2: Linkage to overall system goals (sim=0.379)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 35: End user value (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+  → PriorityScore: 1.179
+
+4. As a user, I want spending trend charts.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+  → PriorityScore: 0.000
+
+5. As a user, I want notifications for overspending.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.000
+
+6. As a user, I want to categorize transactions.
+    - 2: Linkage to overall system goals (sim=0.232)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+  → PriorityScore: 0.232
+
+7. As an admin, I want to export financial data.
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 35: End user value (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As a user, I want cross-device synchronization.
+    - 36: Value creation for developer (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a user, I want reminders for upcoming bills.
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an admin, I want to back up user data daily.
+    - 36: Value creation for developer (sim=0.000)
+    - 39: Return on investment (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 35: End user value (sim=0.385)
+  → PriorityScore: 0.385
+
+11. As a user, I want to set savings goals.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.509)
+    - 2: Linkage to overall system goals (sim=0.451)
+  → PriorityScore: 0.960
+
+12. As a user, I want to link bank accounts.
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 35: End user value (sim=0.491)
+    - 30: Relevance to project success (sim=0.269)
+    - 37: Relevance to stakeholders' goals (sim=0.262)
+  → PriorityScore: 1.021
+
+13. As an admin, I want to monitor system usage.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.565)
+    - 110: Technical risk in current system (sim=0.330)
+    - 111: Technical risk in proposed system (sim=0.330)
+    - 30: Relevance to project success (sim=0.295)
+  → PriorityScore: 1.520
+
+14. As a user, I want expense tagging suggestions.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 155: Part time team member use (sim=0.000)
+    - 35: End user value (sim=0.620)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+  → PriorityScore: 0.620
+
+15. As a user, I want to share summaries with an advisor.
+    - 155: Part time team member use (sim=0.000)
+    - 35: End user value (sim=0.397)
+    - 30: Relevance to project success (sim=0.218)
+    - 37: Relevance to stakeholders' goals (sim=0.212)
+    - 31: Importance to release goal (sim=0.207)
+    - 33: Feature contribution to project vision (sim=0.189)
+    - 2: Linkage to overall system goals (sim=0.188)
+  → PriorityScore: 1.411
+
+16. As an admin, I want role-based access control.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 35: End user value (sim=0.000)
+  → PriorityScore: 0.000
+
+17. As a user, I want currency conversion.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+  → PriorityScore: 0.000
+
+18. As a user, I want biometric login options.
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+  → PriorityScore: 0.000
+
+19. As an admin, I want system health dashboards.
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 35: End user value (sim=0.000)
+    - 36: Value creation for developer (sim=0.000)
+  → PriorityScore: 0.000
+

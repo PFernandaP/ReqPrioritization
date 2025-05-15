@@ -1,0 +1,214 @@
+
+Proyecto: Human Resources Management Platform
+Guidelines: ['Real-time control', 'Low inventory alerts', 'Supplier integration', 'Consumption reports', 'Information security']
+Dimensiones asociadas (7): ['Operational Benefits', 'Business Context', 'Costs', 'Risks', 'System-related Benefits', 'Benefits', 'Market-related Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  183: Integration to external systems
+  2: Linkage to overall system goals
+  172: Time to market
+  52: Contribution to user task
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  105: Impact on essential non-functional requirements
+  174: Impact on Maintenance
+  177: Impact on long-term Evolution
+  26: Feature influence on buying decision
+  56: Cost reduction of IT operation
+  150: Impediment of attaining the requirement
+  109: Loss of confidential data
+  186: IT departments technical guidelines
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a chef, I want to see the real-time inventory of ingredients.
+    - 172: Time to market (sim=0.603)
+    - 150: Impediment of attaining the requirement (sim=0.385)
+    - 183: Integration to external systems (sim=0.233)
+    - 52: Contribution to user task (sim=0.229)
+    - 2: Linkage to overall system goals (sim=0.204)
+    - 184: System value of a feature (sim=0.106)
+    - 109: Loss of confidential data (sim=0.099)
+  → PriorityScore: 1.860
+
+2. As an administrator, I want to receive alerts when the inventory is low.
+    - 172: Time to market (sim=0.378)
+    - 183: Integration to external systems (sim=0.292)
+    - 52: Contribution to user task (sim=0.288)
+    - 2: Linkage to overall system goals (sim=0.255)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 1.213
+
+3. As a manager, I want ingredient consumption statistics by dish.
+    - 52: Contribution to user task (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+  → PriorityScore: 0.000
+
+4. As a chef, I want to schedule automatic restocking orders.
+    - 2: Linkage to overall system goals (sim=0.399)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.399
+
+5. As an administrator, I want to manage access permissions to the system.
+    - 150: Impediment of attaining the requirement (sim=0.235)
+    - 184: System value of a feature (sim=0.191)
+    - 110: Technical risk in current system (sim=0.164)
+    - 111: Technical risk in proposed system (sim=0.161)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.751
+
+6. As a manager, I want reports on ingredient costs by period.
+    - 52: Contribution to user task (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 172: Time to market (sim=0.000)
+  → PriorityScore: 0.000
+
+7. As a chef, I want to view a consumption history to plan purchases.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As an administrator, I want options for integration with point of sale systems.
+    - 52: Contribution to user task (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a manager, I want to compare ingredient consumption across different shifts.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a chef, I want to receive order recommendations based on demand.
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 172: Time to market (sim=0.329)
+  → PriorityScore: 0.329
+
+11. As an administrator, I want to generate reports on losses due to wasted ingredients.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 172: Time to market (sim=0.529)
+    - 183: Integration to external systems (sim=0.409)
+  → PriorityScore: 0.938
+
+12. As a manager, I want to see statistics of the best-selling dishes and their impact on inventory.
+    - 56: Cost reduction of IT operation (sim=0.072)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.465)
+    - 177: Impact on long-term Evolution (sim=0.341)
+    - 150: Impediment of attaining the requirement (sim=0.310)
+  → PriorityScore: 1.188
+
+13. As a chef, I want to adjust recipes based on ingredient availability.
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 172: Time to market (sim=0.319)
+    - 174: Impact on Maintenance (sim=0.306)
+    - 183: Integration to external systems (sim=0.246)
+    - 52: Contribution to user task (sim=0.242)
+  → PriorityScore: 1.113
+
+14. As an administrator, I want to control inventory access based on user roles.
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 52: Contribution to user task (sim=0.466)
+    - 172: Time to market (sim=0.273)
+    - 174: Impact on Maintenance (sim=0.262)
+    - 183: Integration to external systems (sim=0.211)
+    - 177: Impact on long-term Evolution (sim=0.192)
+  → PriorityScore: 1.404
+
+15. As a manager, I want access to profitability reports for each dish.
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 172: Time to market (sim=0.408)
+    - 183: Integration to external systems (sim=0.315)
+    - 52: Contribution to user task (sim=0.311)
+    - 2: Linkage to overall system goals (sim=0.275)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+  → PriorityScore: 1.309
+
+16. As a chef, I want to receive alerts about ingredient expiration dates.
+    - 172: Time to market (sim=0.592)
+    - 183: Integration to external systems (sim=0.457)
+    - 52: Contribution to user task (sim=0.450)
+    - 2: Linkage to overall system goals (sim=0.399)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 1.898
+
+17. As an administrator, I want customer satisfaction reports related to quality.
+    - 183: Integration to external systems (sim=0.208)
+    - 52: Contribution to user task (sim=0.205)
+    - 2: Linkage to overall system goals (sim=0.182)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+  → PriorityScore: 0.595
+
+18. As a manager, I want options to export inventory data.
+    - 183: Integration to external systems (sim=0.292)
+    - 52: Contribution to user task (sim=0.288)
+    - 2: Linkage to overall system goals (sim=0.255)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.835
+
+19. As a chef, I want to see the inventory required for producing each weekly menu.
+    - 52: Contribution to user task (sim=0.239)
+    - 2: Linkage to overall system goals (sim=0.212)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 109: Loss of confidential data (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.451
+

@@ -1,0 +1,214 @@
+
+Proyecto: Telework Platform
+Guidelines: ['Secure communication', 'Access to collaboration tools', 'Calendar integration', 'Productivity reports', 'User-friendly interface']
+Dimensiones asociadas (7): ['Operational Benefits', 'Technical Context', 'Project-related Benefits', 'Business Context', 'Stakeholder Benefits', 'Strategy-related Benefits', 'Costs']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  184: System value of a feature
+  52: Contribution to user task
+  30: Relevance to project success
+  33: Feature contribution to project vision
+  44: Criticality to mission success
+  172: Time to market
+  183: Integration to external systems
+  236: Dependencies due to downstream activities
+  31: Importance to release goal
+  37: Relevance to stakeholders' goals
+  43: Importance to business goals
+  197: Experience on the area
+  215: Sufficient detail in specification
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a manager, I want to assign tasks to remote team members.
+    - 172: Time to market (sim=0.374)
+    - 52: Contribution to user task (sim=0.334)
+    - 30: Relevance to project success (sim=0.332)
+    - 43: Importance to business goals (sim=0.332)
+    - 31: Importance to release goal (sim=0.318)
+    - 37: Relevance to stakeholders' goals (sim=0.313)
+    - 44: Criticality to mission success (sim=0.311)
+  → PriorityScore: 2.313
+
+2. As an employee, I want to see a list of assigned tasks and their status.
+    - 52: Contribution to user task (sim=0.224)
+    - 30: Relevance to project success (sim=0.222)
+    - 43: Importance to business goals (sim=0.222)
+    - 31: Importance to release goal (sim=0.213)
+    - 37: Relevance to stakeholders' goals (sim=0.210)
+    - 44: Criticality to mission success (sim=0.208)
+    - 183: Integration to external systems (sim=0.208)
+  → PriorityScore: 1.508
+
+3. As an administrator, I want to manage access permissions for the tools.
+    - 52: Contribution to user task (sim=0.208)
+    - 30: Relevance to project success (sim=0.207)
+    - 43: Importance to business goals (sim=0.207)
+    - 211: Actor usage for a particular scenario (sim=0.201)
+    - 31: Importance to release goal (sim=0.198)
+    - 210: Object usage for a particular scenario (sim=0.197)
+    - 37: Relevance to stakeholders' goals (sim=0.195)
+  → PriorityScore: 1.414
+
+4. As a manager, I want to access work time statistics for each team member.
+    - 43: Importance to business goals (sim=0.169)
+    - 211: Actor usage for a particular scenario (sim=0.164)
+    - 31: Importance to release goal (sim=0.162)
+    - 210: Object usage for a particular scenario (sim=0.161)
+    - 37: Relevance to stakeholders' goals (sim=0.160)
+    - 44: Criticality to mission success (sim=0.158)
+    - 183: Integration to external systems (sim=0.158)
+  → PriorityScore: 1.133
+
+5. As an employee, I want to participate in video conferences from the platform.
+    - 30: Relevance to project success (sim=0.151)
+    - 43: Importance to business goals (sim=0.151)
+    - 31: Importance to release goal (sim=0.145)
+    - 37: Relevance to stakeholders' goals (sim=0.143)
+    - 44: Criticality to mission success (sim=0.142)
+    - 183: Integration to external systems (sim=0.142)
+    - 33: Feature contribution to project vision (sim=0.130)
+  → PriorityScore: 1.003
+
+6. As an administrator, I want to integrate the platform with calendar tools.
+    - 31: Importance to release goal (sim=0.181)
+    - 37: Relevance to stakeholders' goals (sim=0.178)
+    - 44: Criticality to mission success (sim=0.177)
+    - 183: Integration to external systems (sim=0.177)
+    - 33: Feature contribution to project vision (sim=0.162)
+    - 236: Dependencies due to downstream activities (sim=0.159)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 1.034
+
+7. As a manager, I want to receive productivity reports by project.
+    - 37: Relevance to stakeholders' goals (sim=0.172)
+    - 44: Criticality to mission success (sim=0.171)
+    - 183: Integration to external systems (sim=0.171)
+    - 236: Dependencies due to downstream activities (sim=0.154)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.667
+
+8. As an employee, I want to mark tasks as completed.
+    - 183: Integration to external systems (sim=0.376)
+    - 33: Feature contribution to project vision (sim=0.345)
+    - 236: Dependencies due to downstream activities (sim=0.339)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 1.060
+
+9. As an administrator, I want options to store video conference recordings.
+    - 33: Feature contribution to project vision (sim=0.345)
+    - 236: Dependencies due to downstream activities (sim=0.339)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+  → PriorityScore: 0.684
+
+10. As a manager, I want to visualize each team member’s weekly progress.
+    - 236: Dependencies due to downstream activities (sim=0.200)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.268)
+  → PriorityScore: 0.467
+
+11. As an employee, I want to receive notifications for tasks nearing their deadlines.
+    - 33: Feature contribution to project vision (sim=0.237)
+    - 236: Dependencies due to downstream activities (sim=0.233)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.312)
+    - 52: Contribution to user task (sim=0.278)
+  → PriorityScore: 1.059
+
+12. As an administrator, I want to manage communication security on the platform.
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 197: Experience on the area (sim=0.465)
+    - 172: Time to market (sim=0.180)
+    - 52: Contribution to user task (sim=0.160)
+  → PriorityScore: 0.806
+
+13. As a manager, I want to receive alerts for overdue tasks.
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.312)
+    - 52: Contribution to user task (sim=0.278)
+    - 30: Relevance to project success (sim=0.276)
+    - 43: Importance to business goals (sim=0.276)
+  → PriorityScore: 1.142
+
+14. As an employee, I want to access shared resources during meetings.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 172: Time to market (sim=0.268)
+    - 52: Contribution to user task (sim=0.238)
+    - 30: Relevance to project success (sim=0.237)
+    - 43: Importance to business goals (sim=0.237)
+    - 31: Importance to release goal (sim=0.227)
+  → PriorityScore: 1.208
+
+15. As an administrator, I want platform usage reports by company area.
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 197: Experience on the area (sim=0.333)
+    - 211: Actor usage for a particular scenario (sim=0.235)
+    - 210: Object usage for a particular scenario (sim=0.231)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+  → PriorityScore: 0.799
+
+16. As a manager, I want to schedule video conferences for regular meetings.
+    - 172: Time to market (sim=0.312)
+    - 52: Contribution to user task (sim=0.278)
+    - 30: Relevance to project success (sim=0.276)
+    - 43: Importance to business goals (sim=0.276)
+    - 211: Actor usage for a particular scenario (sim=0.268)
+    - 31: Importance to release goal (sim=0.265)
+    - 210: Object usage for a particular scenario (sim=0.263)
+  → PriorityScore: 1.939
+
+17. As an employee, I want to receive reminders for scheduled meetings.
+    - 52: Contribution to user task (sim=0.278)
+    - 30: Relevance to project success (sim=0.276)
+    - 43: Importance to business goals (sim=0.276)
+    - 211: Actor usage for a particular scenario (sim=0.268)
+    - 31: Importance to release goal (sim=0.265)
+    - 210: Object usage for a particular scenario (sim=0.263)
+    - 37: Relevance to stakeholders' goals (sim=0.261)
+  → PriorityScore: 1.888
+
+18. As an administrator, I want to control guest access to video conferences.
+    - 30: Relevance to project success (sim=0.323)
+    - 43: Importance to business goals (sim=0.323)
+    - 31: Importance to release goal (sim=0.309)
+    - 37: Relevance to stakeholders' goals (sim=0.305)
+    - 44: Criticality to mission success (sim=0.302)
+    - 183: Integration to external systems (sim=0.302)
+    - 33: Feature contribution to project vision (sim=0.277)
+  → PriorityScore: 2.141
+
+19. As a manager, I want a monthly summary of remote team productivity.
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 43: Importance to business goals (sim=0.000)
+    - 44: Criticality to mission success (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+  → PriorityScore: 0.000
+

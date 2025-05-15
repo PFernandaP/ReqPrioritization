@@ -1,0 +1,214 @@
+
+Proyecto: Mental Wellness Application
+Guidelines: ['Maintenance service optimization', 'Expiration notifications', 'Cost reports', 'GPS integration', 'Scalability']
+Dimensiones asociadas (7): ['Costs', 'Operational Benefits', 'Risks', 'Business Context', 'System-related Benefits', 'Market-related Benefits', 'Penalties']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  160: Detraction from product's value
+  183: Integration to external systems
+  2: Linkage to overall system goals
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  52: Contribution to user task
+  172: Time to market
+  159: Penalty in operation
+  174: Impact on Maintenance
+  53: Support for main usage scenario
+  108: Risk of maintenance
+  90: Maintenance cost
+  26: Feature influence on buying decision
+  105: Impact on essential non-functional requirements
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As an administrator, I want to schedule maintenance services for each vehicle.
+    - 90: Maintenance cost (sim=0.472)
+    - 108: Risk of maintenance (sim=0.412)
+    - 174: Impact on Maintenance (sim=0.355)
+    - 172: Time to market (sim=0.339)
+    - 183: Integration to external systems (sim=0.260)
+    - 52: Contribution to user task (sim=0.256)
+    - 2: Linkage to overall system goals (sim=0.227)
+  → PriorityScore: 2.321
+
+2. As a manager, I want to receive notifications when maintenance is approaching.
+    - 108: Risk of maintenance (sim=0.500)
+    - 174: Impact on Maintenance (sim=0.431)
+    - 172: Time to market (sim=0.412)
+    - 183: Integration to external systems (sim=0.316)
+    - 52: Contribution to user task (sim=0.311)
+    - 2: Linkage to overall system goals (sim=0.276)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 2.247
+
+3. As an administrator, I want maintenance cost reports for each vehicle.
+    - 174: Impact on Maintenance (sim=0.377)
+    - 53: Support for main usage scenario (sim=0.241)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.618
+
+4. As a manager, I want to view the service history of each vehicle.
+    - 2: Linkage to overall system goals (sim=0.237)
+    - 108: Risk of maintenance (sim=0.155)
+    - 184: System value of a feature (sim=0.126)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 90: Maintenance cost (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.519
+
+5. As an administrator, I want to assign maintenance tasks to the appropriate staff.
+    - 2: Linkage to overall system goals (sim=0.313)
+    - 108: Risk of maintenance (sim=0.284)
+    - 174: Impact on Maintenance (sim=0.244)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.841
+
+6. As an administrator, I want to manage access permissions to the maintenance system.
+    - 108: Risk of maintenance (sim=0.265)
+    - 174: Impact on Maintenance (sim=0.229)
+    - 184: System value of a feature (sim=0.181)
+    - 110: Technical risk in current system (sim=0.154)
+    - 111: Technical risk in proposed system (sim=0.151)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+  → PriorityScore: 0.980
+
+7. As a manager, I want to see monthly maintenance cost statistics.
+    - 2: Linkage to overall system goals (sim=0.241)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+  → PriorityScore: 0.241
+
+8. As an administrator, I want alerts for vehicles with recurring issues.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a manager, I want performance reports of vehicles based on their maintenance.
+    - 53: Support for main usage scenario (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an administrator, I want to manage services performed by external workshops.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 183: Integration to external systems (sim=0.684)
+  → PriorityScore: 0.684
+
+11. As a manager, I want replacement part recommendations based on usage history.
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.293)
+    - 174: Impact on Maintenance (sim=0.288)
+  → PriorityScore: 0.581
+
+12. As an administrator, I want integration options with GPS systems.
+    - 160: Detraction from product's value (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 183: Integration to external systems (sim=0.598)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 0.598
+
+13. As a manager, I want to compare maintenance costs across different types of vehicles.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 159: Penalty in operation (sim=0.000)
+    - 160: Detraction from product's value (sim=0.000)
+    - 108: Risk of maintenance (sim=0.534)
+    - 90: Maintenance cost (sim=0.450)
+    - 174: Impact on Maintenance (sim=0.338)
+    - 172: Time to market (sim=0.323)
+  → PriorityScore: 1.644
+
+14. As an administrator, I want to generate reports on downtime due to maintenance.
+    - 160: Detraction from product's value (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 172: Time to market (sim=0.484)
+    - 174: Impact on Maintenance (sim=0.483)
+    - 183: Integration to external systems (sim=0.370)
+    - 52: Contribution to user task (sim=0.365)
+    - 90: Maintenance cost (sim=0.336)
+  → PriorityScore: 2.039
+
+15. As a manager, I want to identify vehicles that require urgent maintenance.
+    - 184: System value of a feature (sim=0.000)
+    - 90: Maintenance cost (sim=0.573)
+    - 108: Risk of maintenance (sim=0.500)
+    - 174: Impact on Maintenance (sim=0.431)
+    - 172: Time to market (sim=0.412)
+    - 183: Integration to external systems (sim=0.316)
+    - 52: Contribution to user task (sim=0.311)
+  → PriorityScore: 2.544
+
+16. As an administrator, I want to receive alerts for out-of-stock spare parts.
+    - 172: Time to market (sim=0.386)
+    - 183: Integration to external systems (sim=0.295)
+    - 52: Contribution to user task (sim=0.291)
+    - 2: Linkage to overall system goals (sim=0.258)
+    - 53: Support for main usage scenario (sim=0.258)
+    - 108: Risk of maintenance (sim=0.169)
+    - 184: System value of a feature (sim=0.137)
+  → PriorityScore: 1.796
+
+17. As a manager, I want reports on fuel efficiency after maintenance.
+    - 90: Maintenance cost (sim=0.372)
+    - 108: Risk of maintenance (sim=0.325)
+    - 26: Feature influence on buying decision (sim=0.180)
+    - 105: Impact on essential non-functional requirements (sim=0.165)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+  → PriorityScore: 1.042
+
+18. As an administrator, I want to manage the spare parts inventory in the system.
+    - 2: Linkage to overall system goals (sim=0.259)
+    - 172: Time to market (sim=0.201)
+    - 159: Penalty in operation (sim=0.196)
+    - 184: System value of a feature (sim=0.167)
+    - 183: Integration to external systems (sim=0.154)
+    - 52: Contribution to user task (sim=0.152)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 1.130
+
+19. As a manager, I want to receive a weekly summary of the fleet's maintenance status.
+    - 172: Time to market (sim=0.257)
+    - 183: Integration to external systems (sim=0.197)
+    - 52: Contribution to user task (sim=0.194)
+    - 2: Linkage to overall system goals (sim=0.172)
+    - 184: System value of a feature (sim=0.092)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+  → PriorityScore: 0.913
+

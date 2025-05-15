@@ -1,0 +1,214 @@
+
+Proyecto: Customer Service System for Companies
+Guidelines: ['Secure payments', 'Ease of reservation', 'Option personalization', 'Confirmation notifications', 'Scalability']
+Dimensiones asociadas (7): ['Risks', 'Technical Context', 'System-related Benefits', 'Business Context', 'Operational Benefits', 'Market-related Benefits', 'Financial Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  184: System value of a feature
+  52: Contribution to user task
+  227: Number of use cases that extend this use case
+  228: Number of use cases inherited by this use case
+  197: Experience on the area
+  224: Number of use cases this use case includes
+  225: Number of use cases that includes this use case
+  226: Number of use cases this use case extends
+  172: Time to market
+  2: Linkage to overall system goals
+  183: Integration to external systems
+  236: Dependencies due to downstream activities
+  26: Feature influence on buying decision
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a user, I want to search for available vehicles to rent according to my preferences.
+    - 52: Contribution to user task (sim=0.546)
+    - 172: Time to market (sim=0.509)
+    - 183: Integration to external systems (sim=0.393)
+    - 236: Dependencies due to downstream activities (sim=0.354)
+    - 2: Linkage to overall system goals (sim=0.348)
+    - 211: Actor usage for a particular scenario (sim=0.114)
+    - 210: Object usage for a particular scenario (sim=0.112)
+  → PriorityScore: 2.376
+
+2. As a user, I want to book a vehicle quickly and securely.
+    - 172: Time to market (sim=0.313)
+    - 183: Integration to external systems (sim=0.242)
+    - 236: Dependencies due to downstream activities (sim=0.217)
+    - 2: Linkage to overall system goals (sim=0.214)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+  → PriorityScore: 0.986
+
+3. As an administrator, I want to manage vehicle availability in real time.
+    - 52: Contribution to user task (sim=0.195)
+    - 236: Dependencies due to downstream activities (sim=0.177)
+    - 2: Linkage to overall system goals (sim=0.174)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.547
+
+4. As a user, I want to receive reservation confirmations by email and SMS.
+    - 183: Integration to external systems (sim=0.199)
+    - 236: Dependencies due to downstream activities (sim=0.179)
+    - 2: Linkage to overall system goals (sim=0.176)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.554
+
+5. As a user, I want to modify or cancel my reservation online.
+    - 2: Linkage to overall system goals (sim=0.261)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.261
+
+6. As an administrator, I want usage reports for each type of vehicle.
+    - 225: Number of use cases that includes this use case (sim=0.073)
+    - 227: Number of use cases that extend this use case (sim=0.072)
+    - 228: Number of use cases inherited by this use case (sim=0.071)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 172: Time to market (sim=0.000)
+  → PriorityScore: 0.216
+
+7. As a user, I want to choose insurance options for the rental.
+    - 211: Actor usage for a particular scenario (sim=0.186)
+    - 210: Object usage for a particular scenario (sim=0.182)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+  → PriorityScore: 0.368
+
+8. As an administrator, I want to manage seasonal rates and promotions.
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a user, I want to receive alerts for discounts or promotions.
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an administrator, I want statistics on the most rented vehicles.
+    - 224: Number of use cases this use case includes (sim=0.000)
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 197: Experience on the area (sim=0.635)
+  → PriorityScore: 0.635
+
+11. As a user, I want to rate the quality of the vehicle after use.
+    - 2: Linkage to overall system goals (sim=0.118)
+    - 184: System value of a feature (sim=0.056)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 197: Experience on the area (sim=0.301)
+    - 52: Contribution to user task (sim=0.291)
+  → PriorityScore: 0.766
+
+12. As an administrator, I want to control access to certain vehicle categories.
+    - 225: Number of use cases that includes this use case (sim=0.000)
+    - 226: Number of use cases this use case extends (sim=0.000)
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 172: Time to market (sim=0.480)
+    - 183: Integration to external systems (sim=0.371)
+    - 52: Contribution to user task (sim=0.368)
+  → PriorityScore: 1.219
+
+13. As a user, I want rental options for additional equipment like GPS or child seats.
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 52: Contribution to user task (sim=0.270)
+    - 211: Actor usage for a particular scenario (sim=0.198)
+    - 210: Object usage for a particular scenario (sim=0.195)
+    - 2: Linkage to overall system goals (sim=0.000)
+  → PriorityScore: 0.663
+
+14. As an administrator, I want to manage vehicle requests in different cities.
+    - 227: Number of use cases that extend this use case (sim=0.000)
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 172: Time to market (sim=0.382)
+    - 183: Integration to external systems (sim=0.295)
+    - 52: Contribution to user task (sim=0.293)
+    - 236: Dependencies due to downstream activities (sim=0.266)
+    - 2: Linkage to overall system goals (sim=0.261)
+  → PriorityScore: 1.498
+
+15. As a user, I want to receive renewal notifications if my rental is extended.
+    - 228: Number of use cases inherited by this use case (sim=0.000)
+    - 52: Contribution to user task (sim=0.643)
+    - 172: Time to market (sim=0.382)
+    - 183: Integration to external systems (sim=0.295)
+    - 236: Dependencies due to downstream activities (sim=0.266)
+    - 2: Linkage to overall system goals (sim=0.261)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 1.848
+
+16. As an administrator, I want income and expense reports for the service.
+    - 197: Experience on the area (sim=0.279)
+    - 211: Actor usage for a particular scenario (sim=0.216)
+    - 210: Object usage for a particular scenario (sim=0.212)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 172: Time to market (sim=0.000)
+  → PriorityScore: 0.708
+
+17. As a user, I want to review a history of my previous rentals.
+    - 172: Time to market (sim=0.355)
+    - 183: Integration to external systems (sim=0.274)
+    - 236: Dependencies due to downstream activities (sim=0.247)
+    - 2: Linkage to overall system goals (sim=0.243)
+    - 184: System value of a feature (sim=0.115)
+    - 224: Number of use cases this use case includes (sim=0.078)
+    - 226: Number of use cases this use case extends (sim=0.076)
+  → PriorityScore: 1.387
+
+18. As an administrator, I want options to promote new vehicle models.
+    - 52: Contribution to user task (sim=0.434)
+    - 236: Dependencies due to downstream activities (sim=0.394)
+    - 2: Linkage to overall system goals (sim=0.387)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 1.215
+
+19. As a user, I want payment options in different currencies.
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 224: Number of use cases this use case includes (sim=0.000)
+  → PriorityScore: 0.000
+

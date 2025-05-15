@@ -1,0 +1,214 @@
+
+Proyecto: Vehicle Rental Application
+Guidelines: ['Secure client info access', 'Response time reports', 'Communication channel integration', 'Response personalization', 'Scalability']
+Dimensiones asociadas (7): ['Business Context', 'Operational Benefits', 'Costs', 'System-related Benefits', 'Risks', 'Benefits', 'Market-related Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  172: Time to market
+  183: Integration to external systems
+  2: Linkage to overall system goals
+  52: Contribution to user task
+  26: Feature influence on buying decision
+  105: Impact on essential non-functional requirements
+  174: Impact on Maintenance
+  177: Impact on long-term Evolution
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  16: Customer loyalty
+  18: Additional customer sales
+  19: Extra cost customer will spend
+  63: Customer relations
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a customer, I want to submit inquiries and requests online to receive assistance.
+    - 172: Time to market (sim=0.482)
+    - 183: Integration to external systems (sim=0.372)
+    - 52: Contribution to user task (sim=0.367)
+    - 2: Linkage to overall system goals (sim=0.325)
+    - 63: Customer relations (sim=0.271)
+    - 16: Customer loyalty (sim=0.244)
+    - 18: Additional customer sales (sim=0.197)
+  → PriorityScore: 2.258
+
+2. As an agent, I want to manage customer cases and follow up on them.
+    - 16: Customer loyalty (sim=0.227)
+    - 172: Time to market (sim=0.225)
+    - 174: Impact on Maintenance (sim=0.216)
+    - 18: Additional customer sales (sim=0.184)
+    - 183: Integration to external systems (sim=0.174)
+    - 52: Contribution to user task (sim=0.171)
+    - 177: Impact on long-term Evolution (sim=0.158)
+  → PriorityScore: 1.355
+
+3. As an administrator, I want reports on the response time for each case.
+    - 177: Impact on long-term Evolution (sim=0.170)
+    - 26: Feature influence on buying decision (sim=0.163)
+    - 105: Impact on essential non-functional requirements (sim=0.150)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 16: Customer loyalty (sim=0.000)
+    - 18: Additional customer sales (sim=0.000)
+    - 19: Extra cost customer will spend (sim=0.000)
+  → PriorityScore: 0.483
+
+4. As an agent, I want options to escalate cases to higher levels.
+    - 2: Linkage to overall system goals (sim=0.399)
+    - 16: Customer loyalty (sim=0.000)
+    - 18: Additional customer sales (sim=0.000)
+    - 19: Extra cost customer will spend (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 63: Customer relations (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.399
+
+5. As a customer, I want to receive update notifications on my case.
+    - 18: Additional customer sales (sim=0.232)
+    - 183: Integration to external systems (sim=0.218)
+    - 52: Contribution to user task (sim=0.215)
+    - 177: Impact on long-term Evolution (sim=0.199)
+    - 26: Feature influence on buying decision (sim=0.191)
+    - 2: Linkage to overall system goals (sim=0.191)
+    - 19: Extra cost customer will spend (sim=0.180)
+  → PriorityScore: 1.427
+
+6. As an administrator, I want to see customer satisfaction statistics.
+    - 52: Contribution to user task (sim=0.325)
+    - 2: Linkage to overall system goals (sim=0.288)
+    - 19: Extra cost customer will spend (sim=0.272)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.885
+
+7. As an agent, I want to view each customer's inquiry history to provide personalized responses.
+    - 18: Additional customer sales (sim=0.218)
+    - 19: Extra cost customer will spend (sim=0.170)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.388
+
+8. As a customer, I want access to a knowledge base to solve common issues.
+    - 19: Extra cost customer will spend (sim=0.149)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.149
+
+9. As an administrator, I want to manage agent access permissions to customer data.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an agent, I want to conduct satisfaction surveys after resolving a case.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 172: Time to market (sim=0.300)
+  → PriorityScore: 0.300
+
+11. As a customer, I want the option to rate the support I received.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 63: Customer relations (sim=0.226)
+    - 16: Customer loyalty (sim=0.203)
+  → PriorityScore: 0.429
+
+12. As an administrator, I want reports on the most frequent cases and their solutions.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.301)
+    - 177: Impact on long-term Evolution (sim=0.220)
+    - 26: Feature influence on buying decision (sim=0.212)
+  → PriorityScore: 0.734
+
+13. As an agent, I want to receive alerts about newly assigned cases.
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 172: Time to market (sim=0.592)
+    - 183: Integration to external systems (sim=0.457)
+    - 52: Contribution to user task (sim=0.450)
+    - 2: Linkage to overall system goals (sim=0.399)
+  → PriorityScore: 1.898
+
+14. As an administrator, I want platform customization options based on the company.
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.363)
+    - 177: Impact on long-term Evolution (sim=0.265)
+    - 26: Feature influence on buying decision (sim=0.256)
+    - 105: Impact on essential non-functional requirements (sim=0.235)
+    - 2: Linkage to overall system goals (sim=0.000)
+  → PriorityScore: 1.119
+
+15. As a customer, I want the option to chat in real time with an agent.
+    - 184: System value of a feature (sim=0.000)
+    - 172: Time to market (sim=0.452)
+    - 63: Customer relations (sim=0.254)
+    - 16: Customer loyalty (sim=0.228)
+    - 110: Technical risk in current system (sim=0.214)
+    - 111: Technical risk in proposed system (sim=0.209)
+    - 18: Additional customer sales (sim=0.185)
+  → PriorityScore: 1.542
+
+16. As an administrator, I want an analysis of the customer service team’s effectiveness.
+    - 63: Customer relations (sim=0.279)
+    - 16: Customer loyalty (sim=0.251)
+    - 18: Additional customer sales (sim=0.203)
+    - 19: Extra cost customer will spend (sim=0.158)
+    - 184: System value of a feature (sim=0.088)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 0.979
+
+17. As an agent, I want access to response templates to speed up service.
+    - 183: Integration to external systems (sim=0.348)
+    - 52: Contribution to user task (sim=0.343)
+    - 2: Linkage to overall system goals (sim=0.304)
+    - 16: Customer loyalty (sim=0.000)
+    - 18: Additional customer sales (sim=0.000)
+    - 19: Extra cost customer will spend (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 0.995
+
+18. As a customer, I want fast and detailed responses to my inquiries.
+    - 172: Time to market (sim=0.340)
+    - 18: Additional customer sales (sim=0.279)
+    - 183: Integration to external systems (sim=0.263)
+    - 52: Contribution to user task (sim=0.259)
+    - 2: Linkage to overall system goals (sim=0.230)
+    - 19: Extra cost customer will spend (sim=0.217)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 1.587
+
+19. As an administrator, I want to generate global customer satisfaction reports.
+    - 18: Additional customer sales (sim=0.349)
+    - 183: Integration to external systems (sim=0.330)
+    - 52: Contribution to user task (sim=0.325)
+    - 2: Linkage to overall system goals (sim=0.288)
+    - 19: Extra cost customer will spend (sim=0.272)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 1.564
+

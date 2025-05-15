@@ -1,0 +1,214 @@
+
+Proyecto: Online Medical Appointment Booking System
+Guidelines: ['Real-time data access', 'Defect reports', 'Production system integration', 'Information security', 'Scalability']
+Dimensiones asociadas (7): ['Risks', 'Business Context', 'System-related Benefits', 'Operational Benefits', 'Costs', 'Benefits', 'Market-related Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  183: Integration to external systems
+  2: Linkage to overall system goals
+  172: Time to market
+  52: Contribution to user task
+  56: Cost reduction of IT operation
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  186: IT departments technical guidelines
+  26: Feature influence on buying decision
+  105: Impact on essential non-functional requirements
+  174: Impact on Maintenance
+  177: Impact on long-term Evolution
+  175: Importance for product architecture
+  101: Quality implementation effort
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a supervisor, I want to monitor product quality in real time.
+    - 172: Time to market (sim=0.496)
+    - 101: Quality implementation effort (sim=0.334)
+    - 110: Technical risk in current system (sim=0.235)
+    - 111: Technical risk in proposed system (sim=0.230)
+    - 175: Importance for product architecture (sim=0.194)
+    - 183: Integration to external systems (sim=0.191)
+    - 52: Contribution to user task (sim=0.189)
+  → PriorityScore: 1.869
+
+2. As an operator, I want to record defects observed during the production process.
+    - 183: Integration to external systems (sim=0.178)
+    - 52: Contribution to user task (sim=0.175)
+    - 2: Linkage to overall system goals (sim=0.156)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 101: Quality implementation effort (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.509
+
+3. As an administrator, I want to generate reports of defective products by shift.
+    - 52: Contribution to user task (sim=0.277)
+    - 2: Linkage to overall system goals (sim=0.246)
+    - 184: System value of a feature (sim=0.129)
+    - 56: Cost reduction of IT operation (sim=0.108)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 101: Quality implementation effort (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.759
+
+4. As a supervisor, I want to receive alerts for critical defects detected.
+    - 52: Contribution to user task (sim=0.239)
+    - 2: Linkage to overall system goals (sim=0.212)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 101: Quality implementation effort (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.451
+
+5. As an administrator, I want to manage access permissions for quality data.
+    - 52: Contribution to user task (sim=0.201)
+    - 2: Linkage to overall system goals (sim=0.179)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.380
+
+6. As an operator, I want to receive notifications of updated quality procedures.
+    - 184: System value of a feature (sim=0.124)
+    - 56: Cost reduction of IT operation (sim=0.104)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.227
+
+7. As a supervisor, I want to view defect charts by production batch.
+    - 101: Quality implementation effort (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 175: Importance for product architecture (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As an administrator, I want options to integrate with other quality control systems.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 175: Importance for product architecture (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As an operator, I want access to specific quality instructions for each product.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a supervisor, I want to compare quality across different production shifts.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 175: Importance for product architecture (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 101: Quality implementation effort (sim=0.404)
+  → PriorityScore: 0.404
+
+11. As an administrator, I want to view statistics on compliance with quality standards.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 175: Importance for product architecture (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 101: Quality implementation effort (sim=0.368)
+    - 172: Time to market (sim=0.273)
+  → PriorityScore: 0.642
+
+12. As an operator, I want to record observations about quality procedures.
+    - 175: Importance for product architecture (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 101: Quality implementation effort (sim=0.510)
+    - 172: Time to market (sim=0.378)
+    - 183: Integration to external systems (sim=0.292)
+  → PriorityScore: 1.179
+
+13. As a supervisor, I want reports on the effectiveness of corrective actions.
+    - 175: Importance for product architecture (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.274)
+    - 177: Impact on long-term Evolution (sim=0.200)
+    - 26: Feature influence on buying decision (sim=0.193)
+    - 105: Impact on essential non-functional requirements (sim=0.177)
+  → PriorityScore: 0.845
+
+14. As an administrator, I want to manage product traceability in the system.
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 110: Technical risk in current system (sim=0.411)
+    - 111: Technical risk in proposed system (sim=0.403)
+    - 2: Linkage to overall system goals (sim=0.324)
+    - 172: Time to market (sim=0.250)
+    - 184: System value of a feature (sim=0.203)
+  → PriorityScore: 1.591
+
+15. As a supervisor, I want to access a quality history for each production line.
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 101: Quality implementation effort (sim=0.357)
+    - 172: Time to market (sim=0.265)
+    - 175: Importance for product architecture (sim=0.228)
+    - 183: Integration to external systems (sim=0.204)
+    - 52: Contribution to user task (sim=0.201)
+    - 2: Linkage to overall system goals (sim=0.179)
+  → PriorityScore: 1.434
+
+16. As an administrator, I want to generate customer satisfaction reports related to quality.
+    - 172: Time to market (sim=0.423)
+    - 183: Integration to external systems (sim=0.327)
+    - 52: Contribution to user task (sim=0.322)
+    - 2: Linkage to overall system goals (sim=0.286)
+    - 101: Quality implementation effort (sim=0.285)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+  → PriorityScore: 1.643
+
+17. As an operator, I want to receive alerts for pending quality reviews.
+    - 172: Time to market (sim=0.314)
+    - 175: Importance for product architecture (sim=0.271)
+    - 183: Integration to external systems (sim=0.242)
+    - 52: Contribution to user task (sim=0.239)
+    - 2: Linkage to overall system goals (sim=0.212)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+  → PriorityScore: 1.278
+
+18. As a supervisor, I want access to internal and external audit reports.
+    - 52: Contribution to user task (sim=0.246)
+    - 2: Linkage to overall system goals (sim=0.218)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 101: Quality implementation effort (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.465
+
+19. As an administrator, I want options to export quality data for external analysis.
+    - 175: Importance for product architecture (sim=0.204)
+    - 52: Contribution to user task (sim=0.180)
+    - 2: Linkage to overall system goals (sim=0.160)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.544
+

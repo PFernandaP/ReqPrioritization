@@ -1,0 +1,214 @@
+
+Proyecto: Vehicle Maintenance Management System
+Guidelines: ['Real-time access', 'Progress notifications', 'Performance reports', 'Tool integration', 'View personalization']
+Dimensiones asociadas (7): ['Business Context', 'Costs', 'Risks', 'System-related Benefits', 'Operational Benefits', 'Benefits', 'Market-related Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  52: Contribution to user task
+  172: Time to market
+  183: Integration to external systems
+  2: Linkage to overall system goals
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  26: Feature influence on buying decision
+  105: Impact on essential non-functional requirements
+  150: Impediment of attaining the requirement
+  174: Impact on Maintenance
+  177: Impact on long-term Evolution
+  3: Ease of use
+  188: Frequency of use
+  148: Project duration
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a manager, I want to see the status of each project in real time.
+    - 172: Time to market (sim=0.428)
+    - 150: Impediment of attaining the requirement (sim=0.273)
+    - 148: Project duration (sim=0.249)
+    - 110: Technical risk in current system (sim=0.202)
+    - 111: Technical risk in proposed system (sim=0.198)
+    - 183: Integration to external systems (sim=0.165)
+    - 52: Contribution to user task (sim=0.163)
+  → PriorityScore: 1.680
+
+2. As an administrator, I want to assign view permissions based on roles.
+    - 174: Impact on Maintenance (sim=0.401)
+    - 183: Integration to external systems (sim=0.323)
+    - 52: Contribution to user task (sim=0.318)
+    - 177: Impact on long-term Evolution (sim=0.294)
+    - 26: Feature influence on buying decision (sim=0.283)
+    - 2: Linkage to overall system goals (sim=0.282)
+    - 105: Impact on essential non-functional requirements (sim=0.260)
+  → PriorityScore: 2.162
+
+3. As a user, I want to update the progress of my assigned tasks.
+    - 172: Time to market (sim=0.293)
+    - 183: Integration to external systems (sim=0.226)
+    - 2: Linkage to overall system goals (sim=0.197)
+    - 3: Ease of use (sim=0.130)
+    - 188: Frequency of use (sim=0.117)
+    - 184: System value of a feature (sim=0.103)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 1.066
+
+4. As a manager, I want to receive alerts for delayed projects.
+    - 2: Linkage to overall system goals (sim=0.275)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 148: Project duration (sim=0.000)
+  → PriorityScore: 0.275
+
+5. As an administrator, I want reports on time spent on each project.
+    - 148: Project duration (sim=0.279)
+    - 172: Time to market (sim=0.240)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.519
+
+6. As a user, I want to see a list of all my pending tasks.
+    - 188: Frequency of use (sim=0.146)
+    - 184: System value of a feature (sim=0.129)
+    - 150: Impediment of attaining the requirement (sim=0.101)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.375
+
+7. As a manager, I want to view progress charts by project.
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As an administrator, I want to manage integration with other management tools.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 148: Project duration (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a manager, I want to compare progress across different projects.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 148: Project duration (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a user, I want to receive reminders for upcoming tasks.
+    - 148: Project duration (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+    - 52: Contribution to user task (sim=0.552)
+  → PriorityScore: 0.552
+
+11. As an administrator, I want to see team performance statistics.
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+    - 172: Time to market (sim=0.308)
+    - 183: Integration to external systems (sim=0.238)
+  → PriorityScore: 0.546
+
+12. As a manager, I want access to a summary of each completed project.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 148: Project duration (sim=0.436)
+    - 172: Time to market (sim=0.374)
+    - 183: Integration to external systems (sim=0.289)
+  → PriorityScore: 1.099
+
+13. As a user, I want collaboration options with other project members.
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 188: Frequency of use (sim=0.000)
+    - 148: Project duration (sim=0.307)
+    - 52: Contribution to user task (sim=0.249)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 0.556
+
+14. As an administrator, I want reports of completed and pending tasks.
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 3: Ease of use (sim=0.214)
+    - 188: Frequency of use (sim=0.193)
+    - 184: System value of a feature (sim=0.170)
+    - 150: Impediment of attaining the requirement (sim=0.133)
+    - 2: Linkage to overall system goals (sim=0.000)
+  → PriorityScore: 0.711
+
+15. As a manager, I want to see a cost breakdown for each project.
+    - 188: Frequency of use (sim=0.000)
+    - 148: Project duration (sim=0.350)
+    - 172: Time to market (sim=0.300)
+    - 183: Integration to external systems (sim=0.232)
+    - 52: Contribution to user task (sim=0.229)
+    - 2: Linkage to overall system goals (sim=0.203)
+    - 3: Ease of use (sim=0.000)
+  → PriorityScore: 1.313
+
+16. As an administrator, I want to define performance goals on the platform.
+    - 2: Linkage to overall system goals (sim=0.395)
+    - 150: Impediment of attaining the requirement (sim=0.239)
+    - 172: Time to market (sim=0.239)
+    - 174: Impact on Maintenance (sim=0.229)
+    - 183: Integration to external systems (sim=0.184)
+    - 52: Contribution to user task (sim=0.182)
+    - 177: Impact on long-term Evolution (sim=0.168)
+  → PriorityScore: 1.635
+
+17. As a user, I want to receive notifications of changes in the project.
+    - 150: Impediment of attaining the requirement (sim=0.277)
+    - 148: Project duration (sim=0.253)
+    - 172: Time to market (sim=0.217)
+    - 110: Technical risk in current system (sim=0.205)
+    - 111: Technical risk in proposed system (sim=0.201)
+    - 183: Integration to external systems (sim=0.168)
+    - 2: Linkage to overall system goals (sim=0.146)
+  → PriorityScore: 1.467
+
+18. As a manager, I want an analysis of each project's effectiveness.
+    - 188: Frequency of use (sim=0.138)
+    - 184: System value of a feature (sim=0.122)
+    - 150: Impediment of attaining the requirement (sim=0.095)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.355
+
+19. As an administrator, I want to export project performance reports.
+    - 52: Contribution to user task (sim=0.246)
+    - 2: Linkage to overall system goals (sim=0.218)
+    - 3: Ease of use (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.465
+

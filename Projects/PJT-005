@@ -1,0 +1,214 @@
+
+Proyecto: Telemedicine Application for Medical Consultations
+Guidelines: ['HIPAA compliance', 'High-quality video', 'Prescription security', 'Easy appointment scheduling', 'Cross-platform support']
+Dimensiones asociadas (7): ['Operational Benefits', 'Costs', 'Business Context', 'System-related Benefits', 'Risks', 'Benefits', 'Market-related Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  2: Linkage to overall system goals
+  52: Contribution to user task
+  172: Time to market
+  183: Integration to external systems
+  26: Feature influence on buying decision
+  105: Impact on essential non-functional requirements
+  174: Impact on Maintenance
+  177: Impact on long-term Evolution
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  56: Cost reduction of IT operation
+  186: IT departments technical guidelines
+  53: Support for main usage scenario
+  77: Control and follow-up
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a patient, I want to book video consultations.
+    - 172: Time to market (sim=0.592)
+    - 183: Integration to external systems (sim=0.457)
+    - 52: Contribution to user task (sim=0.450)
+    - 2: Linkage to overall system goals (sim=0.399)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+  → PriorityScore: 1.898
+
+2. As a doctor, I want to access patient history.
+    - 183: Integration to external systems (sim=0.457)
+    - 52: Contribution to user task (sim=0.450)
+    - 2: Linkage to overall system goals (sim=0.399)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+  → PriorityScore: 1.306
+
+3. As a patient, I want to receive prescriptions digitally.
+    - 52: Contribution to user task (sim=0.450)
+    - 2: Linkage to overall system goals (sim=0.399)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.850
+
+4. As an admin, I want appointment reminders.
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 172: Time to market (sim=0.000)
+  → PriorityScore: 0.000
+
+5. As a patient, I want secure messaging with doctors.
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.000
+
+6. As a doctor, I want to write consultation notes.
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.000
+
+7. As a patient, I want to upload medical records.
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As an admin, I want usage and performance reports.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a patient, I want to rate consultations.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As a doctor, I want to prescribe medication electronically.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 172: Time to market (sim=0.592)
+  → PriorityScore: 0.592
+
+11. As a patient, I want multi-language support.
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.237)
+    - 2: Linkage to overall system goals (sim=0.000)
+  → PriorityScore: 0.237
+
+12. As an admin, I want to manage doctor availability.
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 172: Time to market (sim=0.378)
+    - 183: Integration to external systems (sim=0.292)
+    - 52: Contribution to user task (sim=0.288)
+  → PriorityScore: 0.957
+
+13. As a patient, I want to see billing history.
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 172: Time to market (sim=0.592)
+    - 183: Integration to external systems (sim=0.457)
+    - 52: Contribution to user task (sim=0.450)
+    - 2: Linkage to overall system goals (sim=0.399)
+  → PriorityScore: 1.898
+
+14. As a doctor, I want notifications for new consultations.
+    - 184: System value of a feature (sim=0.000)
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.416)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+  → PriorityScore: 0.416
+
+15. As a patient, I want follow-up reminders.
+    - 186: IT departments technical guidelines (sim=0.000)
+    - 77: Control and follow-up (sim=0.729)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+  → PriorityScore: 0.729
+
+16. As an admin, I want data export capabilities.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.000
+
+17. As a doctor, I want to refer patients to specialists.
+    - 183: Integration to external systems (sim=0.457)
+    - 52: Contribution to user task (sim=0.450)
+    - 2: Linkage to overall system goals (sim=0.399)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+  → PriorityScore: 1.306
+
+18. As a patient, I want a summary of past consultations.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+  → PriorityScore: 0.000
+
+19. As an admin, I want system health monitoring.
+    - 2: Linkage to overall system goals (sim=0.383)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 53: Support for main usage scenario (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.383
+

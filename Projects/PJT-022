@@ -1,0 +1,214 @@
+
+Proyecto: Online Recruitment Platform
+Guidelines: ['Secure communication', 'Secure payments', 'Access to consultation history', 'Case progress notifications', 'Case scalability']
+Dimensiones asociadas (7): ['Technical Context', 'Project-related Benefits', 'Business Context', 'System-related Benefits', 'Strategy-related Benefits', 'Operational Benefits', 'Stakeholder Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  184: System value of a feature
+  197: Experience on the area
+  2: Linkage to overall system goals
+  44: Criticality to mission success
+  52: Contribution to user task
+  198: Experience on development methodology
+  30: Relevance to project success
+  31: Importance to release goal
+  33: Feature contribution to project vision
+  37: Relevance to stakeholders' goals
+  43: Importance to business goals
+  172: Time to market
+  174: Impact on Maintenance
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a client, I want to search for lawyers specialized in different areas.
+    - 172: Time to market (sim=0.201)
+    - 211: Actor usage for a particular scenario (sim=0.198)
+    - 210: Object usage for a particular scenario (sim=0.194)
+    - 43: Importance to business goals (sim=0.186)
+    - 30: Relevance to project success (sim=0.182)
+    - 52: Contribution to user task (sim=0.177)
+    - 31: Importance to release goal (sim=0.175)
+  → PriorityScore: 1.313
+
+2. As a lawyer, I want to manage my availability for online consultations.
+    - 211: Actor usage for a particular scenario (sim=0.198)
+    - 210: Object usage for a particular scenario (sim=0.194)
+    - 43: Importance to business goals (sim=0.186)
+    - 30: Relevance to project success (sim=0.182)
+    - 52: Contribution to user task (sim=0.177)
+    - 31: Importance to release goal (sim=0.175)
+    - 37: Relevance to stakeholders' goals (sim=0.175)
+  → PriorityScore: 1.286
+
+3. As an administrator, I want to verify the identity of lawyers before registration.
+    - 43: Importance to business goals (sim=0.213)
+    - 30: Relevance to project success (sim=0.209)
+    - 52: Contribution to user task (sim=0.203)
+    - 31: Importance to release goal (sim=0.200)
+    - 37: Relevance to stakeholders' goals (sim=0.200)
+    - 44: Criticality to mission success (sim=0.195)
+    - 33: Feature contribution to project vision (sim=0.179)
+  → PriorityScore: 1.400
+
+4. As a client, I want to receive lawyer recommendations based on my case.
+    - 172: Time to market (sim=0.174)
+    - 43: Importance to business goals (sim=0.160)
+    - 30: Relevance to project success (sim=0.157)
+    - 52: Contribution to user task (sim=0.153)
+    - 31: Importance to release goal (sim=0.151)
+    - 37: Relevance to stakeholders' goals (sim=0.151)
+    - 44: Criticality to mission success (sim=0.147)
+  → PriorityScore: 1.092
+
+5. As a lawyer, I want access to a video conferencing tool on the platform.
+    - 43: Importance to business goals (sim=0.191)
+    - 30: Relevance to project success (sim=0.188)
+    - 52: Contribution to user task (sim=0.182)
+    - 31: Importance to release goal (sim=0.180)
+    - 37: Relevance to stakeholders' goals (sim=0.180)
+    - 44: Criticality to mission success (sim=0.175)
+    - 33: Feature contribution to project vision (sim=0.161)
+  → PriorityScore: 1.257
+
+6. As a client, I want to receive notifications about the progress of my case.
+    - 31: Importance to release goal (sim=0.172)
+    - 37: Relevance to stakeholders' goals (sim=0.172)
+    - 44: Criticality to mission success (sim=0.168)
+    - 33: Feature contribution to project vision (sim=0.154)
+    - 2: Linkage to overall system goals (sim=0.151)
+    - 184: System value of a feature (sim=0.141)
+    - 174: Impact on Maintenance (sim=0.000)
+  → PriorityScore: 0.957
+
+7. As an administrator, I want reports on consultations by case type.
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 43: Importance to business goals (sim=0.000)
+    - 44: Criticality to mission success (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As a lawyer, I want to record and update each client’s history.
+    - 33: Feature contribution to project vision (sim=0.209)
+    - 2: Linkage to overall system goals (sim=0.205)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.413
+
+9. As a client, I want access to a history of my consultations.
+    - 2: Linkage to overall system goals (sim=0.249)
+    - 184: System value of a feature (sim=0.233)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.482
+
+10. As an administrator, I want statistics on the most common case types on the platform.
+    - 44: Criticality to mission success (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 197: Experience on the area (sim=0.631)
+  → PriorityScore: 0.631
+
+11. As a client, I want to be able to rate my experience with the lawyer.
+    - 2: Linkage to overall system goals (sim=0.211)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 197: Experience on the area (sim=0.434)
+    - 172: Time to market (sim=0.277)
+  → PriorityScore: 0.921
+
+12. As a lawyer, I want to upload important documents for the cases.
+    - 2: Linkage to overall system goals (sim=0.142)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 197: Experience on the area (sim=0.274)
+    - 172: Time to market (sim=0.187)
+    - 211: Actor usage for a particular scenario (sim=0.183)
+  → PriorityScore: 0.786
+
+13. As a client, I want to receive a monthly summary of my case progress.
+    - 198: Experience on development methodology (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 172: Time to market (sim=0.250)
+    - 43: Importance to business goals (sim=0.230)
+    - 30: Relevance to project success (sim=0.226)
+    - 52: Contribution to user task (sim=0.219)
+  → PriorityScore: 0.925
+
+14. As an administrator, I want to manage access permissions to the system.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.452)
+    - 172: Time to market (sim=0.315)
+    - 43: Importance to business goals (sim=0.291)
+    - 30: Relevance to project success (sim=0.286)
+    - 52: Contribution to user task (sim=0.277)
+  → PriorityScore: 1.620
+
+15. As a client, I want to schedule my consultations according to my availability.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 172: Time to market (sim=0.343)
+    - 43: Importance to business goals (sim=0.317)
+    - 30: Relevance to project success (sim=0.311)
+    - 52: Contribution to user task (sim=0.301)
+    - 31: Importance to release goal (sim=0.298)
+    - 37: Relevance to stakeholders' goals (sim=0.298)
+  → PriorityScore: 1.867
+
+16. As a lawyer, I want access to tools to manage consultations.
+    - 172: Time to market (sim=0.432)
+    - 43: Importance to business goals (sim=0.399)
+    - 30: Relevance to project success (sim=0.392)
+    - 52: Contribution to user task (sim=0.380)
+    - 31: Importance to release goal (sim=0.375)
+    - 37: Relevance to stakeholders' goals (sim=0.375)
+    - 44: Criticality to mission success (sim=0.366)
+  → PriorityScore: 2.719
+
+17. As an administrator, I want user satisfaction reports.
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 43: Importance to business goals (sim=0.000)
+    - 44: Criticality to mission success (sim=0.000)
+  → PriorityScore: 0.000
+
+18. As a client, I want to receive reminders about upcoming consultations.
+    - 30: Relevance to project success (sim=0.392)
+    - 52: Contribution to user task (sim=0.380)
+    - 31: Importance to release goal (sim=0.375)
+    - 37: Relevance to stakeholders' goals (sim=0.375)
+    - 44: Criticality to mission success (sim=0.366)
+    - 33: Feature contribution to project vision (sim=0.336)
+    - 2: Linkage to overall system goals (sim=0.329)
+  → PriorityScore: 2.553
+
+19. As a lawyer, I want to see a complete consultation history for each client.
+    - 43: Importance to business goals (sim=0.266)
+    - 30: Relevance to project success (sim=0.261)
+    - 52: Contribution to user task (sim=0.253)
+    - 31: Importance to release goal (sim=0.250)
+    - 37: Relevance to stakeholders' goals (sim=0.250)
+    - 44: Criticality to mission success (sim=0.244)
+    - 33: Feature contribution to project vision (sim=0.224)
+  → PriorityScore: 1.746
+

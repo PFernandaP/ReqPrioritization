@@ -1,0 +1,214 @@
+
+Proyecto: Customer Account Management System
+Guidelines: ['Scalability for large groups', 'Data security', 'Content personalization', 'Progress reports', 'Cross-platform access']
+Dimensiones asociadas (7): ['Technical Context', 'Risks', 'System-related Benefits', 'Customer Benefits', 'Stakeholder Benefits', 'Operational Benefits', 'Costs']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  2: Linkage to overall system goals
+  37: Relevance to stakeholders' goals
+  52: Contribution to user task
+  236: Dependencies due to downstream activities
+  197: Experience on the area
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  215: Sufficient detail in specification
+  105: Impact on essential non-functional requirements
+  198: Experience on development methodology
+  200: Motivation of the team
+  150: Impediment of attaining the requirement
+  196: Familiarity of the life-cycle model
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As an administrator, I want to assign specific courses to each employee.
+    - 52: Contribution to user task (sim=0.466)
+    - 37: Relevance to stakeholders' goals (sim=0.441)
+    - 236: Dependencies due to downstream activities (sim=0.406)
+    - 2: Linkage to overall system goals (sim=0.401)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 1.714
+
+2. As an employee, I want to view my progress in each course.
+    - 110: Technical risk in current system (sim=0.330)
+    - 111: Technical risk in proposed system (sim=0.330)
+    - 52: Contribution to user task (sim=0.321)
+    - 37: Relevance to stakeholders' goals (sim=0.305)
+    - 236: Dependencies due to downstream activities (sim=0.280)
+    - 2: Linkage to overall system goals (sim=0.276)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 1.842
+
+3. As an instructor, I want to conduct evaluations at the end of each module.
+    - 196: Familiarity of the life-cycle model (sim=0.271)
+    - 52: Contribution to user task (sim=0.238)
+    - 197: Experience on the area (sim=0.234)
+    - 37: Relevance to stakeholders' goals (sim=0.226)
+    - 236: Dependencies due to downstream activities (sim=0.208)
+    - 2: Linkage to overall system goals (sim=0.205)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 1.382
+
+4. As an administrator, I want performance reports by team.
+    - 52: Contribution to user task (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 196: Familiarity of the life-cycle model (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+  → PriorityScore: 0.000
+
+5. As an employee, I want to receive completion certificates.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 196: Familiarity of the life-cycle model (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+  → PriorityScore: 0.000
+
+6. As an instructor, I want to monitor each student’s progress.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 196: Familiarity of the life-cycle model (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 200: Motivation of the team (sim=0.000)
+  → PriorityScore: 0.000
+
+7. As an administrator, I want to manage access permissions for each course.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 196: Familiarity of the life-cycle model (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As an employee, I want access to supplementary materials in each course.
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 150: Impediment of attaining the requirement (sim=0.000)
+    - 196: Familiarity of the life-cycle model (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 200: Motivation of the team (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As an administrator, I want statistics on the most popular courses.
+    - 52: Contribution to user task (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an employee, I want to participate in discussion forums by topic.
+    - 196: Familiarity of the life-cycle model (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 198: Experience on development methodology (sim=0.000)
+    - 200: Motivation of the team (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.256)
+  → PriorityScore: 0.256
+
+11. As an instructor, I want to customize modules based on the team’s needs.
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 200: Motivation of the team (sim=0.446)
+    - 197: Experience on the area (sim=0.404)
+  → PriorityScore: 0.851
+
+12. As an administrator, I want reports on employee satisfaction with the course.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 197: Experience on the area (sim=0.439)
+    - 200: Motivation of the team (sim=0.231)
+    - 198: Experience on development methodology (sim=0.225)
+  → PriorityScore: 0.894
+
+13. As an employee, I want to receive notifications about upcoming relevant courses.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 52: Contribution to user task (sim=0.466)
+    - 37: Relevance to stakeholders' goals (sim=0.441)
+    - 236: Dependencies due to downstream activities (sim=0.406)
+    - 2: Linkage to overall system goals (sim=0.401)
+  → PriorityScore: 1.714
+
+14. As an instructor, I want access to video conferencing tools on the platform.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 197: Experience on the area (sim=0.545)
+    - 200: Motivation of the team (sim=0.287)
+    - 198: Experience on development methodology (sim=0.279)
+    - 52: Contribution to user task (sim=0.265)
+    - 37: Relevance to stakeholders' goals (sim=0.251)
+  → PriorityScore: 1.626
+
+15. As an administrator, I want to manage promotion campaigns for specific courses.
+    - 215: Sufficient detail in specification (sim=0.000)
+    - 52: Contribution to user task (sim=0.356)
+    - 37: Relevance to stakeholders' goals (sim=0.337)
+    - 236: Dependencies due to downstream activities (sim=0.310)
+    - 2: Linkage to overall system goals (sim=0.306)
+    - 210: Object usage for a particular scenario (sim=0.231)
+    - 211: Actor usage for a particular scenario (sim=0.231)
+  → PriorityScore: 1.771
+
+16. As an employee, I want to review a history of all the courses I’ve completed.
+    - 200: Motivation of the team (sim=0.450)
+    - 150: Impediment of attaining the requirement (sim=0.373)
+    - 196: Familiarity of the life-cycle model (sim=0.343)
+    - 52: Contribution to user task (sim=0.302)
+    - 197: Experience on the area (sim=0.297)
+    - 37: Relevance to stakeholders' goals (sim=0.287)
+    - 236: Dependencies due to downstream activities (sim=0.264)
+  → PriorityScore: 2.316
+
+17. As an administrator, I want to see the impact of training on team performance.
+    - 197: Experience on the area (sim=0.356)
+    - 105: Impact on essential non-functional requirements (sim=0.344)
+    - 150: Impediment of attaining the requirement (sim=0.213)
+    - 196: Familiarity of the life-cycle model (sim=0.196)
+    - 198: Experience on development methodology (sim=0.182)
+    - 52: Contribution to user task (sim=0.173)
+    - 37: Relevance to stakeholders' goals (sim=0.164)
+  → PriorityScore: 1.629
+
+18. As an employee, I want to save personal notes during the course.
+    - 197: Experience on the area (sim=0.323)
+    - 37: Relevance to stakeholders' goals (sim=0.312)
+    - 150: Impediment of attaining the requirement (sim=0.296)
+    - 236: Dependencies due to downstream activities (sim=0.287)
+    - 2: Linkage to overall system goals (sim=0.283)
+    - 196: Familiarity of the life-cycle model (sim=0.272)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 1.774
+
+19. As an administrator, I want access to a monthly summary of training activity.
+    - 2: Linkage to overall system goals (sim=0.342)
+    - 200: Motivation of the team (sim=0.161)
+    - 150: Impediment of attaining the requirement (sim=0.133)
+    - 196: Familiarity of the life-cycle model (sim=0.123)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.759
+

@@ -1,0 +1,214 @@
+
+Proyecto: Inventory Management System for Retailers
+Guidelines: ['Real-time inventory control', 'Low stock notifications', 'Supplier integration', 'Sales reports', 'Scalability']
+Dimensiones asociadas (7): ['Operational Benefits', 'Business Context', 'Costs', 'Risks', 'System-related Benefits', 'Market-related Benefits', 'Benefits']
+
+Subdimensiones esenciales (ID: Nombre):
+  184: System value of a feature
+  2: Linkage to overall system goals
+  172: Time to market
+  183: Integration to external systems
+  52: Contribution to user task
+  110: Technical risk in current system
+  111: Technical risk in proposed system
+  26: Feature influence on buying decision
+  105: Impact on essential non-functional requirements
+  174: Impact on Maintenance
+  177: Impact on long-term Evolution
+  175: Importance for product architecture
+  56: Cost reduction of IT operation
+  77: Control and follow-up
+  15: Product Market value
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a retailer, I want to see my inventory in real time to control my stock levels.
+    - 172: Time to market (sim=0.640)
+    - 183: Integration to external systems (sim=0.329)
+    - 52: Contribution to user task (sim=0.325)
+    - 2: Linkage to overall system goals (sim=0.288)
+    - 77: Control and follow-up (sim=0.224)
+    - 110: Technical risk in current system (sim=0.202)
+    - 111: Technical risk in proposed system (sim=0.198)
+  → PriorityScore: 2.206
+
+2. As an administrator, I want to receive alerts when inventory is low.
+    - 183: Integration to external systems (sim=0.457)
+    - 52: Contribution to user task (sim=0.450)
+    - 2: Linkage to overall system goals (sim=0.399)
+    - 15: Product Market value (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+  → PriorityScore: 1.306
+
+3. As a retailer, I want to place replenishment orders automatically.
+    - 52: Contribution to user task (sim=0.450)
+    - 2: Linkage to overall system goals (sim=0.399)
+    - 15: Product Market value (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.850
+
+4. As an administrator, I want to see sales statistics by product category.
+    - 183: Integration to external systems (sim=0.254)
+    - 52: Contribution to user task (sim=0.250)
+    - 2: Linkage to overall system goals (sim=0.222)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.726
+
+5. As a retailer, I want to adjust prices and promotions flexibly.
+    - 2: Linkage to overall system goals (sim=0.275)
+    - 15: Product Market value (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+  → PriorityScore: 0.275
+
+6. As an administrator, I want to manage access permissions according to roles in the system.
+    - 52: Contribution to user task (sim=0.326)
+    - 184: System value of a feature (sim=0.174)
+    - 15: Product Market value (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.501
+
+7. As a retailer, I want to access a sales history to forecast demand.
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 175: Importance for product architecture (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As an administrator, I want to manage relationships with suppliers.
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 175: Importance for product architecture (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+  → PriorityScore: 0.000
+
+9. As a retailer, I want to see sales charts and product trends.
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 110: Technical risk in current system (sim=0.000)
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+10. As an administrator, I want profitability reports for each product.
+    - 111: Technical risk in proposed system (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 175: Importance for product architecture (sim=0.672)
+  → PriorityScore: 0.672
+
+11. As a retailer, I want to integrate the platform with my point-of-sale system.
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.000)
+    - 175: Importance for product architecture (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 2: Linkage to overall system goals (sim=0.302)
+    - 184: System value of a feature (sim=0.271)
+  → PriorityScore: 0.573
+
+12. As an administrator, I want statistics on best-selling products by region.
+    - 172: Time to market (sim=0.000)
+    - 175: Importance for product architecture (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 174: Impact on Maintenance (sim=0.379)
+    - 177: Impact on long-term Evolution (sim=0.278)
+    - 26: Feature influence on buying decision (sim=0.267)
+  → PriorityScore: 0.924
+
+13. As a retailer, I want custom notification options for stock management.
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 175: Importance for product architecture (sim=0.320)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 15: Product Market value (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+  → PriorityScore: 0.320
+
+14. As an administrator, I want reports of losses due to damaged or expired products.
+    - 175: Importance for product architecture (sim=0.000)
+    - 177: Impact on long-term Evolution (sim=0.000)
+    - 172: Time to market (sim=0.364)
+    - 183: Integration to external systems (sim=0.281)
+    - 52: Contribution to user task (sim=0.277)
+    - 2: Linkage to overall system goals (sim=0.246)
+    - 184: System value of a feature (sim=0.129)
+  → PriorityScore: 1.297
+
+15. As a retailer, I want to manage product availability across different stores.
+    - 184: System value of a feature (sim=0.000)
+    - 172: Time to market (sim=0.319)
+    - 15: Product Market value (sim=0.313)
+    - 175: Importance for product architecture (sim=0.250)
+    - 183: Integration to external systems (sim=0.246)
+    - 52: Contribution to user task (sim=0.242)
+    - 2: Linkage to overall system goals (sim=0.215)
+  → PriorityScore: 1.584
+
+16. As an administrator, I want to compare the effectiveness of promotions across products.
+    - 172: Time to market (sim=0.251)
+    - 183: Integration to external systems (sim=0.194)
+    - 52: Contribution to user task (sim=0.191)
+    - 2: Linkage to overall system goals (sim=0.170)
+    - 184: System value of a feature (sim=0.089)
+    - 56: Cost reduction of IT operation (sim=0.074)
+    - 15: Product Market value (sim=0.000)
+  → PriorityScore: 0.969
+
+17. As a retailer, I want order recommendations based on demand.
+    - 177: Impact on long-term Evolution (sim=0.278)
+    - 26: Feature influence on buying decision (sim=0.267)
+    - 105: Impact on essential non-functional requirements (sim=0.246)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 15: Product Market value (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+  → PriorityScore: 0.791
+
+18. As an administrator, I want to centrally manage inventory and pricing.
+    - 183: Integration to external systems (sim=0.315)
+    - 52: Contribution to user task (sim=0.311)
+    - 2: Linkage to overall system goals (sim=0.275)
+    - 15: Product Market value (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.901
+
+19. As a retailer, I want access to inventory planning tools for special events.
+    - 52: Contribution to user task (sim=0.311)
+    - 2: Linkage to overall system goals (sim=0.275)
+    - 15: Product Market value (sim=0.000)
+    - 26: Feature influence on buying decision (sim=0.000)
+    - 56: Cost reduction of IT operation (sim=0.000)
+    - 77: Control and follow-up (sim=0.000)
+    - 105: Impact on essential non-functional requirements (sim=0.000)
+  → PriorityScore: 0.586
+

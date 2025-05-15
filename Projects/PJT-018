@@ -1,0 +1,214 @@
+
+Proyecto: Habit Tracking Platform
+Guidelines: ['Secure communication', 'Flexible payment options', 'Access to personalized materials', 'Progress review', 'Scalability']
+Dimensiones asociadas (7): ['Project-related Benefits', 'System-related Benefits', 'Strategy-related Benefits', 'Operational Benefits', 'Business Context', 'Stakeholder Benefits', 'Technical Context']
+
+Subdimensiones esenciales (ID: Nombre):
+  210: Object usage for a particular scenario
+  211: Actor usage for a particular scenario
+  184: System value of a feature
+  52: Contribution to user task
+  2: Linkage to overall system goals
+  30: Relevance to project success
+  31: Importance to release goal
+  33: Feature contribution to project vision
+  37: Relevance to stakeholders' goals
+  43: Importance to business goals
+  44: Criticality to mission success
+  172: Time to market
+  183: Integration to external systems
+  236: Dependencies due to downstream activities
+  197: Experience on the area
+
+Requisitos con sus subdimensiones y PriorityScore:
+
+1. As a student, I want to search for qualified tutors in specific subjects.
+    - 172: Time to market (sim=0.201)
+    - 211: Actor usage for a particular scenario (sim=0.198)
+    - 210: Object usage for a particular scenario (sim=0.194)
+    - 43: Importance to business goals (sim=0.186)
+    - 30: Relevance to project success (sim=0.182)
+    - 52: Contribution to user task (sim=0.177)
+    - 31: Importance to release goal (sim=0.175)
+  → PriorityScore: 1.313
+
+2. As a tutor, I want to manage my availability schedule for sessions.
+    - 211: Actor usage for a particular scenario (sim=0.198)
+    - 210: Object usage for a particular scenario (sim=0.194)
+    - 43: Importance to business goals (sim=0.186)
+    - 30: Relevance to project success (sim=0.182)
+    - 52: Contribution to user task (sim=0.177)
+    - 31: Importance to release goal (sim=0.175)
+    - 37: Relevance to stakeholders' goals (sim=0.175)
+  → PriorityScore: 1.286
+
+3. As an administrator, I want to verify the identity of tutors before registration.
+    - 43: Importance to business goals (sim=0.213)
+    - 30: Relevance to project success (sim=0.209)
+    - 52: Contribution to user task (sim=0.203)
+    - 31: Importance to release goal (sim=0.200)
+    - 37: Relevance to stakeholders' goals (sim=0.200)
+    - 44: Criticality to mission success (sim=0.195)
+    - 183: Integration to external systems (sim=0.192)
+  → PriorityScore: 1.414
+
+4. As a student, I want to receive tutor recommendations based on my academic needs.
+    - 30: Relevance to project success (sim=0.176)
+    - 52: Contribution to user task (sim=0.171)
+    - 31: Importance to release goal (sim=0.169)
+    - 37: Relevance to stakeholders' goals (sim=0.169)
+    - 44: Criticality to mission success (sim=0.165)
+    - 183: Integration to external systems (sim=0.162)
+    - 33: Feature contribution to project vision (sim=0.151)
+  → PriorityScore: 1.162
+
+5. As a tutor, I want access to video conferencing tools within the platform.
+    - 52: Contribution to user task (sim=0.168)
+    - 31: Importance to release goal (sim=0.166)
+    - 37: Relevance to stakeholders' goals (sim=0.166)
+    - 44: Criticality to mission success (sim=0.162)
+    - 183: Integration to external systems (sim=0.159)
+    - 33: Feature contribution to project vision (sim=0.149)
+    - 2: Linkage to overall system goals (sim=0.146)
+  → PriorityScore: 1.115
+
+6. As a student, I want to receive notifications about my upcoming sessions.
+    - 37: Relevance to stakeholders' goals (sim=0.375)
+    - 44: Criticality to mission success (sim=0.366)
+    - 183: Integration to external systems (sim=0.360)
+    - 33: Feature contribution to project vision (sim=0.336)
+    - 2: Linkage to overall system goals (sim=0.329)
+    - 236: Dependencies due to downstream activities (sim=0.329)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 2.096
+
+7. As an administrator, I want performance reports for tutors.
+    - 37: Relevance to stakeholders' goals (sim=0.000)
+    - 43: Importance to business goals (sim=0.000)
+    - 44: Criticality to mission success (sim=0.000)
+    - 52: Contribution to user task (sim=0.000)
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+  → PriorityScore: 0.000
+
+8. As a tutor, I want to track and grade students' performance.
+    - 183: Integration to external systems (sim=0.162)
+    - 33: Feature contribution to project vision (sim=0.151)
+    - 2: Linkage to overall system goals (sim=0.148)
+    - 236: Dependencies due to downstream activities (sim=0.148)
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.609
+
+9. As a student, I want access to recordings of my sessions.
+    - 33: Feature contribution to project vision (sim=0.254)
+    - 2: Linkage to overall system goals (sim=0.249)
+    - 236: Dependencies due to downstream activities (sim=0.249)
+    - 184: System value of a feature (sim=0.233)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+  → PriorityScore: 0.986
+
+10. As an administrator, I want statistics on the most requested subjects.
+    - 172: Time to market (sim=0.000)
+    - 183: Integration to external systems (sim=0.000)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 236: Dependencies due to downstream activities (sim=0.000)
+    - 197: Experience on the area (sim=0.660)
+  → PriorityScore: 0.660
+
+11. As a student, I want to rate and comment on my experience with tutors.
+    - 2: Linkage to overall system goals (sim=0.115)
+    - 236: Dependencies due to downstream activities (sim=0.115)
+    - 184: System value of a feature (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 197: Experience on the area (sim=0.452)
+    - 172: Time to market (sim=0.151)
+  → PriorityScore: 0.834
+
+12. As a tutor, I want options to upload additional educational materials.
+    - 184: System value of a feature (sim=0.000)
+    - 197: Experience on the area (sim=0.000)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 172: Time to market (sim=0.432)
+    - 43: Importance to business goals (sim=0.399)
+    - 30: Relevance to project success (sim=0.392)
+  → PriorityScore: 1.223
+
+13. As a student, I want to receive a summary of my academic progress on the platform.
+    - 184: System value of a feature (sim=0.136)
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 197: Experience on the area (sim=0.535)
+    - 172: Time to market (sim=0.192)
+    - 43: Importance to business goals (sim=0.177)
+    - 30: Relevance to project success (sim=0.174)
+  → PriorityScore: 1.213
+
+14. As an administrator, I want options to offer discounts on tutoring services.
+    - 210: Object usage for a particular scenario (sim=0.000)
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 197: Experience on the area (sim=0.356)
+    - 172: Time to market (sim=0.269)
+    - 43: Importance to business goals (sim=0.248)
+    - 30: Relevance to project success (sim=0.243)
+    - 52: Contribution to user task (sim=0.236)
+  → PriorityScore: 1.352
+
+15. As a student, I want to schedule my tutoring sessions based on my availability.
+    - 211: Actor usage for a particular scenario (sim=0.000)
+    - 197: Experience on the area (sim=0.212)
+    - 172: Time to market (sim=0.160)
+    - 43: Importance to business goals (sim=0.148)
+    - 30: Relevance to project success (sim=0.145)
+    - 52: Contribution to user task (sim=0.141)
+    - 31: Importance to release goal (sim=0.139)
+  → PriorityScore: 0.945
+
+16. As a tutor, I want to manage the necessary tools for each session.
+    - 197: Experience on the area (sim=0.317)
+    - 172: Time to market (sim=0.216)
+    - 211: Actor usage for a particular scenario (sim=0.212)
+    - 210: Object usage for a particular scenario (sim=0.207)
+    - 43: Importance to business goals (sim=0.199)
+    - 30: Relevance to project success (sim=0.195)
+    - 52: Contribution to user task (sim=0.189)
+  → PriorityScore: 1.535
+
+17. As an administrator, I want reports on user usage and satisfaction.
+    - 211: Actor usage for a particular scenario (sim=0.233)
+    - 210: Object usage for a particular scenario (sim=0.228)
+    - 197: Experience on the area (sim=0.224)
+    - 2: Linkage to overall system goals (sim=0.000)
+    - 30: Relevance to project success (sim=0.000)
+    - 31: Importance to release goal (sim=0.000)
+    - 33: Feature contribution to project vision (sim=0.000)
+  → PriorityScore: 0.685
+
+18. As a student, I want to receive additional study recommendations.
+    - 30: Relevance to project success (sim=0.392)
+    - 52: Contribution to user task (sim=0.380)
+    - 31: Importance to release goal (sim=0.375)
+    - 37: Relevance to stakeholders' goals (sim=0.375)
+    - 44: Criticality to mission success (sim=0.366)
+    - 183: Integration to external systems (sim=0.360)
+    - 33: Feature contribution to project vision (sim=0.336)
+  → PriorityScore: 2.584
+
+19. As an administrator, I want to customize the interface for different regions.
+    - 210: Object usage for a particular scenario (sim=0.165)
+    - 43: Importance to business goals (sim=0.158)
+    - 30: Relevance to project success (sim=0.155)
+    - 52: Contribution to user task (sim=0.150)
+    - 31: Importance to release goal (sim=0.149)
+    - 37: Relevance to stakeholders' goals (sim=0.149)
+    - 44: Criticality to mission success (sim=0.145)
+  → PriorityScore: 1.071
+
